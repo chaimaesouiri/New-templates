@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="46px" viewBox="0 0 36 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 4 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage01" transform="translate(-703.000000, -1643.000000)" fill="#FFFFFF">
+            <g id="value-props" transform="translate(0.000000, 1304.000000)">
+                <g transform="translate(53.000000, 136.000000)" id="Group-9">
+                    <g transform="translate(494.000000, 0.000000)">
+                        <g id="Group-4-Copy" transform="translate(156.000000, 203.000000)">
+                            <polygon id="Fill-1" points="10 46 25.998 46 25.998 42 10 42"></polygon>
+                            <path d="M18,4 C25.718,4 32,10.28 32,18 C32,23.726 28.564,28.818 23.248,30.972 L22,31.478 L22,36 L20,36 L20,24 L22,24 L22,20 L14,20 L14,24 L16,24 L16,36 L14,36 L14,31.478 L12.752,30.972 C7.436,28.818 4,23.726 4,18 C4,10.28 10.282,4 18,4 M10,34.12 L10,40 L26,40 L26,34.12 C32.118,31.092 36,24.906 36,18 C36,8.076 27.926,0 18,0 C8.074,0 0,8.076 0,18 C0,24.906 3.882,31.092 10,34.12" id="Fill-2"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="46px" viewBox="0 0 44 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Fill 1 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage01" transform="translate(-699.000000, -1842.000000)" fill="#FFFFFF">
+            <g id="value-props" transform="translate(0.000000, 1304.000000)">
+                <g transform="translate(53.000000, 136.000000)" id="Group-9">
+                    <g transform="translate(494.000000, 0.000000)">
+                        <path d="M184,406 L184,418 C184,423.514 179.514,428 174,428 C168.486,428 164,423.514 164,418 L164,412 L178,412 L178,408 L164,408 L164,406 L184,406 Z M168,444 L180,444 L180,442 L168,442 L168,444 Z M161.344,423.946 C163.312,428.118 167.274,431.16 172,431.84 L172,438 L164,438 L164,444 L162,444 L162,448 L186,448 L186,444 L184,444 L184,438 L176,438 L176,431.84 C180.726,431.16 184.688,428.118 186.656,423.944 C192.344,423.664 196,419.844 196,414 L196,404 L190,404 L190,408 L192,408 L192,414 C192,417.18 190.54,419.164 187.874,419.776 C187.95,419.194 188,418.602 188,418 L188,402 L160,402 L160,418 C160,418.604 160.05,419.194 160.124,419.778 C157.46,419.166 156,417.182 156,414 L156,408 L158,408 L158,404 L152,404 L152,414 C152,419.846 155.656,423.664 161.344,423.946 L161.344,423.946 Z" id="Fill-1-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
