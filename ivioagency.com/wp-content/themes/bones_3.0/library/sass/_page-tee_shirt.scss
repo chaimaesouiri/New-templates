@@ -1,0 +1,232 @@
+.banner--tee-shirt {
+    height: 40vh;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .h1-tee{
+        color: #fff;
+        font-size:4rem;
+        margin-bottom:5px;
+        text-transform: uppercase;
+        font-weight: 900;
+        line-height: 15px;
+
+        @include screen-md {
+            font-size: 6rem;
+        }
+        @include screen-lg {
+            font-size:8rem;
+        }
+
+    .hero-red {
+        position: relative;
+        color: #fff;
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-weight: 900;
+        @include screen-md {
+            font-size: 6rem;
+        }
+        @include screen-lg {
+            font-size: 8rem;
+        }
+    }
+        .red--line{
+            position: absolute;
+            left: 0;
+            top:50%;
+            width: 100%;
+        }
+
+    }
+    .h1-phoenix{
+        color: #fff;
+        font-size:4rem;
+        margin-bottom:5px;
+        text-transform: uppercase;
+        font-weight: 900;
+        @include screen-md {
+            font-size: 7rem;
+        }
+        @include screen-lg {
+            font-size:9rem;
+        }
+    }
+}
+.tee-shirt-h1{
+    width: 70%;
+    @include screen-sm{
+        width: initial;
+    }
+}
+.tee-shirt-container{
+position: relative;
+    .top--container{
+        display: flex;
+        flex-direction: column-reverse;
+        @include screen-sm{
+            flex-direction: row;
+        }
+        .tee-container-left{
+            width: 100%;
+            padding: 60px 30px;
+            @include screen-sm{
+                width: 50%;
+                float: left;
+                padding: 100px 6% 100px 6%;
+            }
+            @include screen-md{
+                padding: 100px 2% 100px 6%;
+            }
+            .tee-shirt-triangles{
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                bottom: -20%;
+                width: 100%;
+                display: block;
+                margin: 0 auto;
+                text-align: center;
+                @include screen-sm{
+                    bottom: -10%;
+                }
+                @include screen-md{
+                    bottom: -12%;
+                }
+                @include screen-xl{
+                    bottom: -10%;
+                }
+                .obj-triangle-tee {
+                    width: 28px;
+                    @include screen-sm{
+                        width: 35px;
+                    }
+                }
+            }
+        }
+
+        .tee-container-right{
+            width: 100%;
+            padding: 50px 8%;
+            text-align: center;
+            position: relative;
+            @include screen-sm{
+                width: 50%;
+                float: right;
+                padding: 100px 3% 100px;
+            }
+            @include screen-md{
+                padding: 100px 5% 100px;
+            }
+            @include screen-lg{
+                padding: 100px 6% 100px;
+            }
+            .main-tee-shirt{
+                margin-bottom: 200px;
+                @include screen-md{
+                    margin-bottom: 0;
+                }
+                @include screen-lg{
+                    margin-bottom: 60px;
+                }
+            }
+            .left-shirt-pic{
+                position: absolute;
+                top: 44%;
+                width: 40%;
+                left: 1%;
+                @include screen-md{
+                    top: 48%;
+                }
+                @include screen-lg{
+                    top: initial;
+                    bottom: -2%;
+                }
+                @include screen-xl{
+                    bottom: -7%;
+                }
+            }
+            .right-shirt-pic{
+                position: absolute;
+                right: 2%;
+                top: 51%;
+                width: 58%;
+                @include screen-md{
+                    right: 3%;
+                    top: 53%;
+                }
+                @include screen-lg{
+                    bottom: -22%;
+                    top: initial;
+                }
+                @include screen-xl{
+                    bottom: -32%;
+                }
+            }
+        }
+
+    }
+}
+
+.h4-teeshirt {
+    text-align: center;
+    text-transform: uppercase;
+    color: $red;
+    font-size: 1.6rem;
+    margin-bottom: 0.5em;
+    letter-spacing: 3px;
+    font-weight: 500;
+}
+.h4--extra-margin{
+    text-align: center;
+    text-transform: uppercase;
+    color: $red;
+    font-size: 1.4rem;
+    margin-bottom: 1em;
+    letter-spacing: 3px;
+    font-weight: 500;
+    @include screen-sm{
+        font-size: 1.6rem;
+        margin-top:18px;
+    }
+    @include screen-lg{
+        margin-top: 80px;
+    }
+    @include screen-xl{
+        margin-top: 12%;
+        font-size: 1.9rem;
+    }
+}
+.blank-space{
+    display: none;
+    @include screen-sm{
+        display: block;
+        width:450px;
+    }
+    @include screen-xl{
+        width:270px;
+    }
+}
+.newsletter-input{
+    width: 240px;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+}
+
+.newletter-btn{
+    width: 240px;
+    background: $red;
+    color: white;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    padding: 5px 0;
+    -webkit-appearance: none;
+    border-radius: 0;
+
+    &:hover{
+        color:black;
+    }
+}
+
+

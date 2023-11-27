@@ -1,0 +1,344 @@
+/* Slider */
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+
+    height: 100%;
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+//.slick-slide img
+//{
+//    display: block;
+//}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+.slick-arrow {
+    position: absolute;
+    transform: translateY(-50%);
+    top: 50%;
+}
+.slick-prev {
+    left: 50px;
+}
+.slick-next {
+    right: 50px;
+}
+.slick-dots {
+    text-align: center;
+    list-style: disc;
+    padding-bottom: 20px;
+
+
+    li {
+        position: relative;
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin: 0 5px;
+        padding: 0;
+        cursor: pointer;
+
+        &.slick-active button:before {
+            opacity: .5;
+        }
+
+        button {
+            font-size: 0;
+            line-height: 0;
+            display: block;
+            width: 20px;
+            height: 20px;
+            padding: 5px;
+            cursor: pointer;
+            color: transparent;
+            border: 0;
+            outline: none;
+            background: transparent;
+
+            &:before {
+                content: '•';
+                font-size: 22px;
+                line-height: 20px;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 20px;
+                height: 20px;
+                text-align: center;
+                opacity: .25;
+                color: black;
+            }
+        }
+    }
+}
+.slider,
+.work--slider {
+    .slick-arrow {
+        display: none!important;
+
+        @include screen-md {
+            display: inline-block!important;
+        }
+    }
+
+    .slick-dots {
+        position: absolute;
+        top: -50px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+
+        @include screen-md {
+            width: auto;
+        }
+
+        li {
+            margin: 0 10px;
+        }
+
+        button::before {
+            font-size: 36px;
+        }
+    }
+
+    div {
+        outline: none;
+
+        div p {
+            padding: 0 25px;
+
+            @include screen-md {
+                padding: 0 100px;
+            }
+        }
+    }
+}
+.slick-slide {
+    position: relative;
+
+    &:focus, a {
+        outline: none;
+    }
+}
+
+//Progress Bar
+
+
+.home--slider {
+    .title--section {
+        position: relative;
+        display: inline-block;
+    }
+    .progress--bar {
+        &:before {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: 0;
+            height: 4px;
+            background-color: $text;
+            width: calc(100% / 3);
+            transition: .5s width ease-out;
+            z-index: 2;
+
+            @include screen-md {
+                content: none;
+            }
+        }
+
+        &:after {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: 0;
+            height: 4px;
+            background-color: $grey;
+            width: 100%;
+            z-index: 1;
+
+            @include screen-md {
+                content: none;
+            }
+        }
+
+        &.bar1 {
+            &:before {
+                width: calc(100% / 4);
+            }
+        }
+
+        &.bar2 {
+            &:before {
+                width: calc(100% / 2);
+            }
+        }
+
+        &.bar3 {
+            &:before {
+                width: calc(100% / 4 * 3);
+            }
+        }
+
+        &.bar4 {
+            &:before {
+                width: 100%;
+            }
+        }
+    }
+}
+
+.home--work-slider {
+    .title--section {
+        position: relative;
+        display: inline-block;
+    }
+    .progress--bar {
+        &:before {
+            position: absolute;
+            content:'';
+            left: 0;
+            bottom: 0;
+            height: 4px;
+            background-color: $text;
+            width: calc(100% / 2);
+            transition: .5s width ease-out;
+            z-index: 2;
+
+            @include screen-md {
+                content: none;
+            }
+        }
+
+        &:after {
+            position: absolute;
+            content: '';
+            left: 0;
+            bottom: 0;
+            height: 4px;
+            background-color: $lightGrey;
+            width: 100%;
+            z-index: 1;
+
+            @include screen-md {
+                content: none;
+            }
+        }
+
+        &.bar1 {
+            &:before {
+                width: calc(100% / 2);
+            }
+        }
+
+        &.bar2 {
+            &:before {
+                width: calc(100%);
+            }
+        }
+    }
+}

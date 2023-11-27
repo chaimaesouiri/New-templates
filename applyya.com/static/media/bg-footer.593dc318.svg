@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1761px" height="264px" viewBox="0 0 1761 264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.3 (67297) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 10</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="36.6711156%" y1="18.4660316%" x2="0%" y2="85.5407114%" id="linearGradient-1">
+            <stop stop-color="#E9EDF4" stop-opacity="0.376981431" offset="0%"></stop>
+            <stop stop-color="#CFD6E6" stop-opacity="0.196529665" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="desktop2560" transform="translate(-240.000000, -4310.000000)" fill="url(#linearGradient-1)" fill-rule="nonzero">
+            <g id="Group-12" transform="translate(-272.000000, -104.000000)">
+                <g id="Group-20">
+                    <g id="Group-19" transform="translate(0.000000, 134.000000)">
+                        <path d="M832,4280 L2120.87369,4328.50071 C2159.97184,4329.97198 2194.62064,4354.1101 2209.54863,4390.27618 L2273,4544 L832,4544 L512.167933,4544 C573.389311,4427.33333 622.072072,4356.30519 658.216216,4330.91556 C694.36036,4305.52593 729.621622,4288.55408 764,4280 L832,4280 Z" id="Rectangle-10"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,125 @@
+.services--hero {
+    + .hero--content {
+        top:290px;
+    }
+}
+
+.page-template-page-services {
+    .section--intro {
+        .flex-center-ai {
+            -webkit-box-align: flex-start;
+            -ms-flex-align: start;
+            align-items: start;
+
+            @include screen-md {
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+.accordion {
+    div:nth-of-type(even).accordion--container {
+        background-color: $light-grey;
+    }
+
+    h2 {
+        margin-bottom: 1em;
+        padding: 0 15px;
+
+        @include screen-md {
+            padding-left: 40px;
+        }
+    }
+
+    .arrow {
+        cursor: pointer;
+        margin-bottom: 1em;
+        padding: 0 15px;
+
+        @include screen-md {
+            position: absolute;
+            left: -50px;
+            top: 8px;
+            padding: 0;
+            margin: 0;
+        }
+
+        &.active {
+            object {
+                transform: rotate(90deg);
+            }
+        }
+        
+        object {
+            pointer-events: none;
+            transition: 400ms transform;
+        }
+
+        p {
+            margin-bottom: 0;
+            font-size: 1.4rem;
+            font-weight: 500;
+            letter-spacing: .3rem;
+            padding-left: 15px;
+        }
+    }
+
+    .accordion--slide {
+        display: block;
+        padding: 0 15px;
+
+        @include screen-md {
+            padding-left: 40px;
+        }
+
+        .flex {
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+
+            @include screen-md {
+                -ms-flex-wrap: nowrap;
+                flex-wrap: nowrap;
+            }
+        }
+    }
+
+    .accordion--content {
+        flex-basis: 600px;
+        padding-right: 50px;
+        line-height: 1.7;
+    }
+
+    .service--list {
+        width: 500px;
+        line-height: 1.7;
+        padding-top: 30px;
+
+        @include screen-md {
+            padding: 0;
+        }
+
+        h3 {
+            margin-bottom: .5em;
+        }
+    }
+}
+
+.services--work {
+    .work--container {
+        padding: 0 15px;
+        @include screen-md {
+            padding: 0 300px;
+        }
+    }
+
+    .pad-btn {
+        padding: 20px 0;
+
+        @include screen-md {
+            padding: 50px 0;
+        }
+    }
+}

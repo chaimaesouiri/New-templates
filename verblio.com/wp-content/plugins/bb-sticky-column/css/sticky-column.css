@@ -1,0 +1,16 @@
+/* sticky rows on top */
+[bt-sticky]{
+  z-index:9;
+  position: sticky;
+  position: -webkit-sticky; /* Safari */
+}
+
+/* sticky rows over cols, looks nicer */
+.fl-col[bt-sticky]{
+  z-index: 8;
+}
+
+/* nested col under parent col */
+.fl-col-group-nested .fl-col[bt-sticky]{
+  z-index: 7;
+}

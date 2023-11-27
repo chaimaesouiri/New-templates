@@ -1,0 +1,154 @@
+.page--hero {
+    background: url("../images/hero-home.jpg")no-repeat center/cover;
+}
+
+.page--content {
+    ol,
+    ul {
+        margin-left: 20px;
+
+        @include screen-under-480 {
+            margin-left: 10px;
+        }
+
+        @include screen-md {
+            margin-left: 40px;
+        }
+    }
+
+    ul {
+        list-style: disc;
+    }
+
+    .btn--red {
+        color: $white;
+
+        &:hover {
+            color: $red;
+        }
+    }
+}
+
+.blog--posts {
+    .post--link {
+        width: 100%;
+    }
+
+    .blog--img {
+        width: 400px;
+        height: 400px;
+        @include object-fit(cover);
+        margin: 0 auto;
+        display: block;
+
+        @include screen-under-480 {
+            width: 100%;
+        }
+
+        &.placeholder {
+            @include object-fit(contain);
+        }
+    }
+
+    .blog--info {
+        width: 400px;
+
+        @include screen-under-480 {
+            width: 100%;
+        }
+
+        p {
+            margin-bottom: .3em;
+            font-weight: 600;
+            letter-spacing: .3rem;
+        }
+
+        .blog--title {
+            p {
+                font-family: $futura;
+                font-weight: 700;
+                letter-spacing: .05rem;
+                color: $text;
+            }
+        }
+
+        .read--more {
+            color: $red;
+            text-transform: uppercase;
+            display: block;
+            font-weight: 600;
+            font-family: $soleil;
+            letter-spacing: .3rem;
+
+            img {
+                vertical-align: middle;
+            }
+        }
+    }
+}
+
+.right--arrow,
+.left--arrow {
+    height: 30px;
+    width: 30px;
+    transition: .2s background ease-in;
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+.right--arrow {
+    background: url('../images/arrow-right-fill.svg') no-repeat center/contain;
+    margin-left: 5px;
+
+    &:hover {
+        background: url("../images/arrow-right.svg")no-repeat center/contain;
+    }
+}
+
+.left--arrow {
+    background: url("../images/arrow-left-fill.svg")no-repeat center/contain;
+    margin-right: 5px;
+
+    &:hover {
+        background: url("../images/arrow-left.svg")no-repeat center/contain;
+    }
+}
+
+
+.navigation {
+    background: $light-grey;
+
+    .pagination--nav {
+        padding: 0 0 80px;
+        margin: 0;
+    }
+
+    a {
+        color: $red;
+        font-weight: 600;
+        font-family: $soleil;
+        text-transform: uppercase;
+        letter-spacing: .3rem;
+    }
+
+    .left--container {
+        margin-right: auto;
+    }
+    .right--container {
+        margin-left: auto;
+    }
+}
+
+.post--category,
+.post--author span,
+.post--author {
+    font-weight: 600;
+    letter-spacing: 0.3rem;
+
+    a {
+        text-decoration: underline;
+        color: inherit;
+    }
+}
+

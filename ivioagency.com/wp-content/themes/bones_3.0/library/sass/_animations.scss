@@ -1,0 +1,159 @@
+@keyframes draw {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: 200;
+  }
+}
+
+@keyframes fadeIn {
+  to {
+    opacity:1;
+  }
+}
+
+.fade-in {
+  opacity: 1;
+  animation-name: fadeIn;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  animation-duration: .3s;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity:0;
+  }
+  50% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@keyframes squishDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(4px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes squishUp {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform:scale(0);
+  }
+  100% {
+    transform:scale(1.2);
+    opacity:1;
+  }
+}
+
+@keyframes underline {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(15px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fill {
+  0% {
+    fill: none;
+  }
+  100% {
+    fill: $red;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+.animate.left {
+  transform: translateX(-100px);
+  opacity: 0;
+}
+
+.animate.right {
+  transform: translateX(100px);
+  opacity: 0;
+}
+
+.animate.up {
+  transform: translateY(100px);
+  opacity: 0;
+}
+
+.animate.down {
+  transform: translateY(-100px);
+  opacity: 0;
+}
+
+.animate.opacity {
+  opacity: 0;
+}
+
+.animate.left.active, .animate.right.active {
+  transition: transform .5s ease-out,
+  opacity .5s ease-out;
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.animate.up.active, .animate.down.active {
+  transition: transform .5s ease-out,
+  opacity .5s ease-out;
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.animate.opacity.active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}

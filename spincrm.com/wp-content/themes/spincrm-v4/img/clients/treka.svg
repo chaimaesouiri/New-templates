@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="226.58826mm"
+   height="59.913139mm"
+   viewBox="0 0 226.58826 59.913139"
+   version="1.1"
+   id="svg905"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"
+   sodipodi:docname="treka.svg">
+  <defs
+     id="defs899">
+    <style
+       id="style907">.cls-1{fill:#12539c;}.cls-2{fill:#44b549;}</style>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Greyscale"
+       id="filter950">
+      <feColorMatrix
+         values="0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0.21 0.72 0.072 0 0 0 0 0 1 0 "
+         id="feColorMatrix948" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="460.05428"
+     inkscape:cy="355.98883"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="2560"
+     inkscape:window-height="1369"
+     inkscape:window-x="-8"
+     inkscape:window-y="189"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata902">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(15.889361,-53.977955)">
+    <g
+       id="g946"
+       transform="matrix(0.26458333,0,0,0.26458333,-13.745103,55.691076)"
+       style="filter:url(#filter950)">
+      <polygon
+         class="cls-1"
+         points="603.6,40.9 603.6,99.4 624.6,73.1 624.6,40.9 "
+         id="polygon913" />
+      <polygon
+         class="cls-1"
+         points="650.5,104.9 702.4,40.9 676.2,40.9 603.6,129.6 603.6,166.7 624.6,166.7 624.6,136.3 637.6,120.4 675.3,166.7 702.8,166.7 "
+         id="polygon915" />
+      <polygon
+         class="cls-1"
+         points="746.1,166.7 749.8,156.5 797.3,156.5 801.2,166.7 823.9,166.7 805.3,119.1 788.8,135.6 757.3,135.6 773.6,90.3 781.8,113.1 797.3,97.7 775,40.9 772.2,40.9 743.6,114.8 727.7,114.8 727.7,135.6 735.5,135.6 723.4,166.7 "
+         id="polygon917" />
+      <path
+         class="cls-1"
+         d="M 443,77.6 C 443,40.9 401,40.9 401,40.9 h -41.9 v 31.7 h 21 V 62 H 401 c 0,0 21,0 21,15.6 0,15.6 -21,15.8 -21,15.8 h -54.3 v 20.9 h 12.4 v 52.4 h 21 v -52.4 h 19.4 l 24.1,52.5 h 20.8 L 418.8,111 C 430.1,106.9 443,97.9 443,77.6 Z"
+         id="path919" />
+      <polygon
+         class="cls-1"
+         points="568.1,62 568.1,41 484.2,41 484.2,93.4 484.2,166.7 550.5,166.7 568,145.7 505.3,145.7 505.3,114.3 557.5,114.3 557.5,93.4 505.3,93.4 505.3,62 "
+         id="polygon921" />
+      <polygon
+         class="cls-1"
+         points="292.6,166.7 292.6,107.8 271.8,128.7 271.8,166.7 "
+         id="polygon923" />
+      <polygon
+         class="cls-1"
+         points="271.8,61.8 271.8,99.2 292.6,78.3 292.6,61.8 319,61.8 319,40.9 245.4,40.9 245.4,61.8 "
+         id="polygon925" />
+      <path
+         class="cls-1"
+         d="M 98.9,0 A 103.3,103.3 0 0 0 6,57.5 L 23,66 A 84.8,84.8 0 1 1 65.3,181.7 L 153.9,93 h -29.4 l -91.2,91.2 a 103.8,103.8 0 0 0 11.6,8.2 v 0 A 103.8,103.8 0 1 0 98.9,0 Z"
+         id="path927" />
+      <path
+         class="cls-2"
+         d="m 191,55.9 -2.5,-4.6 H 9.3 A 102.5,102.5 0 0 0 0,72.2 H 86.4 L 6.8,151.7 a 103.5,103.5 0 0 0 11.7,17.7 L 32.1,156 115.8,72.2 h 82 A 102.2,102.2 0 0 0 191,55.9 Z"
+         id="path929" />
+    </g>
+  </g>
+</svg>

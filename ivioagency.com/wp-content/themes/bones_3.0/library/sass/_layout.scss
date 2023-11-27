@@ -1,0 +1,285 @@
+// Bootstrap Style Container
+.container {
+    @extend .clearfix;
+    margin:0 auto;
+    padding:0 15px;
+    @include screen-sm {
+        max-width:740px;
+    }
+    @include screen-md {
+        max-width:960px;
+    }
+    @include screen-lg {
+        max-width:1170px;
+    }
+    @include screen-xl {
+        max-width:1350px;
+    }
+}
+
+.container-seo {
+    @extend .clearfix;
+    margin:0 auto;
+    padding:0 15px;
+    @include screen-sm {
+        max-width:740px;
+    }
+    @include screen-md {
+        max-width:960px;
+    }
+    @include screen-lg {
+        max-width:1170px;
+    }
+}
+
+.container-md {
+    margin:0 auto;
+    padding: 0 15px;
+    max-width: 90em;
+}
+
+.container-sm {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 50em;
+
+    @include screen-xl {
+        max-width: 65em;
+    }
+}
+
+
+// Flexbox Utilities
+.flex {
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.flex-col {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.flex-col-mobile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    @include screen-md {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+.flex-wrap {
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.flex-sb {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.flex-sa {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+}
+
+.flex-center {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.flex-end {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.flex-center-ai {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-start-ai-sm-center {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    @include screen-md{
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+}
+
+
+.flex-center-mobile {
+    &.flex-start-ai {
+        align-items: center;
+        @include screen-md {
+            align-items: flex-start;
+        }
+    }
+}
+
+.flex-start-ai {
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.flex-end-ai {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.flex-sb {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+// 2 Column Flex Elements
+.flex--left, .flex--right {
+    @include screen-md {
+        width:50%;
+    }
+}
+.flex--left {
+    @include screen-sm {
+        padding-right: 30px;
+    }
+}
+.flex--right {
+    @include screen-sm {
+        padding-left: 30px;
+    }
+}
+
+//Flex Grid
+
+.flex .col.thirds {
+    padding: 30px 2%;
+
+    @include screen-md {
+        width: 32%;
+    }
+}
+
+.flex .col.halves {
+    padding: 30px 2%;
+
+    @include screen-md {
+        width: 50%;
+    }
+}
+
+// Hide & Show Utilities
+.hide-mobile {
+    display: none;
+
+    @include screen-md {
+        display: block;
+    }
+}
+
+.hide-desktop {
+    display: block;
+
+    @include screen-md {
+        display: none;
+    }
+}
+
+// Layout Non-Flex Utilities
+.relative {
+    position: relative;
+}
+
+.embed {
+    clear: left;
+    height: 0;
+    margin-bottom: 10px;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    position: relative;
+
+    iframe,
+    object,
+    embed {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+    margin-bottom: 1.2em;
+    margin-right: 1.625em;
+    @include screen-under-480 {
+        display: block;
+        float: none;
+        margin: 0 auto 1.2em;
+    }
+}
+
+.alignright {
+    display: inline;
+    float: right;
+    margin-bottom: 1.2em;
+    margin-left: 1.625em;
+    @include screen-under-480 {
+        display: block;
+        float: none;
+        margin: 0 auto 1.2em;
+    }
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin-bottom: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+    @include screen-under-480 {
+        display: block;
+        float: none;
+        margin: 0 auto 1.2em;
+    }
+}
+
+.align-vertical {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+img[class*='wp-image'] {
+    height: auto;
+    max-width: 100%;
+}
+
+.wp-video {
+    margin: 0 auto;
+}

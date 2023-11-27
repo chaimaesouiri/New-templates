@@ -1,0 +1,128 @@
+.copyright {
+    margin-bottom: 0;
+    font-size: 1.4rem;
+    padding-top: 20px;
+
+    @include screen-md {
+        padding-top: 21px;
+    }
+}
+
+.footer--main {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    @include screen-md {
+        -webkit-box-align: stretch;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+    }
+
+    &.section--padded {
+        padding-top: 40px;
+        padding-bottom: 0;
+
+        @include screen-sm {
+            padding-top: 60px;
+        }
+
+        @include screen-md {
+            padding-top: 100px;
+            padding-bottom: 100px;
+        }
+    }
+
+    h4 {
+        text-transform: uppercase;
+        font-weight: 600;
+        letter-spacing: .3rem;
+        margin-bottom: 1.2em;
+        font-size: 1.4rem;
+        line-height: 1;
+
+        @include screen-md {
+            margin-bottom: 1.8em;
+        }
+    }
+
+    .footer--nav {
+        li {
+            margin-bottom: 0.8em;
+            font-weight: 600;
+        }
+        a:last-of-type > li {
+            margin-bottom: 0;
+        }
+    }
+
+    .footer--contact {
+        text-align: center;
+
+        @include screen-md {
+            text-align: left;
+        }
+
+        li {
+            margin-bottom: 1em;
+        }
+    }
+
+    .icons--social {
+        text-align: center;
+        padding-top: 22px;
+
+        @include screen-md {
+            text-align: left;
+        }
+
+    }
+
+    .email {
+        font-weight: 700;
+    }
+
+    .footer--logo {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+
+        @include screen-md {
+            width: 100%;
+        }
+    }
+
+    .footer--content {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+        padding: 20px 0;
+
+        @include screen-md {
+            padding: 0;
+            text-align: left;
+            -webkit-box-align: stretch;
+            -ms-flex-align: stretch;
+            align-items: stretch;
+        }
+    }
+
+    div:last-of-type.footer--content {
+        h4 {
+            @include screen-md {
+                width: 200px;
+            }
+        }
+    }
+}

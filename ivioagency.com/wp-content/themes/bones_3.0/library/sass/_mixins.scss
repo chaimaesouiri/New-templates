@@ -1,0 +1,54 @@
+@mixin screen-xxl {
+    @media only screen and (min-width: 1600px) {
+        @content;
+    }
+}
+
+@mixin screen-xl {
+    @media only screen and (min-width: 1400px) {
+        @content;
+    }
+}
+
+@mixin screen-lg {
+    @media only screen and (min-width: 1200px) {
+        @content;
+    }
+}
+
+@mixin screen-md {
+    @media only screen and (min-width: 992px) {
+        @content;
+    }
+}
+
+@mixin screen-sm {
+    @media only screen and (min-width: 768px) {
+        @content;
+    }
+}
+
+@mixin screen-under-480 {
+    @media only screen and (max-width: 480px) {
+        @content;
+    }
+}
+
+/*
+  This mixin can be used to set the object-fit:
+  @include object-fit(contain);
+
+  or object-fit and object-position:
+  @include object-fit(cover, top);
+*/
+@mixin object-fit($fit: fill, $position: null){
+    -o-object-fit: $fit;
+    object-fit: $fit;
+    @if $position {
+        -o-object-position: $position;
+        object-position: $position;
+        font-family: 'object-fit: #{$fit}; object-position: #{$position}';
+    } @else {
+        font-family: 'object-fit: #{$fit}';
+    }
+}

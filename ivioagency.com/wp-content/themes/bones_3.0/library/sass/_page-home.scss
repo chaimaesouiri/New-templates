@@ -1,0 +1,699 @@
+.hero--wrapper {
+    position: relative;
+
+    .title--hero {
+        text-align: center;
+
+        @include screen-md {
+            text-align: left;
+        }
+    }
+}
+.home--hero {
+    padding: 30px 0 70px;
+    border-bottom: 3px solid #3C3C3B;
+    @include screen-md {
+        min-height: 600px;
+    }
+}
+
+.home--content {
+    width: 100%;
+    height: 260px;
+    display: flex;
+
+    @include screen-md {
+        margin-top: -100px;
+        height: 480px;
+    }
+
+    .logo {
+        width: 160px;
+
+        @include screen-md {
+            width: 100%;
+            max-width: 550px;
+        }
+
+        @include screen-xl {
+            margin-right: -100px;
+        }
+    }
+
+    .logo--container {
+        width: 50%;
+        padding: 0 20px;
+        text-align: center;
+        order: 1;
+        height: 160px;
+
+        @include screen-md {
+            order: 2;
+            height: auto;
+            min-height: 430px;
+        }
+    }
+
+    .content--container {
+        padding: 0 30px;
+        text-align: center;
+        order: 2;
+
+        @include screen-md {
+            text-align: left;
+            order: 1;
+            width: 50%;
+            min-height: 198px;
+        }
+    }
+
+    .subtitle--hero {
+        max-width: 500px;
+
+        span {
+            font-weight: 700;
+        }
+    }
+}
+
+.section--intro {
+
+    .callout {
+        padding: 0 0 80px;
+        position: relative;
+
+        h4,
+        a {
+            letter-spacing: .04rem;
+            font-size: 1.8rem;
+        }
+
+        a {
+            display: inline-block;
+            position: relative;
+
+            &:before {
+                content: '';
+                position: absolute;
+                left: -120px;
+                bottom: 8px;
+                width: 100px;
+                height: 2px;
+                background-color: $red;
+            }
+
+            &:after {
+                content: '';
+                position: absolute;
+                right: -120px;
+                bottom: 8px;
+                width: 100px;
+                height: 2px;
+                background-color: $red;
+            }
+        }
+
+        img {
+            padding: 0 0 30px;
+            display: block;
+            margin: 0 auto;
+        }
+    }
+}
+
+.home--imagine {
+
+    .img--col {
+        padding: 35px;
+        width: 100%;
+
+        @include screen-md {
+            padding: 35px;
+            width: 40%;
+        }
+
+        @include screen-lg {
+            padding: 35px 0;
+        }
+
+        .img--container {
+            display: inline-block;
+            position: relative;
+            width: 100%;
+            vertical-align: middle;
+            overflow: hidden;
+        }
+
+        .svg--content {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    }
+
+    .content--col {
+        background: url("../images/bg-imagine.jpg")no-repeat center/cover;
+        position: relative;
+        width: 100%;
+        padding: 30px 15px;
+
+        @include screen-md {
+            width: 60%;
+            padding: 0;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+
+            @include screen-sm {
+                font-size: 2.4rem;
+            }
+
+            @include screen-lg {
+                font-size: 3.7rem;
+            }
+        }
+
+        .popout--box {
+            background: #fff;
+            padding: 15px 30px;
+            position: relative;
+
+            @include screen-md {
+                padding: 50px 30px 50px 30px;
+                top: -50px;
+                width: auto;
+                margin-bottom: 60px;
+                max-height: 490px;
+            }
+
+            @include screen-lg {
+                padding: 50px 100px 50px 75px;
+            }
+
+            h2 {
+                margin-bottom: 0;
+            }
+
+            ul {
+                margin-left: 20px;
+                padding: 20px 0 0;
+
+                @include screen-md {
+                    margin-left: 40px;
+                    padding: 40px 0 0;
+                }
+
+                li {
+                    text-transform: uppercase;
+                    font-size: 1.4rem;
+                    letter-spacing: .2rem;
+                    font-weight: bold;
+                    font-family: $soleil;
+                    position: relative;
+                    margin-left: 20px;
+                    padding: 5px 0;
+                    line-height: 2;
+
+                    @include screen-md {
+                        margin-left: 40px;
+                        font-size: 1.8rem;
+                        letter-spacing: .7rem;
+                        padding: 10px 0;
+                        line-height: 1.3;
+                    }
+
+                    svg {
+                        position: absolute;
+                        left: -30px;
+                        top: 5px;
+
+                        @include screen-md {
+                            left: -40px;
+                            top: 8px;
+                        }
+                        #arrow-fill-1 {
+                            fill: url('#lg1');
+                        }
+                        #arrow-fill-2 {
+                            fill: url('#lg2');
+                        }
+                        #arrow-fill-3 {
+                            fill: url('#lg3');
+                        }
+                        #arrow-fill-4 {
+                            fill: url('#lg4');
+                        }
+                        #arrow-fill-5 {
+                            fill: url('#lg5');
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+//.list--better {
+//    #list-1 {
+//        &.active {
+//            animation: fadeIn 2s forwards;
+//        }
+//    }
+//    #list-2 {
+//        &.active {
+//            animation: fadeIn 2s 6s forwards;
+//        }
+//    }
+//    #list-3 {
+//        &.active {
+//            animation: fadeIn 2s 10s forwards;
+//        }
+//    }
+//    #list-4 {
+//        &.active {
+//            animation: fadeIn 2s 15s forwards;
+//        }
+//    }
+//    #list-5 {
+//        &.active {
+//            animation: fadeIn 2s 20.5s forwards;
+//        }
+//    }
+//}
+
+.home--slider {
+    position: relative;
+    background: $lightGrey;
+    overflow: hidden;
+
+    @include screen-md {
+         padding-bottom: 80px;
+         padding-top: 80px;
+         min-height: 480px;
+     }
+
+    .text--overlay {
+        position: absolute;
+        transform: rotate(90deg);
+        right: -149px;
+        top: 125px;
+
+        span:nth-of-type(2).text-rotated {
+            width: 480px;
+        }
+
+        .text-rotated {
+            font-size: 11.5rem;
+            letter-spacing: 2.86rem;
+            font-weight: 800;
+            font-family: $soleil;
+            text-transform: uppercase;
+            display: block;
+            line-height: 1;
+            overflow:visible;
+            white-space: nowrap;
+            text-overflow: clip;
+        }
+
+        .sq-lines {
+            right: -56px;
+            bottom: 90px;
+            position: absolute;
+            width: 120px;
+        }
+    }
+
+    .slider {
+        p {
+            text-align: center;
+        }
+    }
+
+    .title--box {
+        .slick-dots {
+            transform: rotate(90deg) translateX(-50%);
+            position: absolute;
+            left: 50%;
+            top: -70px;
+            padding-bottom: 0;
+        }
+    }
+
+    .slider--container {
+        .slick-arrow {
+            top: 215px;
+
+            @include screen-md {
+                top: 105px;
+            }
+        }
+    }
+}
+
+.home--better {
+    background: url("../images/bg-home-mobile.jpg")no-repeat center/cover;
+
+    @include screen-md {
+        background: url("../images/bg-home-desktop.jpg")no-repeat center/cover;
+    }
+}
+
+.home--work-slider {
+    position: relative;
+
+    .title--box {
+
+        .slick-dots {
+            top: -10px;
+        }
+    }
+
+    .slider--container {
+        .slick-prev {
+            display: none!important;
+        }
+
+        .slick-next {
+            display: none!important;
+            @include screen-md {
+                display: block!important;
+                width: 140px;
+                right: -110px;
+                top: 143px;
+            }
+
+            @include screen-lg {
+                right: -20px;
+            }
+
+            @include screen-xl {
+                right: 130px;
+            }
+        }
+    }
+}
+
+.work--content {
+    padding-bottom: 40px;
+
+    .container-sm {
+        padding-left: 0;
+        padding-right: 0;
+        @include screen-md {
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+    }
+
+    .header-xs {
+        position: absolute;
+        top: 144px;
+        right: 0;
+        padding: 0;
+    }
+
+    .content--container {
+        width: 70%;
+        margin-left: auto;
+        position: relative;
+
+        @include screen-md {
+            width: 80%;
+            margin-right: -15px;
+        }
+
+        @include screen-lg {
+            margin: 0 auto;
+        }
+
+        .work--img-container {
+            width: 100%;
+            height: 313px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            z-index: 1;
+
+            @include screen-md {
+                width: 513px;
+            }
+        }
+
+        .work {
+            width: 100%;
+            max-width: 513px;
+            height: 313px;
+            @include object-fit(cover);
+            display: block;
+            transition: transform 1.5s ease-in-out;
+
+            @include screen-md {
+                margin: auto;
+            }
+
+            &:hover {
+                transform: scale(1.05);
+            }
+        }
+
+        .lines {
+            position: absolute;
+            bottom: -40px;
+            z-index: -1;
+            width: 230px;
+
+            @include screen-md {
+                right: 10px;
+            }
+
+            @include screen-lg {
+                right: -110px;
+            }
+
+            @include screen-xl {
+                right: -10px;
+            }
+        }
+
+        .work--title {
+            width: 170px;
+            position: absolute;
+            bottom: 0;
+            left: -85px;
+            z-index: 99;
+
+            @include screen-md {
+                width: 300px;
+                bottom: -5px;
+                left: -132px;
+            }
+
+            @include screen-lg {
+                left: -70px;
+            }
+
+            @include screen-xl {
+                left: -24px;
+            }
+
+            p {
+                text-transform: uppercase;
+                letter-spacing: .3rem;
+                font-size: 1.8rem;
+                color: $red;
+                padding: 0;
+                margin-bottom: 0;
+                font-weight: 600;
+            }
+
+            h3 {
+                font-size: 3.6rem;
+                margin-bottom: 0;
+                line-height: 1;
+
+                @include screen-md {
+                    font-size: 7.2rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+.clients--slider {
+
+    @include screen-md {
+        padding: 0 100px;
+    }
+
+    img {
+        display: block;
+        margin: 0 auto;
+        padding: 0 20px;
+        width: auto;
+    }
+
+    .slick-track {
+        display: flex;
+        align-items: center;
+    }
+
+    .slick-prev {
+        height: 30px;
+        width: 30px;
+        background: url("../images/arrow-left.svg")no-repeat center/contain;
+        transition: .2s background ease-in;
+
+        &:hover {
+            background: url("../images/arrow-left-fill.svg")no-repeat center/contain;
+        }
+    }
+
+    .slick-next {
+        height: 30px;
+        width: 30px;
+        background: url("../images/arrow-right.svg")no-repeat center/contain;
+        transition: .2s background ease-in;
+
+        &:hover {
+            background: url("../images/arrow-right-fill.svg")no-repeat center/contain;
+        }
+    }
+}
+
+.slider--container,
+.slider--container-work {
+    position: relative;
+
+    .slick-prev {
+        left: 15px;
+        height: 30px;
+        width: 30px;
+        background: url("../images/arrow-left.svg")no-repeat center/contain;
+        transition: .2s background ease-in;
+
+        @include screen-md {
+            left: 85px;
+        }
+        
+        &:hover {
+            background: url("../images/arrow-left-fill.svg")no-repeat center/contain;
+        }
+    }
+
+    .slick-next {
+        right: 15px;
+        height: 30px;
+        width: 30px;
+        background: url("../images/arrow-right.svg")no-repeat center/contain;
+        transition: .2s background ease-in;
+
+        @include screen-md {
+            right: 85px;
+        }
+
+        &:hover {
+            background: url("../images/arrow-right-fill.svg")no-repeat center/contain;
+        }
+    }
+
+    .slick-arrow {
+        top:105px;
+        transform: none;
+        z-index: 99;
+    }
+}
+
+.title--box {
+    @include screen-md {
+        position: absolute;
+        transform: rotate(270deg) translate(-50%, 0);
+        top: 50%;
+        left: -20px;
+        transform-origin: 0 0;
+        z-index: 99;
+
+        @include screen-lg {
+            left: -50px;
+        }
+
+        //@include screen-xl {
+        //    left: 0;
+        //}
+    }
+
+    .title--section {
+        @include screen-md {
+            margin-bottom: 0;
+            line-height: 1;
+        }
+    }
+
+    .slick-dots {
+        transform: rotate(90deg) translateX(-50%);
+        position: absolute;
+        left: 50%;
+        top: -50px;
+
+        @include screen-md {
+            width: auto;
+        }
+
+        li {
+            margin: 50px 5px;
+            display: block;
+        }
+
+        .arrow-dots {
+            position: relative;
+            z-index: -1;
+        }
+
+        .slick-active {
+            .arrow-fill {
+                fill: url('#lg');
+            }
+        }
+    }
+}
+
+#linesObj {
+    .line,
+    .animate-line,
+    .animate-line-all,
+    .animate-line-faster,
+    .animate-line-slower,
+    .animate-line-reverse {
+        fill: none;
+        stroke: #DB2329;
+        stroke-width: 2px;
+        stroke-linejoin: round;
+        visibility: hidden;
+
+        &.active {
+            animation: draw 500ms linear forwards;
+            visibility: visible;
+        }
+    }
+
+    .line-drawn-faster {
+        fill: none;
+        stroke: #DB2329;
+        stroke-width: 2px;
+        stroke-linejoin: round;
+        visibility: hidden;
+
+        &.active {
+            animation: draw 500ms linear forwards;
+            visibility: visible;
+        }
+    }
+}
+
+.sq-lines {
+    transform: rotate(270deg);
+}

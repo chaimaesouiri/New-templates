@@ -1,0 +1,33 @@
+.section--wrapper {
+    &.has-sidebar {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        position: relative;
+
+        .page--content {
+            flex: 1 1 100%;
+
+            @include screen-md {
+                padding-right: 25px;
+            }
+            @include screen-lg {
+                padding-right: 50px;
+            }
+
+        }
+
+        .sidebar--all {
+            flex: 1 1 100%;
+
+            @include screen-md {
+                flex: 1 1 33.33%;
+            }
+        }
+
+    }
+}
+

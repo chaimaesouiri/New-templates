@@ -1,0 +1,115 @@
+
+.circle-shape-item.type-0.hero-1 {
+    bottom: -61px;
+    opacity: 0.5;
+    width: 310px;
+}
+.circle-shape-item.type-4.hero-1 {
+    top: 80px;
+    opacity: 0.8;
+}
+.circle-shape-item.type-3.hero-1 {
+    left: 95px;
+    top: 55px;
+    opacity: 0.7;
+}
+.circle-shape-item.type-2.hero-1 {
+    opacity: 0.8;
+}
+.circle-shape-item.type-5.hero-1 {
+    opacity: 0.7;
+}
+.feature-img-holder lord-icon{
+    width: 50%;
+    background: linear-gradient(270deg, #f8f9fa, #fff);
+    height: 50%;
+    border-radius: 20px;
+}
+.feature-img-holder.icon-bg-left lord-icon{
+    background: linear-gradient(90deg, #f8f9fa, #fff);
+}
+.feature-img-holder.icon-bg-right{
+    text-align: right;
+}
+.fluid-icon{
+    width: 100%;
+    height: 100%;
+}
+.fluid-icon lord-icon{
+    width: 90%;
+    height: 90%;
+}
+
+.integration-list-wrap a img {
+    padding: 0 !important;
+    border-radius: 0 !important;
+    max-height: 50px;
+}
+.integration-list-wrap a {
+    width: 115px;
+    box-shadow: none;
+}
+.integration-list-wrap a.integration-6 {
+    bottom: -30px;
+}
+.integration-list-wrap a.integration-3 {
+    top: 15px;
+}
+.integration-list-wrap a.integration-2 {
+    top: -36px;
+    right: -42px;
+}
+.wp-block-image img {
+    height: auto;
+}
+.support-article-wrap img{
+    cursor: zoom-in;
+}
+.integration-list li .single-integration{
+    height: 75px;
+}
+.integration-list li .single-integration img {
+    max-width: 65px;
+    max-height: 35px;
+    width: auto;
+}
+.navbar-dark.affix #language-switch {
+    color: #575757;
+}
+.navbar-light #language-switch {
+    color: #575757;
+}
+.navbar-dark:not(.affix) #language-switch{
+    color: #d6d5e1;
+}
+.icon-box i {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+}
+.support-article-tab a.active{
+    color: #175cff !important;
+}
+.navbar-light .main-menu .current-menu-item a{
+    color: #175cff !important;
+}
+.alert{
+    border: none;
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.alert-danger{
+    background-color: #f25767;
+}
+.alert-success{
+    background-color: #3cb690;
+}
+.response-container{
+    display: none;
+}
+.footer-nav-list li a{
+    text-decoration: none;
+    color: #d6d5e1;
+}

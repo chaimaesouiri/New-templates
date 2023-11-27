@@ -1,0 +1,185 @@
+.contact--hero,
+.blog--hero {
+
+    h1 {
+        color: #fff;
+        margin: 0;
+    }
+
+    .typewrite {
+        .wrap {
+            animation: caret 1s steps(1) infinite;
+            border-right: 0.06em solid #fff;
+            line-height: 0.9em;
+            display: inline-block;
+            font-weight: 700;
+        }
+    }
+}
+
+
+.contact--form {
+    .gform_wrapper {
+        .gform_body {
+            input,
+            textarea {
+                background-color: $light-grey;
+                border: 2px solid #979797;
+                padding: 5px;
+                font-size: 1.4rem;
+                font-family: $soleil;
+                margin: 10px 0 20px;
+                width: 100%;
+            }
+
+            textarea {
+                height: 120px;
+            }
+
+            .gfield_label {
+                padding-bottom: 10px;
+            }
+
+            .gfield {
+                padding: 0;
+            }
+        }
+        input[type="submit"] {
+            display: inline-block;
+            background: transparent;
+            color: $red;
+            border: 2px solid $red;
+            border-radius: 0;
+            margin: 0 auto;
+            font-weight: 400;
+            text-align: center;
+            font-family: $soleil;
+            letter-spacing: .22rem;
+            font-size: 1.4rem;
+            padding: 7px 15px;
+            text-transform: uppercase;
+            transition: .2s all ease-in;
+            width: auto;
+
+            &:hover {
+                background-color: $red;
+                color: $white;
+            }
+
+            @include screen-md {
+                font-size: 1.8rem;
+            }
+        }
+
+        .gform_footer.top_label {
+            margin-top: 40px;
+            text-align: center;
+        }
+    }
+
+    .map--container {
+
+    }
+
+
+    .form--map {
+        width: 100%;
+
+        //@include screen-sm {
+        //    max-width: 340px;
+        //}
+
+        @include screen-md {
+            max-width: 480px;
+        }
+
+        &.embed {
+            margin: 0;
+            //@include screen-sm {
+            //    padding-bottom: 367px;
+            //}
+
+            @include screen-md {
+                padding-bottom: 365px;
+                margin: 25px 0 0;
+            }
+
+            iframe {
+                bottom: 0;
+                right: 0;
+            }
+        }
+    }
+
+    .form--container {
+        padding: 0 50px;
+
+        @include screen-md {
+            padding: 0 50px 0 130px;
+        }
+
+        @include screen-lg {
+            padding: 0 100px;
+        }
+    }
+
+    .title--box {
+        top: 310px;
+        left: 50px;
+        padding-top: 40px;
+
+        @include screen-md {
+            padding-top: 0;
+        }
+
+        @include screen-xxl {
+            left: 10%;
+        }
+
+        .title--section {
+            margin-bottom: 0;
+        }
+    }
+
+    .flex-col-mobile {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+
+        @include screen-md {
+            -webkit-box-orient: horizontal;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+            flex-direction: row;
+        }
+    }
+
+    .hide-mobile {
+        display: none;
+
+        @include screen-md {
+            display: block;
+        }
+    }
+
+    .hide-desktop {
+        display: block;
+
+        @include screen-md {
+            display: none;
+        }
+    }
+
+    .flex-start-ai {
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+
+        @include screen-md {
+            -webkit-box-align: start;
+            -ms-flex-align: start;
+            align-items: flex-start;
+        }
+    }
+}

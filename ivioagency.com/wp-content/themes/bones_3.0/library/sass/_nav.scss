@@ -1,0 +1,171 @@
+//Desktop Nav
+.nav--main {
+    display: none;
+
+    &.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #000;
+        z-index: 999;
+    }
+
+    .nav--menu {
+        padding: 10px 0;
+
+        li {
+            display: inline-block;
+            padding: 0 50px;
+            line-height: 2;
+            position: relative;
+        }
+
+        li:hover {
+            background: rgba(0,0,0,.8);
+
+            > ul {
+                display: block;
+                position: absolute;
+                width: 250px;
+                background: rgba(0,0,0,.7);
+            }
+        }
+
+        .sub-menu {
+            display: none;
+
+            li {
+                display: block;
+                padding:20px;
+            }
+
+            .sub-menu {
+                left: 250px;
+                top: 0px;
+            }
+        }
+    }
+}
+
+//Mobile Nav Container
+.nav--container{
+    display: none;
+
+    //Nav when opened
+    &.active {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: #000;
+        z-index: 9999;
+    }
+
+    .logo {
+        position: absolute;
+        top: 20vh;
+    }
+}
+
+//Mobile Nav Menu
+.nav--menu {
+    display: inline-block;
+
+    .menu-item {
+        position: relative;
+        line-height: 1;
+
+        a {
+            position: relative;
+            display: inline-block;
+            padding: 20px 0;
+            font-family: $soleil;
+            font-weight: 700;
+
+            &:after {
+                content: '';
+                width: 0%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                height: 8px;
+                background-color: $red;
+                transition: 1s width ease-in;
+            }
+
+            &:hover {
+                &:after {
+                    //animation: 1s underline ease-in;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .sub-menu {
+        display: none;
+    }
+}
+
+
+//Font Awesome Nav Arrows
+.menu--arrow {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: -1;
+}
+
+.nav--secondary {
+    display: none;
+
+    &.active {
+        display: block;
+        position: fixed;
+        bottom: 15px;
+        left: 0;
+        right: 0;
+        z-index: 9999;
+
+        .prism--container {
+            display: block;
+        }
+    }
+
+    .nav--prism {
+        width: 85px;
+        margin-left: auto;
+        display: block;
+    }
+
+    .prism--container {
+        display: none;
+    }
+}
+
+.icons--social {
+
+    li {
+        display: inline-block;
+    }
+
+    a {
+        padding-right: 5px;
+        font-size: 2.3rem;
+        color: #fff;
+
+        &:hover {
+            color: $red;
+        }
+    }
+}

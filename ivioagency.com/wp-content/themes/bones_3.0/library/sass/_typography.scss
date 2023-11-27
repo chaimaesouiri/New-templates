@@ -1,0 +1,358 @@
+// Set Body
+body {
+    color:$text;
+    font-family: $futura;
+    font-size: 62.5%;
+    letter-spacing: .05rem;
+}
+
+// Headings
+h1,
+h2,
+h3,
+h4 {
+    font-family: $soleil;
+    font-weight: 700;
+}
+
+h1,
+.h1,
+h1 a,
+h1 b {
+    font-size:2.1rem;
+    margin-bottom:1em;
+    letter-spacing: normal;
+
+    @include screen-md {
+        font-size: 2.6rem;
+    }
+
+    @include screen-lg {
+        font-size:3.6rem;
+    }
+}
+
+h2,
+.h2,
+h2 a,
+h2 b{
+    font-size:2.4rem;
+    margin-bottom:0.5em;
+    @include screen-sm {
+        font-size:2.8rem;
+    }
+}
+
+h3,
+.h3,
+h3 a,
+h3 b {
+    font-size:2.4rem;
+    margin-bottom:0.5em;
+}
+
+h4,
+.h4,
+h4 a,
+h4 b {
+    font-size: 1.4rem;
+    margin-bottom:0.5em;
+}
+
+b {
+    font-weight: 700;
+}
+
+//Titles
+.title--hero {
+    font-size:2.1rem;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: .5em;
+
+    @include screen-md {
+        font-size: 4.8rem;
+    }
+}
+
+.subtitle--hero {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+
+    @include screen-md {
+        font-size: 1.8rem;
+    }
+}
+
+.title--section {
+    font-size: 4.8rem;
+    line-height: 1.7;
+    margin-bottom: 1em;
+    letter-spacing: .067rem;
+    font-weight: 800;
+    font-style: normal;
+    text-transform: uppercase;
+    color: $teal;
+
+    @include screen-md {
+        font-size: 6rem;
+        letter-spacing: .083rem;
+    }
+}
+
+.title-sm {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    font-size: 2.4rem;
+    font-weight: 700;
+    font-style: normal;
+    font-family: $soleil;
+    letter-spacing: normal;
+}
+
+.header-xs {
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-size: 1.4rem;
+    padding: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+
+    @include screen-md {
+        font-size: 1.8rem;
+    }
+}
+
+// Font Families & Styles
+.heading {
+    font-family: $soleil;
+    font-weight: 700;
+}
+
+.copy {
+    font-family: $soleil;
+}
+
+//Theme Font Colors
+.text-white {
+    color: $white;
+}
+
+.text-black {
+    color: #000;
+}
+
+.text-red {
+    color: #BD1E2D;
+}
+
+.text-red-seo {
+    color: $seo_red;
+}
+
+.text-blue-seo {
+    color: $seo_blue;
+}
+
+.text-teal {
+    color: $teal;
+}
+
+.links-white {
+    a {
+        color: $white;
+
+        &:hover {
+            color: $red;
+        }
+    }
+}
+
+// Content Font Styles
+blockquote {
+    font-size: 2.4rem;
+    font-family: $futura;
+    quotes: none;
+    margin: 15px 0 15px 7%;
+    width: 86%;
+    border-left: 3px solid $red;
+    padding: 15px;
+
+    p {
+        margin-bottom: .4em;
+    }
+}
+
+.blog--callout {
+    border: 3px solid $black;
+    float: right;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    padding: 15px;
+    width: 35%;
+
+    h3 {
+        &:before {
+            content: none;
+        }
+    }
+
+    :last-child {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+}
+
+.page--content {
+    ul {
+        list-style: none;
+        padding-bottom: .3em;
+
+        li {
+            list-style: none;
+            position: relative;
+            padding-left: 15px;
+            margin-bottom: 20px;
+            line-height: 1;
+
+            &:before {
+                color: $red;
+                content: '\f10c';
+                position: absolute;
+                font-family: 'Font Awesome 5 Pro';
+                left: 0;
+                font-size: 8px;
+                top: 6px;
+            }
+        }
+    }
+
+    ol {
+        padding-bottom: .3em;
+
+        li {
+            margin-bottom: 20px;
+        }
+    }
+
+    a {
+        color: $red;
+    }
+
+    .btn--red {
+        color: #fff;
+
+        &:hover {
+            color: $red;
+        }
+    }
+}
+
+#ez-toc-container {
+    .ez-toc-list {
+        li {
+            &:before {
+                content: none;
+            }
+        }
+    }
+}
+
+p,
+li,
+a,
+body div{
+    font-size: 1.4rem;
+    @include screen-md {
+        font-size:1.8rem;
+    }
+}
+
+p {
+    line-height:1.7;
+    margin-bottom:1em;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover, &:active, &:visited {
+        text-decoration: none;
+    }
+}
+
+//Nav Typography
+.nav--menu {
+    .current-menu-item {
+        a {
+            color: $red;
+
+            &:visited {
+                color: $red;
+            }
+        }
+    }
+
+    li {
+        text-align: center;
+    }
+
+    a {
+        font-size: 3.6rem;
+        color: $white;
+        font-weight: 700;
+
+        @include screen-md {
+            font-size: 6rem;
+        }
+
+        &:visited {
+            color:  $white;
+        }
+    }
+}
+
+.nav--main-desktop {
+    a {
+        color: $white;
+    }
+}
+
+//Blog Typography
+
+.page--content {
+    h2,
+    h2 span,
+    h2 b{
+        font-size:2.1rem;
+        margin-bottom:.4em;
+        letter-spacing: normal;
+
+        @include screen-md {
+            font-size: 2.6rem;
+        }
+
+        @include screen-lg {
+            font-size:3.6rem;
+        }
+    }
+
+    h3,
+    h3 span,
+    h3 b{
+        color: $teal;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 1.4rem;
+        margin-bottom:0.5em;
+        letter-spacing: .3rem;
+
+        @include screen-md {
+            font-size: 1.8rem;
+        }
+    }
+}
