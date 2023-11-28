@@ -231,9 +231,9 @@ font-display: block;
     </style>
     <div id="main_MF" class="wix-global-css">
         <div id="SCROLL_TO_TOP" class="Vd6aQZ ignore-focus SCROLL_TO_TOP" tabindex="-1" role="region" aria-label="top of page">
-            <span class="mHZSwn">top of page</span>
+            <span class="mHZSwn"><?= $content['HomePage'][0]?></span>
         </div>
-        <button id="SKIP_TO_CONTENT_BTN" class="SKIP_TO_CONTENT_BTN LHrbPP has-custom-focus" tabindex="0">Skip to Main Content</button>
+        <button id="SKIP_TO_CONTENT_BTN" class="SKIP_TO_CONTENT_BTN LHrbPP has-custom-focus" tabindex="0"><?= $content['HomePage'][1]?></button>
         <div id="BACKGROUND_GROUP" class="BACKGROUND_GROUP">
             <div id="pageBackground_dqh0a" data-media-height-override-type="" data-media-position-override="false" class="pageBackground_dqh0a BmZ5pC">
                 <div id="bgLayers_pageBackground_dqh0a" data-hook="bgLayers" class="MW5IWV">
@@ -262,7 +262,7 @@ font-display: block;
                                 <div id="comp-jjeu9bn4" class="MazNVa comp-jjeu9bn4 wixui-image rYiAuL">
                                     <a data-testid="linkElement" href="/" target="_self" class="j7pOnl">
                                         <wow-image id="img_comp-jjeu9bn4" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-jjeu9bn4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:305,&quot;targetHeight&quot;:52,&quot;isLQIP&quot;:false,&quot;imageData&quot;:{&quot;width&quot;:600,&quot;height&quot;:103,&quot;uri&quot;:&quot;738c96_fea37dea56dc40638b725ee0d6118592~mv2.png&quot;,&quot;name&quot;:&quot;<?=$ihost?> logo for site &quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="">
-                                            <img src="https://static.wixstatic.com/media/738c96_fea37dea56dc40638b725ee0d6118592~mv2.png/v1/fill/w_305,h_52,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TranscriptionServices_com%20logo%20for%20site%20.png" alt="<?=$ihost?> logo" style="width:305px;height:52px;object-fit:cover" width="305" height="52" srcSet="https://static.wixstatic.com/media/738c96_fea37dea56dc40638b725ee0d6118592~mv2.png/v1/fill/w_305,h_52,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TranscriptionServices_com%20logo%20for%20site%20.png 1x, https://static.wixstatic.com/media/738c96_fea37dea56dc40638b725ee0d6118592~mv2.png/v1/fill/w_610,h_104,al_c,lg_1,q_85,enc_auto/TranscriptionServices_com%20logo%20for%20site%20.png 2x" fetchpriority="high" />
+                                            <img src="<?= $media['HomePage'][0]?>" alt="<?=$ihost?> logo" style="width:305px;height:52px;object-fit:cover" width="305" height="52" srcSet="https://static.wixstatic.com/media/738c96_fea37dea56dc40638b725ee0d6118592~mv2.png/v1/fill/w_305,h_52,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/TranscriptionServices_com%20logo%20for%20site%20.png 1x, https://static.wixstatic.com/media/738c96_fea37dea56dc40638b725ee0d6118592~mv2.png/v1/fill/w_610,h_104,al_c,lg_1,q_85,enc_auto/TranscriptionServices_com%20logo%20for%20site%20.png 2x" fetchpriority="high" />
                                         </wow-image>
                                     </a>
                                 </div>
@@ -277,7 +277,7 @@ font-display: block;
                                                 <a data-testid="linkElement" data-anchor="dataItem-lhyljt0c" href="<?=$host?>/#features" target="_self" class="ppRL_Y" aria-haspopup="false">
                                                     <div class="cYOPqd">
                                                         <div class="" style="text-align:center">
-                                                            <p class="GNyKTo" style="text-align:center" id="DrpDwnMn0-1v90label">Features</p>
+                                                            <p class="GNyKTo" style="text-align:center" id="DrpDwnMn0-1v90label"><?= $content['HomePage'][2]?></p>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -286,7 +286,7 @@ font-display: block;
                                                 <a data-testid="linkElement" href="<?=$host?>/#pricing" target="_self" class="ppRL_Y" aria-haspopup="false">
                                                     <div class="cYOPqd">
                                                         <div class="" style="text-align:center">
-                                                            <p class="GNyKTo" style="text-align:center" id="DrpDwnMn0-1v92label">Pricing</p>
+                                                            <p class="GNyKTo" style="text-align:center" id="DrpDwnMn0-1v92label"><?= $content['HomePage'][3]?></p>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -295,7 +295,7 @@ font-display: block;
                                                 <a data-testid="linkElement" href="<?=$host?>/contact" target="_self" class="ppRL_Y" aria-haspopup="false">
                                                     <div class="cYOPqd">
                                                         <div class="" style="text-align:center">
-                                                            <p class="GNyKTo" style="text-align:center" id="DrpDwnMn0-1v93label">Contact</p>
+                                                            <p class="GNyKTo" style="text-align:center" id="DrpDwnMn0-1v93label"><?= $content['HomePage'][4]?></p>
                                                         </div>
                                                     </div>
                                                 </a>
@@ -304,7 +304,7 @@ font-display: block;
                                         <div class="Ucn7EJ" id="DrpDwnMn0-1v9dropWrapper" data-dropalign="center" data-dropdown-shown="false">
                                             <ul class="nJ7Nfe wixui-dropdown-menu__submenu" id="DrpDwnMn0-1v9moreContainer"></ul>
                                         </div>
-                                        <div style="display:none" id="DrpDwnMn0-1v9navContainer-hiddenA11ySubMenuIndication">Use tab to navigate through the menu items.</div>
+                                        <div style="display:none" id="DrpDwnMn0-1v9navContainer-hiddenA11ySubMenuIndication"><?= $content['HomePage'][5]?></div>
                                     </nav>
                                 </wix-dropdown-menu>
                             </div>
@@ -323,7 +323,7 @@ font-display: block;
                                     <div data-mesh-id="Containerdqh0ainlineContent" data-testid="inline-content" class="">
                                         <div data-mesh-id="Containerdqh0ainlineContent-gridContainer" data-testid="mesh-container-content">
                                             <div id="comp-lhyljszh" class="Vd6aQZ ignore-focus comp-lhyljszh" tabindex="-1" role="region" aria-label="Anchor 1">
-                                                <span class="mHZSwn">Anchor 1</span>
+                                                <span class="mHZSwn"><?= $content['HomePage'][6]?></span>
                                             </div>
                                             <div id="comp-lf2axy4k" class="comp-lf2axy4k _xg6_p">
                                                 <link href="https://static.wufoo.com/stylesheets/public/forms/css/index.0687.css" rel="stylesheet">
@@ -332,262 +332,262 @@ font-display: block;
                                                         <ul>
                                                             <li id="fo104li15" class="notranslate first section      ">
                                                                 <section>
-                                                                    <h3 id="title15"> About You </h3>
+                                                                    <h3 id="title15"> <?= $content['HomePage'][7]?> </h3>
                                                                 </section>
                                                             </li>
                                                             <li id="fo104li4" class="notranslate       focused">
-                                                                <label class="desc" id="title4"> Name <span id="req_4" class="req">*</span>
+                                                                <label class="desc" id="title4"> <?= $content['HomePage'][8]?> <span id="req_4" class="req">*</span>
                                                                 </label>
                                                                 <span>
                                                                     <input id="Field4" name="Field4" type="text" class="field text fn" value="" size="8" tabindex="0" onkeyup="handleInput(this);" onchange="handleInput(this);" placeholder="" required="">
-                                                                    <label for="Field4">First</label>
+                                                                    <label for="Field4"><?= $content['HomePage'][9]?></label>
                                                                 </span>
                                                                 <span>
                                                                     <input id="Field5" name="Field5" type="text" class="field text ln" value="" size="14" tabindex="0" onkeyup="handleInput(this);" onchange="handleInput(this);" placeholder="" required="">
-                                                                    <label for="Field5">Last</label>
+                                                                    <label for="Field5"><?= $content['HomePage'][10]?></label>
                                                                 </span>
                                                             </li>
                                                             <li id="fo104li2" class="notranslate      ">
-                                                                <label class="desc" id="title2" for="Field2"> Email Address (write this carefully so we can reply) <span id="req_2" class="req">*</span>
+                                                                <label class="desc" id="title2" for="Field2"> <?= $content['HomePage'][11]?> <span id="req_2" class="req">*</span>
                                                                 </label>
                                                                 <div>
                                                                     <input id="Field2" name="Field2" type="email" spellcheck="false" class="field text medium" value="" maxlength="255" tabindex="0" onkeyup="handleInput(this);" onchange="handleInput(this);" placeholder="" required="">
                                                                 </div>
                                                             </li>
                                                             <li id="fo104li6" class="notranslate      ">
-                                                                <label class="desc" id="title6" for="Field6"> Phone Number (include country code) </label>
+                                                                <label class="desc" id="title6" for="Field6"> <?= $content['HomePage'][12]?> </label>
                                                                 <div>
                                                                     <input id="Field6" class="field text medium" name="Field6" tabindex="0" onkeyup="handleInput(this);" onchange="handleInput(this);" placeholder="" type="tel" maxlength="255" value="">
                                                                 </div>
                                                             </li>
                                                             <li id="fo104li7" data-wufoo-field="" data-field-type="text" class="notranslate      ">
-                                                                <label class="desc" id="title7" for="Field7"> Organization </label>
+                                                                <label class="desc" id="title7" for="Field7"> <?= $content['HomePage'][13]?> </label>
                                                                 <div>
                                                                     <input id="Field7" name="Field7" type="text" class="field text medium" value="" maxlength="255" tabindex="0" onkeyup="handleInput(this); " onchange="handleInput(this);" placeholder="">
                                                                 </div>
                                                             </li>
                                                             <li id="fo104li9" class="      ">
-                                                                <label class="desc notranslate" id="title9" for="Field9"> What country are you writing from? <span id="req_9" class="req">*</span>
+                                                                <label class="desc notranslate" id="title9" for="Field9"> <?= $content['HomePage'][14]?> <span id="req_9" class="req">*</span>
                                                                 </label>
                                                                 <div>
                                                                     <select id="Field9" name="Field9" class="field select medium" onchange="handleInput(this);" onkeyup="handleInput(this);" tabindex="0" data-wufoo-field="dropdown">
                                                                         <option value="" selected="selected"></option>
-                                                                        <option value="United States of America"> United States of America </option>
-                                                                        <option value="Canada"> Canada </option>
-                                                                        <option value="United Kingdom"> United Kingdom </option>
-                                                                        <option value="Australia"> Australia </option>
-                                                                        <option value="Afghanistan"> Afghanistan </option>
-                                                                        <option value="Albania"> Albania </option>
-                                                                        <option value="Algeria"> Algeria </option>
-                                                                        <option value="Andorra"> Andorra </option>
-                                                                        <option value="Angola"> Angola </option>
-                                                                        <option value="Antigua and Barbuda"> Antigua and Barbuda </option>
-                                                                        <option value="Argentina"> Argentina </option>
-                                                                        <option value="Armenia"> Armenia </option>
-                                                                        <option value="Australia"> Australia </option>
-                                                                        <option value="Austria"> Austria </option>
-                                                                        <option value="Azerbaijan"> Azerbaijan </option>
-                                                                        <option value="Bahamas"> Bahamas </option>
-                                                                        <option value="Bahrain"> Bahrain </option>
-                                                                        <option value="Bangladesh"> Bangladesh </option>
-                                                                        <option value="Barbados"> Barbados </option>
-                                                                        <option value="Belarus"> Belarus </option>
-                                                                        <option value="Belgium"> Belgium </option>
-                                                                        <option value="Belize"> Belize </option>
-                                                                        <option value="Benin"> Benin </option>
-                                                                        <option value="Bhutan"> Bhutan </option>
-                                                                        <option value="Bolivia"> Bolivia </option>
-                                                                        <option value="Bosnia and Herzegovina"> Bosnia and Herzegovina </option>
-                                                                        <option value="Botswana"> Botswana </option>
-                                                                        <option value="Brazil"> Brazil </option>
-                                                                        <option value="Brunei Darussalam"> Brunei Darussalam </option>
-                                                                        <option value="Bulgaria"> Bulgaria </option>
-                                                                        <option value="Burkina Faso"> Burkina Faso </option>
-                                                                        <option value="Burundi"> Burundi </option>
-                                                                        <option value="Cabo Verde"> Cabo Verde </option>
-                                                                        <option value="Cambodia"> Cambodia </option>
-                                                                        <option value="Cameroon"> Cameroon </option>
-                                                                        <option value="Canada"> Canada </option>
-                                                                        <option value="Central African Republic"> Central African Republic </option>
-                                                                        <option value="Chad"> Chad </option>
-                                                                        <option value="Chile"> Chile </option>
-                                                                        <option value="China"> China </option>
-                                                                        <option value="Colombia"> Colombia </option>
-                                                                        <option value="Comoros"> Comoros </option>
-                                                                        <option value="Congo"> Congo </option>
-                                                                        <option value="Costa Rica"> Costa Rica </option>
-                                                                        <option value="Côte D'Ivoire (Ivory Coast)"> Côte D'Ivoire (Ivory Coast) </option>
-                                                                        <option value="Croatia"> Croatia </option>
-                                                                        <option value="Cuba"> Cuba </option>
-                                                                        <option value="Cyprus"> Cyprus </option>
-                                                                        <option value="Czech Republic (Czechia)"> Czech Republic (Czechia) </option>
-                                                                        <option value="Democratic People's Republic of Korea (North Korea)"> Democratic People's Republic of Korea (North Korea) </option>
-                                                                        <option value="Democratic Republic of the Congo"> Democratic Republic of the Congo </option>
-                                                                        <option value="Denmark"> Denmark </option>
-                                                                        <option value="Djibouti"> Djibouti </option>
-                                                                        <option value="Dominica"> Dominica </option>
-                                                                        <option value="Dominican Republic"> Dominican Republic </option>
-                                                                        <option value="Ecuador"> Ecuador </option>
-                                                                        <option value="Egypt"> Egypt </option>
-                                                                        <option value="El Salvador"> El Salvador </option>
-                                                                        <option value="Equatorial Guinea"> Equatorial Guinea </option>
-                                                                        <option value="Eritrea"> Eritrea </option>
-                                                                        <option value="Estonia"> Estonia </option>
-                                                                        <option value="Ethiopia"> Ethiopia </option>
-                                                                        <option value="Fiji"> Fiji </option>
-                                                                        <option value="Finland"> Finland </option>
-                                                                        <option value="France"> France </option>
-                                                                        <option value="Gabon"> Gabon </option>
-                                                                        <option value="Gambia"> Gambia </option>
-                                                                        <option value="Georgia"> Georgia </option>
-                                                                        <option value="Germany"> Germany </option>
-                                                                        <option value="Ghana"> Ghana </option>
-                                                                        <option value="Greece"> Greece </option>
-                                                                        <option value="Grenada"> Grenada </option>
-                                                                        <option value="Guatemala"> Guatemala </option>
-                                                                        <option value="Guinea"> Guinea </option>
-                                                                        <option value="Guinea Bissau"> Guinea Bissau </option>
-                                                                        <option value="Guyana"> Guyana </option>
-                                                                        <option value="Haiti"> Haiti </option>
-                                                                        <option value="Holy See (Vatican City)"> Holy See (Vatican City) </option>
-                                                                        <option value="Honduras"> Honduras </option>
-                                                                        <option value="Hungary"> Hungary </option>
-                                                                        <option value="Iceland"> Iceland </option>
-                                                                        <option value="India"> India </option>
-                                                                        <option value="Indonesia"> Indonesia </option>
-                                                                        <option value="Iran"> Iran </option>
-                                                                        <option value="Iraq"> Iraq </option>
-                                                                        <option value="Ireland"> Ireland </option>
-                                                                        <option value="Israel"> Israel </option>
-                                                                        <option value="Italy"> Italy </option>
-                                                                        <option value="Ivory Coast"> Ivory Coast </option>
-                                                                        <option value="Jamaica"> Jamaica </option>
-                                                                        <option value="Japan"> Japan </option>
-                                                                        <option value="Jordan"> Jordan </option>
-                                                                        <option value="Kazakhstan"> Kazakhstan </option>
-                                                                        <option value="Kenya"> Kenya </option>
-                                                                        <option value="Kiribati"> Kiribati </option>
-                                                                        <option value="Kuwait"> Kuwait </option>
-                                                                        <option value="Kyrgyzstan"> Kyrgyzstan </option>
-                                                                        <option value="Laos"> Laos </option>
-                                                                        <option value="Latvia"> Latvia </option>
-                                                                        <option value="Lebanon"> Lebanon </option>
-                                                                        <option value="Lesotho"> Lesotho </option>
-                                                                        <option value="Liberia"> Liberia </option>
-                                                                        <option value="Libya"> Libya </option>
-                                                                        <option value="Liechtenstein"> Liechtenstein </option>
-                                                                        <option value="Lithuania"> Lithuania </option>
-                                                                        <option value="Luxembourg"> Luxembourg </option>
-                                                                        <option value="Macedonia"> Macedonia </option>
-                                                                        <option value="Madagascar"> Madagascar </option>
-                                                                        <option value="Malawi"> Malawi </option>
-                                                                        <option value="Malaysia"> Malaysia </option>
-                                                                        <option value="Maldives"> Maldives </option>
-                                                                        <option value="Mali"> Mali </option>
-                                                                        <option value="Malta"> Malta </option>
-                                                                        <option value="Marshall Islands"> Marshall Islands </option>
-                                                                        <option value="Mauritania"> Mauritania </option>
-                                                                        <option value="Mauritius"> Mauritius </option>
-                                                                        <option value="Mexico"> Mexico </option>
-                                                                        <option value="Micronesia (Federated States of)"> Micronesia (Federated States of) </option>
-                                                                        <option value="Moldova"> Moldova </option>
-                                                                        <option value="Monaco"> Monaco </option>
-                                                                        <option value="Mongolia"> Mongolia </option>
-                                                                        <option value="Montenegro"> Montenegro </option>
-                                                                        <option value="Morocco"> Morocco </option>
-                                                                        <option value="Mozambique"> Mozambique </option>
-                                                                        <option value="Myanmar"> Myanmar </option>
-                                                                        <option value="Namibia"> Namibia </option>
-                                                                        <option value="Nauru"> Nauru </option>
-                                                                        <option value="Nepal"> Nepal </option>
-                                                                        <option value="Netherlands"> Netherlands </option>
-                                                                        <option value="New Zealand"> New Zealand </option>
-                                                                        <option value="Nicaragua"> Nicaragua </option>
-                                                                        <option value="Niger"> Niger </option>
-                                                                        <option value="Nigeria"> Nigeria </option>
-                                                                        <option value="North Korea"> North Korea </option>
-                                                                        <option value="North Macedonia"> North Macedonia </option>
-                                                                        <option value="Norway"> Norway </option>
-                                                                        <option value="Oman"> Oman </option>
-                                                                        <option value="Pakistan"> Pakistan </option>
-                                                                        <option value="Palau"> Palau </option>
-                                                                        <option value="Palestine"> Palestine </option>
-                                                                        <option value="Panama"> Panama </option>
-                                                                        <option value="Papua New Guinea"> Papua New Guinea </option>
-                                                                        <option value="Paraguay"> Paraguay </option>
-                                                                        <option value="Peru"> Peru </option>
-                                                                        <option value="Philippines"> Philippines </option>
-                                                                        <option value="Poland"> Poland </option>
-                                                                        <option value="Portugal"> Portugal </option>
-                                                                        <option value="Qatar"> Qatar </option>
-                                                                        <option value="Republic of Korea (South Korea)"> Republic of Korea (South Korea) </option>
-                                                                        <option value="Romania"> Romania </option>
-                                                                        <option value="Russia"> Russia </option>
-                                                                        <option value="Rwanda"> Rwanda </option>
-                                                                        <option value="Saint Kitts and Nevis"> Saint Kitts and Nevis </option>
-                                                                        <option value="Saint Lucia"> Saint Lucia </option>
-                                                                        <option value="Saint Vincent and the Grenadines"> Saint Vincent and the Grenadines </option>
-                                                                        <option value="Samoa"> Samoa </option>
-                                                                        <option value="San Marino"> San Marino </option>
-                                                                        <option value="São Tomé and Príncipe"> São Tomé and Príncipe </option>
-                                                                        <option value="Saudi Arabia"> Saudi Arabia </option>
-                                                                        <option value="Senegal"> Senegal </option>
-                                                                        <option value="Serbia"> Serbia </option>
-                                                                        <option value="Seychelles"> Seychelles </option>
-                                                                        <option value="Sierra Leone"> Sierra Leone </option>
-                                                                        <option value="Singapore"> Singapore </option>
-                                                                        <option value="Slovakia"> Slovakia </option>
-                                                                        <option value="Slovenia"> Slovenia </option>
-                                                                        <option value="Solomon Islands"> Solomon Islands </option>
-                                                                        <option value="Somalia"> Somalia </option>
-                                                                        <option value="South Africa"> South Africa </option>
-                                                                        <option value="South Korea"> South Korea </option>
-                                                                        <option value="South &lrm;Sudan"> South &lrm;Sudan </option>
-                                                                        <option value="Spain"> Spain </option>
-                                                                        <option value="Sri Lanka"> Sri Lanka </option>
-                                                                        <option value="Sudan"> Sudan </option>
-                                                                        <option value="Suriname"> Suriname </option>
-                                                                        <option value="Swaziland"> Swaziland </option>
-                                                                        <option value="Sweden"> Sweden </option>
-                                                                        <option value="Switzerland"> Switzerland </option>
-                                                                        <option value="Syria"> Syria </option>
-                                                                        <option value="Tajikistan"> Tajikistan </option>
-                                                                        <option value="Tanzania"> Tanzania </option>
-                                                                        <option value="Thailand"> Thailand </option>
-                                                                        <option value="Timor-Leste"> Timor-Leste </option>
-                                                                        <option value="Togo"> Togo </option>
-                                                                        <option value="Tonga"> Tonga </option>
-                                                                        <option value="Trinidad and Tobago"> Trinidad and Tobago </option>
-                                                                        <option value="Tunisia"> Tunisia </option>
-                                                                        <option value="Turkey"> Turkey </option>
-                                                                        <option value="Turkmenistan"> Turkmenistan </option>
-                                                                        <option value="Tuvalu"> Tuvalu </option>
-                                                                        <option value="Uganda"> Uganda </option>
-                                                                        <option value="Ukraine"> Ukraine </option>
-                                                                        <option value="United Arab Emirates"> United Arab Emirates </option>
-                                                                        <option value="United Kingdom"> United Kingdom </option>
-                                                                        <option value="United States of America"> United States of America </option>
-                                                                        <option value="Uruguay"> Uruguay </option>
-                                                                        <option value="Uzbekistan"> Uzbekistan </option>
-                                                                        <option value="Vanuatu"> Vanuatu </option>
-                                                                        <option value="Venezuela"> Venezuela </option>
-                                                                        <option value="Vietnam"> Vietnam </option>
-                                                                        <option value="Yemen"> Yemen </option>
-                                                                        <option value="Zambia"> Zambia </option>
-                                                                        <option value="Zimbabwe"> Zimbabwe </option>
+                                                                        <option value="United States of America"> <?= $content['HomePage'][15]?> </option>
+                                                                        <option value="Canada"> <?= $content['HomePage'][16]?> </option>
+                                                                        <option value="United Kingdom"> <?= $content['HomePage'][17]?> </option>
+                                                                        <option value="Australia"> <?= $content['HomePage'][18]?> </option>
+                                                                        <option value="Afghanistan"> <?= $content['HomePage'][19]?> </option>
+                                                                        <option value="Albania"> <?= $content['HomePage'][20]?> </option>
+                                                                        <option value="Algeria"> <?= $content['HomePage'][21]?> </option>
+                                                                        <option value="Andorra"> <?= $content['HomePage'][22]?> </option>
+                                                                        <option value="Angola"> <?= $content['HomePage'][23]?> </option>
+                                                                        <option value="Antigua and Barbuda"> <?= $content['HomePage'][24]?> </option>
+                                                                        <option value="Argentina"> <?= $content['HomePage'][25]?> </option>
+                                                                        <option value="Armenia"> <?= $content['HomePage'][26]?> </option>
+                                                                        <option value="Australia"> <?= $content['HomePage'][27]?> </option>
+                                                                        <option value="Austria"> <?= $content['HomePage'][28]?> </option>
+                                                                        <option value="Azerbaijan"> <?= $content['HomePage'][29]?> </option>
+                                                                        <option value="Bahamas"> <?= $content['HomePage'][30]?> </option>
+                                                                        <option value="Bahrain"> <?= $content['HomePage'][31]?> </option>
+                                                                        <option value="Bangladesh"> <?= $content['HomePage'][32]?> </option>
+                                                                        <option value="Barbados"> <?= $content['HomePage'][33]?> </option>
+                                                                        <option value="Belarus"> <?= $content['HomePage'][34]?> </option>
+                                                                        <option value="Belgium"> <?= $content['HomePage'][35]?> </option>
+                                                                        <option value="Belize"> <?= $content['HomePage'][36]?> </option>
+                                                                        <option value="Benin"> <?= $content['HomePage'][37]?> </option>
+                                                                        <option value="Bhutan"> <?= $content['HomePage'][38]?> </option>
+                                                                        <option value="Bolivia"> <?= $content['HomePage'][39]?> </option>
+                                                                        <option value="Bosnia and Herzegovina"><?= $content['HomePage'][40]?> </option>
+                                                                        <option value="Botswana"> <?= $content['HomePage'][41]?> </option>
+                                                                        <option value="Brazil"> <?= $content['HomePage'][42]?> </option>
+                                                                        <option value="Brunei Darussalam"> <?= $content['HomePage'][43]?> </option>
+                                                                        <option value="Bulgaria"> <?= $content['HomePage'][44]?> </option>
+                                                                        <option value="Burkina Faso"> <?= $content['HomePage'][45]?> </option>
+                                                                        <option value="Burundi"> <?= $content['HomePage'][46]?> </option>
+                                                                        <option value="Cabo Verde"> <?= $content['HomePage'][47]?> </option>
+                                                                        <option value="Cambodia"> <?= $content['HomePage'][48]?> </option>
+                                                                        <option value="Cameroon"> <?= $content['HomePage'][49]?> </option>
+                                                                        <option value="Canada"> <?= $content['HomePage'][50]?> </option>
+                                                                        <option value="Central African Republic"> <?= $content['HomePage'][51]?> </option>
+                                                                        <option value="Chad"> <?= $content['HomePage'][52]?> </option>
+                                                                        <option value="Chile"> <?= $content['HomePage'][53]?> </option>
+                                                                        <option value="China"> <?= $content['HomePage'][54]?> </option>
+                                                                        <option value="Colombia"> <?= $content['HomePage'][55]?> </option>
+                                                                        <option value="Comoros"> <?= $content['HomePage'][56]?> </option>
+                                                                        <option value="Congo"> <?= $content['HomePage'][57]?> </option>
+                                                                        <option value="Costa Rica"> <?= $content['HomePage'][58]?> </option>
+                                                                        <option value="Côte D'Ivoire (Ivory Coast)"> <?= $content['HomePage'][59]?> </option>
+                                                                        <option value="Croatia"> <?= $content['HomePage'][60]?> </option>
+                                                                        <option value="Cuba"> <?= $content['HomePage'][61]?> </option>
+                                                                        <option value="Cyprus"> <?= $content['HomePage'][62]?> </option>
+                                                                        <option value="Czech Republic (Czechia)"> <?= $content['HomePage'][63]?> </option>
+                                                                        <option value="Democratic People's Republic of Korea (North Korea)"> <?= $content['HomePage'][64]?> </option>
+                                                                        <option value="Democratic Republic of the Congo"> <?= $content['HomePage'][65]?> </option>
+                                                                        <option value="Denmark"> <?= $content['HomePage'][66]?> </option>
+                                                                        <option value="Djibouti"> <?= $content['HomePage'][67]?> </option>
+                                                                        <option value="Dominica"> <?= $content['HomePage'][68]?> </option>
+                                                                        <option value="Dominican Republic"> <?= $content['HomePage'][69]?> </option>
+                                                                        <option value="Ecuador"> <?= $content['HomePage'][70]?> </option>
+                                                                        <option value="Egypt"> <?= $content['HomePage'][71]?> </option>
+                                                                        <option value="El Salvador"><?= $content['HomePage'][72]?> </option>
+                                                                        <option value="Equatorial Guinea"> <?= $content['HomePage'][73]?> </option>
+                                                                        <option value="Eritrea"> <?= $content['HomePage'][74]?> </option>
+                                                                        <option value="Estonia"> <?= $content['HomePage'][75]?> </option>
+                                                                        <option value="Ethiopia"> <?= $content['HomePage'][76]?> </option>
+                                                                        <option value="Fiji"> <?= $content['HomePage'][77]?> </option>
+                                                                        <option value="Finland"> <?= $content['HomePage'][78]?> </option>
+                                                                        <option value="France"> <?= $content['HomePage'][79]?> </option>
+                                                                        <option value="Gabon"> <?= $content['HomePage'][80]?> </option>
+                                                                        <option value="Gambia"> <?= $content['HomePage'][81]?> </option>
+                                                                        <option value="Georgia"><?= $content['HomePage'][82]?> </option>
+                                                                        <option value="Germany"> <?= $content['HomePage'][83]?> </option>
+                                                                        <option value="Ghana"> <?= $content['HomePage'][84]?> </option>
+                                                                        <option value="Greece"> <?= $content['HomePage'][85]?> </option>
+                                                                        <option value="Grenada"> <?= $content['HomePage'][86]?> </option>
+                                                                        <option value="Guatemala"> <?= $content['HomePage'][87]?> </option>
+                                                                        <option value="Guinea"> <?= $content['HomePage'][88]?> </option>
+                                                                        <option value="Guinea Bissau"> <?= $content['HomePage'][89]?> </option>
+                                                                        <option value="Guyana"> <?= $content['HomePage'][90]?> </option>
+                                                                        <option value="Haiti"> <?= $content['HomePage'][91]?> </option>
+                                                                        <option value="Holy See (Vatican City)"> <?= $content['HomePage'][92]?> </option>
+                                                                        <option value="Honduras"> <?= $content['HomePage'][93]?> </option>
+                                                                        <option value="Hungary"> <?= $content['HomePage'][94]?> </option>
+                                                                        <option value="Iceland"> <?= $content['HomePage'][95]?> </option>
+                                                                        <option value="India"> <?= $content['HomePage'][96]?> </option>
+                                                                        <option value="Indonesia"> <?= $content['HomePage'][97]?> </option>
+                                                                        <option value="Iran"><?= $content['HomePage'][98]?> </option>
+                                                                        <option value="Iraq"> <?= $content['HomePage'][99]?> </option>
+                                                                        <option value="Ireland"> <?= $content['HomePage'][100]?> </option>
+                                                                        <option value="Israel"> <?= $content['HomePage'][101]?> </option>
+                                                                        <option value="Italy"> <?= $content['HomePage'][102]?> </option>
+                                                                        <option value="Ivory Coast"> <?= $content['HomePage'][103]?> </option>
+                                                                        <option value="Jamaica"> <?= $content['HomePage'][104]?> </option>
+                                                                        <option value="Japan"> <?= $content['HomePage'][105]?> </option>
+                                                                        <option value="Jordan"> <?= $content['HomePage'][106]?> </option>
+                                                                        <option value="Kazakhstan"> <?= $content['HomePage'][107]?> </option>
+                                                                        <option value="Kenya"> <?= $content['HomePage'][108]?> </option>
+                                                                        <option value="Kiribati"> <?= $content['HomePage'][109]?> </option>
+                                                                        <option value="Kuwait"> <?= $content['HomePage'][110]?> </option>
+                                                                        <option value="Kyrgyzstan"> <?= $content['HomePage'][111]?> </option>
+                                                                        <option value="Laos"> <?= $content['HomePage'][112]?> </option>
+                                                                        <option value="Latvia"> <?= $content['HomePage'][113]?> </option>
+                                                                        <option value="Lebanon"> <?= $content['HomePage'][114]?> </option>
+                                                                        <option value="Lesotho"> <?= $content['HomePage'][115]?> </option>
+                                                                        <option value="Liberia"> <?= $content['HomePage'][116]?> </option>
+                                                                        <option value="Libya"> <?= $content['HomePage'][117]?> </option>
+                                                                        <option value="Liechtenstein"> <?= $content['HomePage'][118]?> </option>
+                                                                        <option value="Lithuania"> <?= $content['HomePage'][119]?> </option>
+                                                                        <option value="Luxembourg"> <?= $content['HomePage'][120]?> </option>
+                                                                        <option value="Macedonia"> <?= $content['HomePage'][121]?> </option>
+                                                                        <option value="Madagascar"> <?= $content['HomePage'][122]?> </option>
+                                                                        <option value="Malawi"> <?= $content['HomePage'][123]?> </option>
+                                                                        <option value="Malaysia"> <?= $content['HomePage'][124]?> </option>
+                                                                        <option value="Maldives"> <?= $content['HomePage'][125]?> </option>
+                                                                        <option value="Mali"> <?= $content['HomePage'][126]?> </option>
+                                                                        <option value="Malta"> <?= $content['HomePage'][127]?> </option>
+                                                                        <option value="Marshall Islands"> <?= $content['HomePage'][128]?> </option>
+                                                                        <option value="Mauritania"> <?= $content['HomePage'][129]?> </option>
+                                                                        <option value="Mauritius"> <?= $content['HomePage'][130]?> </option>
+                                                                        <option value="Mexico"> <?= $content['HomePage'][131]?> </option>
+                                                                        <option value="Micronesia (Federated States of)"> <?= $content['HomePage'][132]?> </option>
+                                                                        <option value="Moldova"> <?= $content['HomePage'][133]?></option>
+                                                                        <option value="Monaco">  <?= $content['HomePage'][134]?></option>
+                                                                        <option value="Mongolia"> <?= $content['HomePage'][135]?> </option>
+                                                                        <option value="Montenegro">  <?= $content['HomePage'][136]?> </option>
+                                                                        <option value="Morocco">  <?= $content['HomePage'][137]?> </option>
+                                                                        <option value="Mozambique">  <?= $content['HomePage'][138]?> </option>
+                                                                        <option value="Myanmar">  <?= $content['HomePage'][139]?> </option>
+                                                                        <option value="Namibia">  <?= $content['HomePage'][140]?> </option>
+                                                                        <option value="Nauru">  <?= $content['HomePage'][141]?> </option>
+                                                                        <option value="Nepal">  <?= $content['HomePage'][142]?> </option>
+                                                                        <option value="Netherlands">  <?= $content['HomePage'][143]?> </option>
+                                                                        <option value="New Zealand">  <?= $content['HomePage'][144]?> </option>
+                                                                        <option value="Nicaragua">  <?= $content['HomePage'][145]?> </option>
+                                                                        <option value="Niger">  <?= $content['HomePage'][146]?> </option>
+                                                                        <option value="Nigeria"> <?= $content['HomePage'][147]?> </option>
+                                                                        <option value="North Korea">  <?= $content['HomePage'][148]?> </option>
+                                                                        <option value="North Macedonia">  <?= $content['HomePage'][149]?> </option>
+                                                                        <option value="Norway">  <?= $content['HomePage'][150]?> </option>
+                                                                        <option value="Oman"> <?= $content['HomePage'][151]?> </option>
+                                                                        <option value="Pakistan"> <?= $content['HomePage'][152]?> </option>
+                                                                        <option value="Palau"> <?= $content['HomePage'][153]?> </option>
+                                                                        <option value="Palestine"> <?= $content['HomePage'][154]?> </option>
+                                                                        <option value="Panama"> <?= $content['HomePage'][155]?> </option>
+                                                                        <option value="Papua New Guinea"> <?= $content['HomePage'][156]?> </option>
+                                                                        <option value="Paraguay"> <?= $content['HomePage'][157]?> </option>
+                                                                        <option value="Peru"> <?= $content['HomePage'][158]?> </option>
+                                                                        <option value="Philippines"> <?= $content['HomePage'][159]?> </option>
+                                                                        <option value="Poland"> <?= $content['HomePage'][160]?> </option>
+                                                                        <option value="Portugal"> <?= $content['HomePage'][161]?> </option>
+                                                                        <option value="Qatar"> <?= $content['HomePage'][162]?> </option>
+                                                                        <option value="Republic of Korea (South Korea)"> <?= $content['HomePage'][163]?> </option>
+                                                                        <option value="Romania"><?= $content['HomePage'][164]?> </option>
+                                                                        <option value="Russia"> <?= $content['HomePage'][165]?> </option>
+                                                                        <option value="Rwanda"> <?= $content['HomePage'][166]?> </option>
+                                                                        <option value="Saint Kitts and Nevis"> <?= $content['HomePage'][167]?> </option>
+                                                                        <option value="Saint Lucia"> <?= $content['HomePage'][168]?> </option>
+                                                                        <option value="Saint Vincent and the Grenadines"> <?= $content['HomePage'][169]?> </option>
+                                                                        <option value="Samoa"> <?= $content['HomePage'][170]?> </option>
+                                                                        <option value="San Marino"> <?= $content['HomePage'][171]?> </option>
+                                                                        <option value="São Tomé and Príncipe"> <?= $content['HomePage'][172]?> </option>
+                                                                        <option value="Saudi Arabia"> <?= $content['HomePage'][173]?> </option>
+                                                                        <option value="Senegal"> <?= $content['HomePage'][174]?> </option>
+                                                                        <option value="Serbia"> <?= $content['HomePage'][175]?> </option>
+                                                                        <option value="Seychelles"> <?= $content['HomePage'][176]?> </option>
+                                                                        <option value="Sierra Leone"> <?= $content['HomePage'][177]?> </option>
+                                                                        <option value="Singapore"> <?= $content['HomePage'][178]?> </option>
+                                                                        <option value="Slovakia"> <?= $content['HomePage'][179]?> </option>
+                                                                        <option value="Slovenia"> <?= $content['HomePage'][180]?> </option>
+                                                                        <option value="Solomon Islands"> <?= $content['HomePage'][181]?></option>
+                                                                        <option value="Somalia"> <?= $content['HomePage'][182]?> </option>
+                                                                        <option value="South Africa"> <?= $content['HomePage'][183]?> </option>
+                                                                        <option value="South Korea"> <?= $content['HomePage'][184]?> </option>
+                                                                        <option value="South &lrm;Sudan"> <?= $content['HomePage'][185]?></option>
+                                                                        <option value="Spain"> <?= $content['HomePage'][186]?> </option>
+                                                                        <option value="Sri Lanka"> <?= $content['HomePage'][187]?> </option>
+                                                                        <option value="Sudan"> <?= $content['HomePage'][188]?> </option>
+                                                                        <option value="Suriname"> <?= $content['HomePage'][189]?> </option>
+                                                                        <option value="Swaziland"> <?= $content['HomePage'][190]?> </option>
+                                                                        <option value="Sweden"> <?= $content['HomePage'][191]?> </option>
+                                                                        <option value="Switzerland"> <?= $content['HomePage'][192]?> </option>
+                                                                        <option value="Syria"> <?= $content['HomePage'][193]?> </option>
+                                                                        <option value="Tajikistan"> <?= $content['HomePage'][194]?> </option>
+                                                                        <option value="Tanzania"><?= $content['HomePage'][195]?> </option>
+                                                                        <option value="Thailand"><?= $content['HomePage'][196]?> </option>
+                                                                        <option value="Timor-Leste"> <?= $content['HomePage'][197]?> </option>
+                                                                        <option value="Togo"> <?= $content['HomePage'][198]?> </option>
+                                                                        <option value="Tonga"><?= $content['HomePage'][199]?> </option>
+                                                                        <option value="Trinidad and Tobago"><?= $content['HomePage'][200]?> </option>
+                                                                        <option value="Tunisia"><?= $content['HomePage'][201]?> </option>
+                                                                        <option value="Turkey"> <?= $content['HomePage'][202]?> </option>
+                                                                        <option value="Turkmenistan"> <?= $content['HomePage'][203]?> </option>
+                                                                        <option value="Tuvalu"> <?= $content['HomePage'][204]?> </option>
+                                                                        <option value="Uganda"> <?= $content['HomePage'][205]?></option>
+                                                                        <option value="Ukraine"> <?= $content['HomePage'][206]?> </option>
+                                                                        <option value="United Arab Emirates"> <?= $content['HomePage'][207]?> </option>
+                                                                        <option value="United Kingdom"> <?= $content['HomePage'][208]?> </option>
+                                                                        <option value="United States of America"> <?= $content['HomePage'][209]?> </option>
+                                                                        <option value="Uruguay"> <?= $content['HomePage'][210]?> </option>
+                                                                        <option value="Uzbekistan"> <?= $content['HomePage'][211]?> </option>
+                                                                        <option value="Vanuatu"> <?= $content['HomePage'][212]?> </option>
+                                                                        <option value="Venezuela"> <?= $content['HomePage'][213]?> </option>
+                                                                        <option value="Vietnam"> <?= $content['HomePage'][214]?> </option>
+                                                                        <option value="Yemen"> <?= $content['HomePage'][215]?> </option>
+                                                                        <option value="Zambia"><?= $content['HomePage'][216]?> </option>
+                                                                        <option value="Zimbabwe"> <?= $content['HomePage'][217]?> </option>
                                                                     </select>
                                                                 </div>
                                                             </li>
                                                             <li id="fo104li16" class="notranslate section      ">
                                                                 <section>
-                                                                    <h3 id="title16"> About Your Transcription Needs </h3>
-                                                                    <div id="instruct16">Write "NA" if you don't know. We'll work with you to fill in the details.</div>
+                                                                    <h3 id="title16"> <?= $content['HomePage'][218]?> </h3>
+                                                                    <div id="instruct16"><?= $content['HomePage'][219]?></div>
                                                                 </section>
                                                             </li>
                                                             <li id="fo104li18" class="     ">
                                                                 <fieldset>
                                                                     <!--[if !IE | (gte IE 8)]-->
-                                                                    <legend id="title18" class="desc notranslate"> What do you need help with? <span id="req_18" class="req">*</span>
+                                                                    <legend id="title18" class="desc notranslate"><?= $content['HomePage'][220]?> <span id="req_18" class="req"><?= $content['HomePage'][221]?></span>
                                                                     </legend>
                                                                     <!--[endif]-->
                                                                     <!--[if lt IE 8]>
@@ -602,49 +602,49 @@ font-display: block;
                                                                         <span>
                                                                             <input id="Field18_0" name="Field18" type="radio" class="field radio" value="General/Academic/Business Transcription" tabindex="0" onchange="handleInput(this);" onmouseup="handleInput(this);" required="">
                                                                             <label class="choice" for="Field18_0">
-                                                                                <span class="choice__text notranslate">General/Academic/Business Transcription</span>
+                                                                                <span class="choice__text notranslate"><?= $content['HomePage'][222]?></span>
                                                                                 <span class="choice__qty"></span>
                                                                             </label>
                                                                         </span>
                                                                         <span>
                                                                             <input id="Field18_1" name="Field18" type="radio" class="field radio" value="Legal/Certified Transcription" tabindex="0" onchange="handleInput(this);" onmouseup="handleInput(this);" required="">
                                                                             <label class="choice" for="Field18_1">
-                                                                                <span class="choice__text notranslate">Legal/Certified Transcription</span>
+                                                                                <span class="choice__text notranslate"><?= $content['HomePage'][223]?></span>
                                                                                 <span class="choice__qty"></span>
                                                                             </label>
                                                                         </span>
                                                                         <span>
                                                                             <input id="Field18_2" name="Field18" type="radio" class="field radio" value="Subtitles/Captions" tabindex="0" onchange="handleInput(this);" onmouseup="handleInput(this);" required="">
                                                                             <label class="choice" for="Field18_2">
-                                                                                <span class="choice__text notranslate">Subtitles/Captions</span>
+                                                                                <span class="choice__text notranslate"><?= $content['HomePage'][224]?></span>
                                                                                 <span class="choice__qty"></span>
                                                                             </label>
                                                                         </span>
                                                                         <span>
                                                                             <input id="Field18_3" name="Field18" type="radio" class="field radio" value="Text to Text Transcription" tabindex="0" onchange="handleInput(this);" onmouseup="handleInput(this);" required="">
                                                                             <label class="choice" for="Field18_3">
-                                                                                <span class="choice__text notranslate">Text to Text Transcription</span>
+                                                                                <span class="choice__text notranslate"><?= $content['HomePage'][225]?></span>
                                                                                 <span class="choice__qty"></span>
                                                                             </label>
                                                                         </span>
                                                                         <span>
                                                                             <input id="Field18_4" name="Field18" type="radio" class="field radio" value="Medical Transcription" tabindex="0" onchange="handleInput(this);" onmouseup="handleInput(this);" required="">
                                                                             <label class="choice" for="Field18_4">
-                                                                                <span class="choice__text notranslate">Medical Transcription</span>
+                                                                                <span class="choice__text notranslate"><?= $content['HomePage'][226]?></span>
                                                                                 <span class="choice__qty"></span>
                                                                             </label>
                                                                         </span>
                                                                         <span>
                                                                             <input id="Field18_5" name="Field18" type="radio" class="field radio" value="Nothing; you are applying for a job" tabindex="0" onchange="handleInput(this);" onmouseup="handleInput(this);" required="">
                                                                             <label class="choice" for="Field18_5">
-                                                                                <span class="choice__text notranslate">Nothing; you are applying for a job</span>
+                                                                                <span class="choice__text notranslate"><?= $content['HomePage'][227]?></span>
                                                                                 <span class="choice__qty"></span>
                                                                             </label>
                                                                         </span>
                                                                         <span>
                                                                             <input id="Field18_6" name="Field18" type="radio" class="field radio" value="Other; please tell us below" tabindex="0" onchange="handleInput(this);" onmouseup="handleInput(this);" required="">
                                                                             <label class="choice" for="Field18_6">
-                                                                                <span class="choice__text notranslate">Other; please tell us below</span>
+                                                                                <span class="choice__text notranslate"><?= $content['HomePage'][228]?></span>
                                                                                 <span class="choice__qty"></span>
                                                                             </label>
                                                                         </span>
@@ -652,31 +652,31 @@ font-display: block;
                                                                 </fieldset>
                                                             </li>
                                                             <li id="fo104li22" data-wufoo-field="" data-field-type="text" class="notranslate      ">
-                                                                <label class="desc" id="title22" for="Field22"> How many audio hours do you need transcribed? </label>
+                                                                <label class="desc" id="title22" for="Field22"> <?= $content['HomePage'][229]?> </label>
                                                                 <div>
                                                                     <input id="Field22" name="Field22" type="text" class="field text medium" value="" maxlength="255" tabindex="0" onkeyup="handleInput(this); " onchange="handleInput(this);" placeholder="">
                                                                 </div>
                                                             </li>
                                                             <li id="fo104li23" data-wufoo-field="" data-field-type="text" class="notranslate      ">
-                                                                <label class="desc" id="title23" for="Field23"> What language(s) is your audio in now? </label>
+                                                                <label class="desc" id="title23" for="Field23"> <?= $content['HomePage'][230]?> </label>
                                                                 <div>
                                                                     <input id="Field23" name="Field23" type="text" class="field text medium" value="" maxlength="255" tabindex="0" onkeyup="handleInput(this); " onchange="handleInput(this);" placeholder="">
                                                                 </div>
                                                             </li>
                                                             <li id="fo104li24" data-wufoo-field="" data-field-type="text" class="notranslate      ">
-                                                                <label class="desc" id="title24" for="Field24"> What language do you want your audio file to be transcribed into? </label>
+                                                                <label class="desc" id="title24" for="Field24"><?= $content['HomePage'][231]?></label>
                                                                 <div>
                                                                     <input id="Field24" name="Field24" type="text" class="field text medium" value="" maxlength="255" tabindex="0" onkeyup="handleInput(this); " onchange="handleInput(this);" placeholder="">
                                                                 </div>
                                                             </li>
                                                             <li id="fo104li20" class="notranslate      ">
-                                                                <label class="desc" id="title20" for="Field20"> Do you have any questions or notes to provide? </label>
+                                                                <label class="desc" id="title20" for="Field20"> <?= $content['HomePage'][232]?> </label>
                                                                 <div>
                                                                     <textarea id="Field20" name="Field20" class="field textarea small" spellcheck="true" rows="10" cols="50" tabindex="0" onkeyup="handleInput(this); " onchange="handleInput(this);" placeholder=""></textarea>
                                                                 </div>
                                                             </li>
                                                             <li id="fo104li26" data-wufoo-field="" data-field-type="text" class="notranslate      ">
-                                                                <label class="desc" id="title26" for="Field26"> How did you hear about us? <span id="req_26" class="req">*</span>
+                                                                <label class="desc" id="title26" for="Field26"> <?= $content['HomePage'][233]?> <span id="req_26" class="req">*</span>
                                                                 </label>
                                                                 <div>
                                                                     <input id="Field26" name="Field26" type="text" class="field text large" value="" maxlength="255" tabindex="0" onkeyup="handleInput(this); " onchange="handleInput(this);" required="" placeholder="">
@@ -689,7 +689,7 @@ font-display: block;
                                                                 </div>
                                                             </li>
                                                             <li class="hide">
-                                                                <label for="comment">Do Not Fill This Out</label>
+                                                                <label for="comment"><?= $content['HomePage'][234]?></label>
                                                                 <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
                                                                 <input type="hidden" id="idstamp" name="idstamp" value="LbSCyX6LS4K8T/m+9M+psw==">
                                                                 <input type="hidden" id="encryptedPassword" name="encryptedPassword" value="">
@@ -702,7 +702,7 @@ font-display: block;
                                             </div>
                                             <div id="comp-lnadoxqr" class="KcpHeO tz5f0K comp-lnadoxqr wixui-rich-text" data-testid="richTextElement">
                                                 <h2 class="font_2 wixui-rich-text__text" style="line-height:normal; text-align:center; font-size:35px;">
-                                                    <span style="letter-spacing:normal;" class="wixui-rich-text__text">Join the Ranks of Our Great Clients</span>
+                                                    <span style="letter-spacing:normal;" class="wixui-rich-text__text"><?= $content['HomePage'][235]?></span>
                                                 </h2>
                                             </div>
                                             <div id="comp-lnadoxqx" class="comp-lnadoxqx SPY_vo">
@@ -711,168 +711,168 @@ font-display: block;
                                                         <div id="comp-lnadoxru" class="MazNVa comp-lnadoxru wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxru" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxru&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_07adf05fb54148baa746faccf827b853~mv2.jpg&quot;,&quot;name&quot;:&quot;1 - Office of the Vice President.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_07adf05fb54148baa746faccf827b853~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1%20-%20Office%20of%20the%20Vice%20President.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_07adf05fb54148baa746faccf827b853~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1%20-%20Office%20of%20the%20Vice%20President.jpg" alt="Office of the Vice President" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][1]?>" alt="Office of the Vice President" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxrz4" class="MazNVa comp-lnadoxrz4 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxrz4" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxrz4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_d470d5b6716c4c99ba0a31433dba507e~mv2.jpg&quot;,&quot;name&quot;:&quot;2 - Health and Human Resources.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_d470d5b6716c4c99ba0a31433dba507e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2%20-%20Health%20and%20Human%20Resources.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_d470d5b6716c4c99ba0a31433dba507e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/2%20-%20Health%20and%20Human%20Resources.jpg" alt="Department of Health and Human Services USA" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][2]?>" alt="Department of Health and Human Services USA" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxs04" class="MazNVa comp-lnadoxs04 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxs04" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxs04&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_936625b879f346738226ef798e671182~mv2.jpg&quot;,&quot;name&quot;:&quot;3 - National Park Service.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_936625b879f346738226ef798e671182~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3%20-%20National%20Park%20Service.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_936625b879f346738226ef798e671182~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3%20-%20National%20Park%20Service.jpg" alt="National Park Service" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][3]?>" alt="National Park Service" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxs14" class="MazNVa comp-lnadoxs14 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxs14" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxs14&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_cd8515c5cf524aacbac381c7ca34a73e~mv2.jpg&quot;,&quot;name&quot;:&quot;4 - CNET.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_cd8515c5cf524aacbac381c7ca34a73e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4%20-%20CNET.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_cd8515c5cf524aacbac381c7ca34a73e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/4%20-%20CNET.jpg" alt="CNET" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][4]?>" alt="CNET" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxs3" class="MazNVa comp-lnadoxs3 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxs3" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxs3&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_c532ccb1100445b48695e1328c23319e~mv2.jpg&quot;,&quot;name&quot;:&quot;5 - KPMG.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_c532ccb1100445b48695e1328c23319e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5%20-%20KPMG.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_c532ccb1100445b48695e1328c23319e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5%20-%20KPMG.jpg" alt="KPMG" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][5]?>" alt="KPMG" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxs4" class="MazNVa comp-lnadoxs4 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxs4" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxs4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_9fd3509ad035414e9fcbadbbf78f6a11~mv2.jpg&quot;,&quot;name&quot;:&quot;6 - University of Chicago.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_9fd3509ad035414e9fcbadbbf78f6a11~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6%20-%20University%20of%20Chicago.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_9fd3509ad035414e9fcbadbbf78f6a11~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/6%20-%20University%20of%20Chicago.jpg" alt="University of Chicago" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][6]?>" alt="University of Chicago" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxs5" class="MazNVa comp-lnadoxs5 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxs5" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxs5&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_7869c43c7d7b420eadd0b42ba119e47b~mv2.jpg&quot;,&quot;name&quot;:&quot;7 - Berkeley.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_7869c43c7d7b420eadd0b42ba119e47b~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7%20-%20Berkeley.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_7869c43c7d7b420eadd0b42ba119e47b~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/7%20-%20Berkeley.jpg" alt="Berkeley" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][7]?>" alt="Berkeley" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxs61" class="MazNVa comp-lnadoxs61 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxs61" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxs61&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_b973a6b9c12c4a4ab48687c58e262c75~mv2.jpg&quot;,&quot;name&quot;:&quot;8 - NIKKEI.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_b973a6b9c12c4a4ab48687c58e262c75~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8%20-%20NIKKEI.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_b973a6b9c12c4a4ab48687c58e262c75~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/8%20-%20NIKKEI.jpg" alt="NIKKEI" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][8]?>" alt="NIKKEI" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxs71" class="MazNVa comp-lnadoxs71 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxs71" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxs71&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_5094c09e42794f5bba3f7644f682a659~mv2.jpg&quot;,&quot;name&quot;:&quot;9 - University of Toronto.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_5094c09e42794f5bba3f7644f682a659~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9%20-%20University%20of%20Toronto.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_5094c09e42794f5bba3f7644f682a659~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/9%20-%20University%20of%20Toronto.jpg" alt="University of Toronto" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][9]?>" alt="University of Toronto" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxs81" class="MazNVa comp-lnadoxs81 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxs81" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxs81&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_665e223c2c88452bb9a09cd5340117b9~mv2.jpg&quot;,&quot;name&quot;:&quot;10 - George Mason University.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_665e223c2c88452bb9a09cd5340117b9~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/10%20-%20George%20Mason%20University.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_665e223c2c88452bb9a09cd5340117b9~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/10%20-%20George%20Mason%20University.jpg" alt="George Mason University" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][10]?>" alt="George Mason University" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxs91" class="MazNVa comp-lnadoxs91 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxs91" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxs91&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_9643ec82927b4a1592b2a2c46ed57b53~mv2.jpg&quot;,&quot;name&quot;:&quot;11 - Rypple.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_9643ec82927b4a1592b2a2c46ed57b53~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11%20-%20Rypple.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_9643ec82927b4a1592b2a2c46ed57b53~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/11%20-%20Rypple.jpg" alt="Rypple" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][11]?>" alt="Rypple" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsb3" class="MazNVa comp-lnadoxsb3 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsb3" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsb3&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_4c3f1fdf92f0451896d38a58e3a2e5c3~mv2.jpg&quot;,&quot;name&quot;:&quot;12 - Childrens Mercy Hospitals and Clini&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_4c3f1fdf92f0451896d38a58e3a2e5c3~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/12%20-%20Childrens%20Mercy%20Hospitals%20and%20Clini.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_4c3f1fdf92f0451896d38a58e3a2e5c3~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/12%20-%20Childrens%20Mercy%20Hospitals%20and%20Clini.jpg" alt="Children's Mercy Hospitals and Clinics" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][12]?>" alt="Children's Mercy Hospitals and Clinics" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsc4" class="MazNVa comp-lnadoxsc4 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsc4" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsc4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_8c875693c0a74b32975c44e244acc87e~mv2.jpg&quot;,&quot;name&quot;:&quot;13 - Stockholm University.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_8c875693c0a74b32975c44e244acc87e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/13%20-%20Stockholm%20University.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_8c875693c0a74b32975c44e244acc87e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/13%20-%20Stockholm%20University.jpg" alt="Stockholm University" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][13]?>" alt="Stockholm University" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsd4" class="MazNVa comp-lnadoxsd4 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsd4" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsd4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_a22a91b59b1f4ba593889b2f995ba9e5~mv2.jpg&quot;,&quot;name&quot;:&quot;14 - Uni Basel.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_a22a91b59b1f4ba593889b2f995ba9e5~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/14%20-%20Uni%20Basel.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_a22a91b59b1f4ba593889b2f995ba9e5~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/14%20-%20Uni%20Basel.jpg" alt="Uni Basel" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][14]?>" alt="Uni Basel" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxse4" class="MazNVa comp-lnadoxse4 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxse4" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxse4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_5dcaddcc2e124101a5a6b537a5633e07~mv2.jpg&quot;,&quot;name&quot;:&quot;15 - Gwinnett County Public Schools.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_5dcaddcc2e124101a5a6b537a5633e07~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/15%20-%20Gwinnett%20County%20Public%20Schools.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_5dcaddcc2e124101a5a6b537a5633e07~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/15%20-%20Gwinnett%20County%20Public%20Schools.jpg" alt="Gwinnett County Public Schools" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][15]?>" alt="Gwinnett County Public Schools" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsf4" class="MazNVa comp-lnadoxsf4 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsf4" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsf4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_0748aebf256649eda78eaf0a151ade08~mv2.jpg&quot;,&quot;name&quot;:&quot;16 - RBF Consulting.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_0748aebf256649eda78eaf0a151ade08~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/16%20-%20RBF%20Consulting.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_0748aebf256649eda78eaf0a151ade08~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/16%20-%20RBF%20Consulting.jpg" alt="RBF Consulting" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][16]?>" alt="RBF Consulting" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsg4" class="MazNVa comp-lnadoxsg4 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsg4" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsg4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_a66ff557e0ba4c4ab162cd2f38aae85f~mv2.jpg&quot;,&quot;name&quot;:&quot;17 - Woods Hole Oceanographic Institute.&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_a66ff557e0ba4c4ab162cd2f38aae85f~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/17%20-%20Woods%20Hole%20Oceanographic%20Institute_.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_a66ff557e0ba4c4ab162cd2f38aae85f~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/17%20-%20Woods%20Hole%20Oceanographic%20Institute_.jpg" alt="Woods Hole Oceanographic Institute" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][17]?>" alt="Woods Hole Oceanographic Institute" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsh4" class="MazNVa comp-lnadoxsh4 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsh4" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsh4&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_4e11d4ff2c7d4487b6dc931b8d91e3ae~mv2.jpg&quot;,&quot;name&quot;:&quot;18 - Nuvo.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_4e11d4ff2c7d4487b6dc931b8d91e3ae~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/18%20-%20Nuvo.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_4e11d4ff2c7d4487b6dc931b8d91e3ae~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/18%20-%20Nuvo.jpg" alt="Nuvo" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][18]?>" alt="Nuvo" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsi3" class="MazNVa comp-lnadoxsi3 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsi3" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsi3&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_fb22ee93b4c84d4a96aa0a2d82a61d48~mv2.jpg&quot;,&quot;name&quot;:&quot;19 - Zinch.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_fb22ee93b4c84d4a96aa0a2d82a61d48~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/19%20-%20Zinch.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_fb22ee93b4c84d4a96aa0a2d82a61d48~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/19%20-%20Zinch.jpg" alt="Zinch" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][19]?>" alt="Zinch" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsj2" class="MazNVa comp-lnadoxsj2 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsj2" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsj2&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_4d47affa7b5c46f799898e7691974c2a~mv2.jpg&quot;,&quot;name&quot;:&quot;20 - Insurance Designers.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_4d47affa7b5c46f799898e7691974c2a~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/20%20-%20Insurance%20Designers.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_4d47affa7b5c46f799898e7691974c2a~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/20%20-%20Insurance%20Designers.jpg" alt="Insurance Designers" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][20]?>" alt="Insurance Designers" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsk1" class="MazNVa comp-lnadoxsk1 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsk1" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsk1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_6a30eb23f730485fa4e9a7bcb0205057~mv2.jpg&quot;,&quot;name&quot;:&quot;21 - TV House.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_6a30eb23f730485fa4e9a7bcb0205057~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/21%20-%20TV%20House.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_6a30eb23f730485fa4e9a7bcb0205057~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/21%20-%20TV%20House.jpg" alt="TV House" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][21]?>" alt="TV House" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsl1" class="MazNVa comp-lnadoxsl1 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsl1" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsl1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_a6ae561934644b598aacfab260c5218e~mv2.jpg&quot;,&quot;name&quot;:&quot;22 - MCLE.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_a6ae561934644b598aacfab260c5218e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/22%20-%20MCLE.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_a6ae561934644b598aacfab260c5218e~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/22%20-%20MCLE.jpg" alt="MCLE" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][22]?>" alt="MCLE" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsm1" class="MazNVa comp-lnadoxsm1 wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsm1" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsm1&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_e6d798b0d6c54449aa2c510903fab6d9~mv2.jpg&quot;,&quot;name&quot;:&quot;23 - Language Services.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_e6d798b0d6c54449aa2c510903fab6d9~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/23%20-%20Language%20Services.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_e6d798b0d6c54449aa2c510903fab6d9~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/23%20-%20Language%20Services.jpg" alt="Language Services" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][23]?>" alt="Language Services" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
                                                         <div id="comp-lnadoxsn" class="MazNVa comp-lnadoxsn wixui-image">
                                                             <div data-testid="linkElement" class="j7pOnl">
                                                                 <wow-image id="img_comp-lnadoxsn" class="HlRz5e BI8PVQ" data-image-info="{&quot;containerId&quot;:&quot;comp-lnadoxsn&quot;,&quot;displayMode&quot;:&quot;fill&quot;,&quot;targetWidth&quot;:100,&quot;targetHeight&quot;:100,&quot;isLQIP&quot;:true,&quot;imageData&quot;:{&quot;width&quot;:175,&quot;height&quot;:175,&quot;uri&quot;:&quot;f08888_c12ae0d33a6446e59387cb5fe7c24b42~mv2.jpg&quot;,&quot;name&quot;:&quot;24 - University of California.jpg&quot;,&quot;displayMode&quot;:&quot;fill&quot;}}" data-bg-effect-name="" data-has-ssr-src="" data-src="https://static.wixstatic.com/media/f08888_c12ae0d33a6446e59387cb5fe7c24b42~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/24%20-%20University%20of%20California.jpg">
-                                                                    <img src="https://static.wixstatic.com/media/f08888_c12ae0d33a6446e59387cb5fe7c24b42~mv2.jpg/v1/fill/w_100,h_100,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/24%20-%20University%20of%20California.jpg" alt="University of California" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
+                                                                    <img src="<?= $media['HomePage'][24]?>" alt="University of California" width="100" height="100" style="width: 100px; height: 100px; object-fit: cover; object-position: 50% 50%;" fetchpriority="high">
                                                                 </wow-image>
                                                             </div>
                                                         </div>
@@ -917,13 +917,13 @@ font-display: block;
                                     <p class="font_7 wixui-rich-text__text" style="font-size:16px;">
                                         <span class="color_14 wixui-rich-text__text">
                                             <span style="font-size:16px;" class="wixui-rich-text__text">
-                                                <span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;" class="wixui-rich-text__text">&copy; <?=$ihost?>, LLC |&nbsp;</span>
+                                                <span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;" class="wixui-rich-text__text"><?= $content['HomePage'][236]?> <?=$ihost?><?= $content['HomePage'][237]?> |&nbsp;</span>
                                             </span>
                                         </span>
                                         <a href="<?=$host?>/terms-of-service" target="_self" class="wixui-rich-text__text">
                                             <span class="color_14 wixui-rich-text__text">
                                                 <span style="font-size:16px;" class="wixui-rich-text__text">
-                                                    <span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;" class="wixui-rich-text__text">Terms Of Service</span>
+                                                    <span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;" class="wixui-rich-text__text"><?= $content['HomePage'][238]?></span>
                                                 </span>
                                             </span>
                                         </a>
@@ -935,7 +935,7 @@ font-display: block;
                                         <span class="color_14 wixui-rich-text__text">
                                             <span style="font-size:16px;" class="wixui-rich-text__text">
                                                 <span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;" class="wixui-rich-text__text">
-                                                    <a href="<?=$host?>/privacy-policy" target="_self" class="wixui-rich-text__text">Privacy Policy</a>
+                                                    <a href="<?=$host?>/privacy-policy" target="_self" class="wixui-rich-text__text"><?= $content['HomePage'][239]?></a>
                                                 </span>
                                             </span>
                                         </span>
@@ -948,7 +948,7 @@ font-display: block;
                                         <span class="color_14 wixui-rich-text__text">
                                             <span style="font-size:16px;" class="wixui-rich-text__text">
                                                 <span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;" class="wixui-rich-text__text">
-                                                    <a href="<?=$host?>/refund-policy" target="_self" class="wixui-rich-text__text">Refund policy</a>
+                                                    <a href="<?=$host?>/refund-policy" target="_self" class="wixui-rich-text__text"><?= $content['HomePage'][240]?></a>
                                                 </span>
                                             </span>
                                         </span>
@@ -961,7 +961,7 @@ font-display: block;
                                         <span class="color_14 wixui-rich-text__text">
                                             <span style="font-size:16px;" class="wixui-rich-text__text">
                                                 <span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;" class="wixui-rich-text__text">
-                                                    <a href="<?=$host?>/delivery-policy" target="_self" class="wixui-rich-text__text">delivery policy</a>
+                                                    <a href="<?=$host?>/delivery-policy" target="_self" class="wixui-rich-text__text"><?= $content['HomePage'][241]?></a>
                                                 </span>
                                             </span>
                                         </span>
@@ -974,7 +974,7 @@ font-display: block;
                                         <span class="color_14 wixui-rich-text__text">
                                             <span style="font-size:16px;" class="wixui-rich-text__text">
                                                 <span style="font-family:avenir-lt-w01_35-light1475496,sans-serif;" class="wixui-rich-text__text">
-                                                    <a href="<?=$host?>/about-us" target="_self" class="wixui-rich-text__text">about us</a>
+                                                    <a href="<?=$host?>/about-us" target="_self" class="wixui-rich-text__text"><?= $content['HomePage'][242]?></a>
                                                 </span>
                                             </span>
                                         </span>
@@ -989,7 +989,7 @@ font-display: block;
             </div>
         </div>
         <div id="SCROLL_TO_BOTTOM" class="Vd6aQZ ignore-focus SCROLL_TO_BOTTOM" tabindex="-1" role="region" aria-label="bottom of page">
-            <span class="mHZSwn">bottom of page</span>
+            <span class="mHZSwn"><?= $content['HomePage'][243]?></span>
         </div>
     </div>
 </div>
