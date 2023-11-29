@@ -86,9 +86,9 @@ $content = [
       'Instantly translate your messages and comments into any language',
       'Report export',
       'Basic Social Media ROI',
-      'Simplified Google Analytics reports that highlight how networks and campaigns are contributing to ROI'
-      'Custom Report date range'
-      'Choose a custom date range for your reports'
+      'Simplified Google Analytics reports that highlight how networks and campaigns are contributing to ROI',
+      'Custom Report date range',
+      'Choose a custom date range for your reports',
       'White-label reporting',
       'Add your own logo to your reports',
       'Google Chrome extension',
