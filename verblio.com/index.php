@@ -514,13 +514,13 @@
         /** Mobile BG **/
         
         body.page-id-21620 .mfp-bg {
-            background-image: url(/wp-content/uploads/2021/10/bg-sample-posts-popup-mobile.jpg);
+            background-image: url();
         }
         /** Desktop BG **/
         
         @media(min-width:1024px) {
             body.page-id-21620 .mfp-bg {
-                background-image: url(/wp-content/uploads/2021/10/bg-sample-posts-popup-desktop.jpg);
+                background-image: url();
             }
         }
     </style>
@@ -664,6 +664,18 @@
             white-space: nowrap;
         }
     </style>
+       <style type="text/stylesheet"> 
+     .mfp-bg {  background-image: url($media['HomePage'][0]) !important;
+
+     }
+     .mfp-bg {  background-image: url($media['HomePage'][1]) !important;
+
+}
+     
+
+
+
+     </style>
 </head>
 
 <body class="home page-template-default page page-id-29469 wp-custom-logo fl-builder fl-theme-builder-footer fl-theme-builder-footer-footer fl-theme-builder-header fl-theme-builder-header-header-copy-2 header-full-width full-width-content genesis-title-hidden genesis-breadcrumbs-hidden genesis-footer-widgets-hidden">
@@ -791,7 +803,8 @@
                                         <div class="fl-module-content fl-node-content">
                                             <div class="fl-photo fl-photo-align-left" itemscope itemtype="https://schema.org/ImageObject">
                                                 <div class="fl-photo-content fl-photo-img-png">
-                                                    <a href="/" target="_self" itemprop="url"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-47 size-medium" src="<?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg-500x128.png" alt="verblio-logo_horizontal_RGB_neg" itemprop="image" height="128" width="500" title="verblio-logo_horizontal_RGB_neg" data-no-lazy="1" srcset="<?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg-500x128.png 500w, <?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg-768x196.png 768w, <?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg-600x153.png 600w, <?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg-300x77.png 300w, <?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg.png 885w" sizes="(max-width: 500px) 100vw, 500px" /> </a>
+                                                    <a href="/" target="_self" itemprop="url">
+                                                         <img decoding="async" loading="lazy" class="fl-photo-img wp-image-47 size-medium" src="<?=$host?><?= $media['HomePage'][2]?>" alt="verblio-logo_horizontal_RGB_neg" itemprop="image" height="128" width="500" title="verblio-logo_horizontal_RGB_neg" data-no-lazy="1" srcset="<?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg-500x128.png 500w, <?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg-768x196.png 768w, <?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg-600x153.png 600w, <?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg-300x77.png 300w, <?=$host?>/wp-content/uploads/2018/08/verblio-logo_horizontal_RGB_neg.png 885w" sizes="(max-width: 500px) 100vw, 500px" /> </a>
                                                 </div>
                                             </div>
                                         </div>
@@ -807,7 +820,7 @@
                                         
                                                     <div id="fl-button-group-button-5297uytzjr4w-1" class="fl-button-group-button fl-button-group-button-5297uytzjr4w-1">
                                                         <div class="fl-button-wrap fl-button-width-full fl-button-center">
-                                                            <a href="/contact" target="_self" class="fl-button"> <span class="fl-button-text">Contact</span> </a>
+                                                            <a href="/contact" target="_self" class="fl-button"> <span class="fl-button-text"><?= $contact['HomePage'][0]?></span> </a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -830,10 +843,10 @@
                                                 <div class="fl-clear"></div>
                                                 <nav aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
                                                     <ul id="menu-simplified-menu-live-with-new-app" class="menu fl-menu-horizontal fl-toggle-arrows">
-                                                        <li id="menu-item-29771" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/#features">Features</a></li>
-                                                        <li id="menu-item-29775" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/#pricing">Pricing</a></li>
+                                                        <li id="menu-item-29771" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/#features"><?= $contact['HomePage'][1]?></a></li>
+                                                        <li id="menu-item-29775" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/#pricing"><?= $contact['HomePage'][2]?></a></li>
                                                         
-                                                        <li id="menu-item-29780" class="menu-btn menu-item menu-item-type-custom menu-item-object-custom"><a href="contact">Contact</a>
+                                                        <li id="menu-item-29780" class="menu-btn menu-item menu-item-type-custom menu-item-object-custom"><a href="contact"><?= $contact['HomePage'][3]?></a>
                                                         
                                                         </li>
                                                     </ul>
@@ -867,11 +880,11 @@
                                                                     <div class="fl-module fl-module-rich-text fl-node-pc7eyq1u2kds" data-node="pc7eyq1u2kds">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
-                                                                                <h1><span class="ez-toc-section" id="we-are-content-marketing-enthusiasts"></span>we are content marketing enthusiasts<span class="ez-toc-section-end"></span></h1>
-                                                                                <h1><span class="ez-toc-section" id="you-need-quality-blog-writing-services-to-power-seo"></span>You need Quality blog writing services to power seo<span class="ez-toc-section-end"></span></h1>
+                                                                                <h1><span class="ez-toc-section" id="we-are-content-marketing-enthusiasts"></span><?= $contact['HomePage'][4]?><span class="ez-toc-section-end"></span></h1>
+                                                                                <h1><span class="ez-toc-section" id="you-need-quality-blog-writing-services-to-power-seo"></span><?= $contact['HomePage'][5]?><span class="ez-toc-section-end"></span></h1>
                                                                                 <hr />
-                                                                                <p>Our platform exquisitely combines human and machine to make blog and content creation happen.</p>
-                                                                                <h5>It's awesome. Keep reading.</h5> </div>
+                                                                                <p><?= $contact['HomePage'][6]?></p>
+                                                                                <h5><?= $contact['HomePage'][7]?></h5> </div>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -881,7 +894,7 @@
                                                                     <div class="fl-module fl-module-photo fl-node-4wqdc7pks9xb" data-node="4wqdc7pks9xb">
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-                                                                                <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-7549 size-full" src="<?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x.png" alt="verblio_violet-Artboard 43@2x" itemprop="image" height="866" width="973" title="verblio_violet-Artboard 43@2x" srcset="<?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x.png 973w, <?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x-500x445.png 500w, <?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x-768x684.png 768w, <?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x-600x534.png 600w, <?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x-300x267.png 300w" sizes="(max-width: 973px) 100vw, 973px" /> </div>
+                                                                                <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-7549 size-full" src="<?=$host?><?= $media['HomePage'][3]?>" alt="verblio_violet-Artboard 43@2x" itemprop="image" height="866" width="973" title="verblio_violet-Artboard 43@2x" srcset="<?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x.png 973w, <?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x-500x445.png 500w, <?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x-768x684.png 768w, <?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x-600x534.png 600w, <?=$host?>/wp-content/uploads/2018/09/verblio_violet-Artboard-43@2x-300x267.png 300w" sizes="(max-width: 973px) 100vw, 973px" /> </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -903,8 +916,8 @@
                                                         <div class="fl-module fl-module-rich-text fl-node-xhzalec682rm intro full-size" data-node="xhzalec682rm">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
-                                                                    <h2 style="text-align: center;"><span class="ez-toc-section" id="content-writing-services-for-marketers-and-seos"></span>Content writing services for marketers and seos<span class="ez-toc-section-end"></span></h2>
-                                                                    <p style="text-align: center;">We're not Apple, we're Applebee's. <?=$namehost?>'s blog and content writing service is like a good cheeseburger: appealing to most humans and it gets the job done.</p>
+                                                                    <h2 style="text-align: center;"><span class="ez-toc-section" id="content-writing-services-for-marketers-and-seos"></span><?= $contact['HomePage'][8]?><span class="ez-toc-section-end"></span></h2>
+                                                                    <p style="text-align: center;"><?= $contact['HomePage'][9]?> <?=$namehost?><?= $contact['HomePage'][10]?></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -921,7 +934,7 @@
                                                                         <div class="fl-module-content fl-node-content">
                                                                             <div class="fl-rich-text">
                                                                                 <p><i class="fas fa-check"></i>
-                                                                                    <br /> <span style="font-weight: 400;">Create tons of publish-ready content with the best content writing service. AI makes it faster and cheaper</span>.</p>
+                                                                                    <br /> <span style="font-weight: 400;"><?= $contact['HomePage'][11]?></span>.</p>
                                                                             </div>
                                                                         </div>
                                                                     </div>
@@ -936,7 +949,7 @@
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
                                                                     <p><i class="fas fa-check"></i>
-                                                                        <br /> Get blog posts , articles, web copy, local landing pages , and big content projects.</p>
+                                                                        <br /> <?= $contact['HomePage'][12]?></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -948,7 +961,7 @@
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
                                                                     <p><i class="fas fa-check"></i>
-                                                                        <br /> The best agencies and marketers choose <?=$namehost?> to deliver quality content at scale.</p>
+                                                                        <br /> <?= $contact['HomePage'][13]?> <?=$namehost?> <?= $contact['HomePage'][14]?></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -962,7 +975,7 @@
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
                                                                     <p><i class="fas fa-check"></i>
-                                                                        <br /> Astrology to zoology, we scratch the content niche. Use <?=$namehost?>to create content for yourself or your clients.</p>
+                                                                        <br /> <?= $contact['HomePage'][15]?> <?=$namehost?><?= $contact['HomePage'][16]?></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -974,7 +987,7 @@
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
                                                                     <p><i class="fas fa-check"></i>
-                                                                        <br /> <span style="font-weight: 400;">Need managed service? Our enterprise team "makes problems go away." (Actual client quote)</span></p>
+                                                                        <br /> <span style="font-weight: 400;"><?= $contact['HomePage'][17]?></span></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -986,7 +999,7 @@
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
                                                                     <p><i class="fas fa-check"></i>
-                                                                        <br /> If you prefer a 100% human blog writing service with no AI anywhere in the process, we can do that too.</p>
+                                                                        <br /><?= $contact['HomePage'][18]?></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1010,7 +1023,7 @@
                                                         <div class="fl-module fl-module-photo fl-node-04xl9qito1cs" data-node="04xl9qito1cs">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-                                                                    <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-9157 size-full" src="<?=$host?>/wp-content/uploads/2018/10/verblio_content-creation-2@2x.png" alt="verblio_content-creation-2@2x" itemprop="image" height="865" width="974" title="verblio_content-creation-2@2x" srcset="<?=$host?>/wp-content/uploads/2018/10/verblio_content-creation-2@2x.png 974w, <?=$host?>/wp-content/uploads/2018/10/verblio_content-creation-2@2x-500x444.png 500w, <?=$host?>/wp-content/uploads/2018/10/verblio_content-creation-2@2x-768x682.png 768w" sizes="(max-width: 974px) 100vw, 974px" /> </div>
+                                                                    <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-9157 size-full" src="<?=$host?><?= $media['HomePage'][4]?>" alt="verblio_content-creation-2@2x" itemprop="image" height="865" width="974" title="verblio_content-creation-2@2x" srcset="<?=$host?>/wp-content/uploads/2018/10/verblio_content-creation-2@2x.png 974w, <?=$host?>/wp-content/uploads/2018/10/verblio_content-creation-2@2x-500x444.png 500w, <?=$host?>/wp-content/uploads/2018/10/verblio_content-creation-2@2x-768x682.png 768w" sizes="(max-width: 974px) 100vw, 974px" /> </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1021,9 +1034,9 @@
                                                         <div class="fl-module fl-module-rich-text fl-node-3rndwl7tv14f" data-node="3rndwl7tv14f">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
-                                                                    <h2><span class="ez-toc-section" id="content-creation"></span>Content creation<span class="ez-toc-section-end"></span></h2>
-                                                                    <p>We incorporate human writers and editors at strategic points in the process, so you get human content delivered faster and cheaper thanks to AI.</p>
-                                                                    <p>See how it works</p>
+                                                                    <h2><span class="ez-toc-section" id="content-creation"></span><?= $contact['HomePage'][19]?><span class="ez-toc-section-end"></span></h2>
+                                                                    <p><?= $contact['HomePage'][20]?></p>
+                                                                    <p><?= $contact['HomePage'][21]?></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1042,9 +1055,9 @@
                                                         <div class="fl-module fl-module-rich-text fl-node-lfnqysxcz5mu" data-node="lfnqysxcz5mu">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
-                                                                    <h2><span class="ez-toc-section" id="solutions-for-agencies"></span>Solutions for Agencies<span class="ez-toc-section-end"></span></h2>
+                                                                    <h2><span class="ez-toc-section" id="solutions-for-agencies"></span><?= $contact['HomePage'][22]?><span class="ez-toc-section-end"></span></h2>
                                                                     <hr />
-                                                                    <p>We're focused on helping agencies grow through content. Our platform enables scale and quality. Custom account management solutions available.</p>
+                                                                    <p><?= $contact['HomePage'][23]?></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1055,7 +1068,7 @@
                                                         <div class="fl-module fl-module-photo fl-node-8xoh36ptwsj9 hero-image-col" data-node="8xoh36ptwsj9">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-                                                                    <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-7515 size-full" src="<?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x.png" alt="verblio_pink-strategy-approach@2x" itemprop="image" height="866" width="973" title="verblio_pink-strategy-approach@2x" srcset="<?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x.png 973w, <?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x-500x445.png 500w, <?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x-768x684.png 768w, <?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x-600x534.png 600w, <?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x-300x267.png 300w" sizes="(max-width: 973px) 100vw, 973px" /> </div>
+                                                                    <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-7515 size-full" src="<?=$host?><?= $media['HomePage'][5]?>" alt="verblio_pink-strategy-approach@2x" itemprop="image" height="866" width="973" title="verblio_pink-strategy-approach@2x" srcset="<?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x.png 973w, <?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x-500x445.png 500w, <?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x-768x684.png 768w, <?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x-600x534.png 600w, <?=$host?>/wp-content/uploads/2018/09/verblio_pink-strategy-approach@2x-300x267.png 300w" sizes="(max-width: 973px) 100vw, 973px" /> </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1074,7 +1087,7 @@
                                                         <div class="fl-module fl-module-photo fl-node-xqyc95s7dmt4 hero-image-col-left" data-node="xqyc95s7dmt4">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-                                                                    <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-12905 size-full" src="<?=$host?>/wp-content/uploads/2019/12/verblio_violet-_content-marketing.png" alt="verblio_violet-_content-marketing" itemprop="image" height="433" width="487" title="verblio_violet-_content-marketing" /> </div>
+                                                                    <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-12905 size-full" src="<?=$host?><?= $media['HomePage'][6]?>" alt="verblio_violet-_content-marketing" itemprop="image" height="433" width="487" title="verblio_violet-_content-marketing" /> </div>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1085,9 +1098,9 @@
                                                         <div class="fl-module fl-module-rich-text fl-node-kw6eofndl24b" data-node="kw6eofndl24b">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
-                                                                    <h2><span class="ez-toc-section" id="enterprise-content"></span>Enterprise content<span class="ez-toc-section-end"></span></h2>
+                                                                    <h2><span class="ez-toc-section" id="enterprise-content"></span><?= $contact['HomePage'][24]?><span class="ez-toc-section-end"></span></h2>
                                                                     <hr />
-                                                                    <p>Custom solutions for publishers, agencies, and in-house marketers who need more content than the average bear and worker bees to handle the rest.</p>
+                                                                    <p><?= $contact['HomePage'][25]?></p>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1106,7 +1119,7 @@
                                                         <div class="fl-module fl-module-rich-text fl-node-acg5ovupizfw" data-node="acg5ovupizfw">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
-                                                                    <h2 style="text-align: center;"><span class="ez-toc-section" id="feel-the-love"></span>Feel the Love<span class="ez-toc-section-end"></span></h2> </div>
+                                                                    <h2 style="text-align: center;"><span class="ez-toc-section" id="feel-the-love"></span><?= $contact['HomePage'][26]?><span class="ez-toc-section-end"></span></h2> </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1119,8 +1132,8 @@
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
                                                                     <blockquote>
-                                                                        <p>I'm in love with your service. I added another topic the other day and got a post back in less than 10 hours that felt like the writer read my mind.</p>
-                                                                        <h5>BJ E. <em>Enterprise Agency client</em></h5> </blockquote>
+                                                                        <p><?= $contact['HomePage'][27]?></p>
+                                                                        <h5><?= $contact['HomePage'][28]?> <em><?= $contact['HomePage'][29]?></em></h5> </blockquote>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1132,8 +1145,8 @@
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
                                                                     <blockquote>
-                                                                        <p>After just two months of consistent blog posting with content from <?=$namehost?>, we ranked on the first page of Google for four of our critical keywords.</p>
-                                                                        <h5>Ben A. <em>Manufacturing client</em></h5> </blockquote>
+                                                                        <p><?= $contact['HomePage'][30]?> <?=$namehost?><?= $contact['HomePage'][31]?></p>
+                                                                        <h5><?= $contact['HomePage'][32]?> <em><?= $contact['HomePage'][33]?></em></h5> </blockquote>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -1145,8 +1158,8 @@
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
                                                                     <blockquote>
-                                                                        <p>The writers are fantastic, and quickly turned around edit requests. The results speak for themselves—our organic traffic is up 46% in the past 9 months.</p>
-                                                                        <h5>Mark z. <em>E-commerce client</em></h5> </blockquote>
+                                                                        <p><?= $contact['HomePage'][34]?></p>
+                                                                        <h5><?= $contact['HomePage'][35]?> <em><?= $contact['HomePage'][36]?></em></h5> </blockquote>
                                                                     <p>&nbsp;</p>
                                                                 </div>
                                                             </div>
@@ -1183,9 +1196,9 @@
 	<div class="fl-module-content fl-node-content">
 		<div class="uabb-module-content uabb-dual-color-heading  uabb-heading-layout-inline uabb-heading-align-center ">
 <h1><span class="ez-toc-section" id="pricing-enticing" ez-toc-data-id="#pricing-enticing"></span>
-		<span class="uabb-first-heading-text">Pricing.</span>
+		<span class="uabb-first-heading-text"><?= $contact['HomePage'][37]?></span>
 	
-		<span class="uabb-second-heading-text">Enticing.</span>
+		<span class="uabb-second-heading-text"><?= $contact['HomePage'][38]?></span>
 				<span class="ez-toc-section-end"></span></h1>	
 </div>
 	</div>
@@ -1196,23 +1209,23 @@
 	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-gkau4o56mywb" data-node="gkau4o56mywb">
 	<div class="fl-module-content fl-node-content">
 		<h6 class="fl-heading">
-		<span class="fl-heading-text">Self-serve platform</span>
+		<span class="fl-heading-text"><?= $contact['HomePage'][39]?></span>
 	</h6>
 	</div>
 </div>
 <div class="fl-module fl-module-rich-text fl-node-ah7lpjqd8kv1" data-node="ah7lpjqd8kv1">
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-rich-text">
-	<p>$0.06<span style="font-weight: 500; font-size: 18px;">/word</span></p>
+	<p><?= $contact['HomePage'][40]?><span style="font-weight: 500; font-size: 18px;"><?= $contact['HomePage'][41]?></span></p>
 </div>
 	</div>
 </div>
 <div class="fl-module fl-module-rich-text fl-node-j9auoez3h2md" data-node="j9auoez3h2md">
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-rich-text">
-	<p><strike style="color: #ff419f;"><span>$49.50/mo platform fee</span></strike><br>
-<span style="color: #ff419f!important;">Waived for your first month</span></p>
-<p>Original high-quality content for SEO. Created by humans. AI makes it faster and cheaper.</p>
+	<p><strike style="color: #ff419f;"><span><?= $contact['HomePage'][42]?></span></strike><br>
+<span style="color: #ff419f!important;"><?= $contact['HomePage'][43]?></span></p>
+<p><?= $contact['HomePage'][44]?></p>
 </div>
 	</div>
 </div>
@@ -1228,23 +1241,23 @@
 	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-3rbhleqvo9mg" data-node="3rbhleqvo9mg">
 	<div class="fl-module-content fl-node-content">
 		<h6 class="fl-heading">
-		<span class="fl-heading-text">Enterprise</span>
+		<span class="fl-heading-text"><?= $contact['HomePage'][45]?></span>
 	</h6>
 	</div>
 </div>
 <div class="fl-module fl-module-rich-text fl-node-ig96fwjtmysa" data-node="ig96fwjtmysa">
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-rich-text">
-	<p>Custom pricing</p>
+	<p><?= $contact['HomePage'][46]?></p>
 </div>
 	</div>
 </div>
 <div class="fl-module fl-module-rich-text fl-node-d8aorzqcy3x7" data-node="d8aorzqcy3x7">
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-rich-text">
-	<p>100 articles/month min.<br>
-<span style="color: #4ff0eb!important;">No platform fee</span></p>
-<p>We manage <?=$namehost?>for you. Get high-quality content delivered when and how you need it.</p>
+	<p><?= $contact['HomePage'][47]?><br>
+<span style="color: #4ff0eb!important;"><?= $contact['HomePage'][48]?></span></p>
+<p><?= $contact['HomePage'][49]?> <?=$namehost?><?= $contact['HomePage'][50]?></p>
 </div>
 	</div>
 </div>
@@ -1257,7 +1270,7 @@
 	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-4zgk7x63p1qm" data-node="4zgk7x63p1qm">
 	<div class="fl-module-content fl-node-content">
 		<h6 class="fl-heading">
-		<span class="fl-heading-text">Features include:</span>
+		<span class="fl-heading-text"><?= $contact['HomePage'][51]?></span>
 	</h6>
 	</div>
 </div>
@@ -1274,7 +1287,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Pay as you go</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][52]?></p>
 							</div>
 		</div>
 	</div>
@@ -1298,7 +1311,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Proofreading for spelling and grammar</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][53]?></p>
 							</div>
 		</div>
 	</div>
@@ -1322,7 +1335,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Google docs delivery</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][54]?></p>
 							</div>
 		</div>
 	</div>
@@ -1346,7 +1359,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Content types:</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][55]?></p>
 							</div>
 		</div>
 	</div>
@@ -1356,8 +1369,8 @@
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-rich-text">
 	<ul>
-<li>Blog posts</li>
-<li>Website content</li>
+<li><?= $contact['HomePage'][56]?></li>
+<li><?= $contact['HomePage'][57]?></li>
 </ul>
 </div>
 	</div>
@@ -1380,7 +1393,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Live chat support</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][58]?></p>
 							</div>
 		</div>
 	</div>
@@ -1404,7 +1417,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">2 - 4 day turnaround</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][59]?></p>
 							</div>
 		</div>
 	</div>
@@ -1428,7 +1441,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Custom workflows</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][60]?></p>
 							</div>
 		</div>
 	</div>
@@ -1452,7 +1465,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">A dedicated account manager</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][61]?></p>
 							</div>
 		</div>
 	</div>
@@ -1476,7 +1489,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Provide a custom style guide</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][62]?></p>
 							</div>
 		</div>
 	</div>
@@ -1500,7 +1513,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Request revisions</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][63]?></p>
 							</div>
 		</div>
 	</div>
@@ -1512,7 +1525,7 @@
 	<div class="fl-col-content fl-node-content"><div class="fl-module fl-module-heading fl-node-pfzyawsljvh5" data-node="pfzyawsljvh5">
 	<div class="fl-module-content fl-node-content">
 		<h6 class="fl-heading">
-		<span class="fl-heading-text">Features include:</span>
+		<span class="fl-heading-text"><?= $contact['HomePage'][64]?></span>
 	</h6>
 	</div>
 </div>
@@ -1529,7 +1542,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">No platform fee</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][65]?></p>
 							</div>
 		</div>
 	</div>
@@ -1553,7 +1566,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Proofreading for spelling and grammar</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][66]?></p>
 							</div>
 		</div>
 	</div>
@@ -1577,7 +1590,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Google docs delivery</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][67]?></p>
 							</div>
 		</div>
 	</div>
@@ -1601,7 +1614,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Custom content types, including:</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][68]?></p>
 							</div>
 		</div>
 	</div>
@@ -1611,8 +1624,8 @@
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-rich-text">
 	<ul>
-<li>Blog posts</li>
-<li>Website content</li>
+<li><?= $contact['HomePage'][69]?></li>
+<li><?= $contact['HomePage'][70]?></li>
 </ul>
 </div>
 	</div>
@@ -1635,7 +1648,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Live chat support</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][71]?></p>
 							</div>
 		</div>
 	</div>
@@ -1659,7 +1672,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Flexible turnaround</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][72]?></p>
 							</div>
 		</div>
 	</div>
@@ -1683,7 +1696,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Custom workflows</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][73]?></p>
 							</div>
 		</div>
 	</div>
@@ -1707,7 +1720,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">A dedicated account manager</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][74]?></p>
 							</div>
 		</div>
 	</div>
@@ -1731,7 +1744,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Provide a custom style guide</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][75]?></p>
 							</div>
 		</div>
 	</div>
@@ -1755,7 +1768,7 @@
 	
 		</div></div><!-- Inline Block Space Fix
 		--><div class="uabb-list-icon-text">
-									<p class="uabb-list-icon-text-heading">Request revisions</p>
+									<p class="uabb-list-icon-text-heading"><?= $contact['HomePage'][76]?></p>
 							</div>
 		</div>
 	</div>
@@ -1780,7 +1793,7 @@
                                                         <div class="fl-module fl-module-rich-text fl-node-5c0ffac6a30cf faq-foot" data-node="5c0ffac6a30cf">
                                                             <div class="fl-module-content fl-node-content">
                                                                 <div class="fl-rich-text">
-                                                                    <h3 style="text-align: center;">Questions? Check out <a href="<?=$host?>/contact"><span style="color: #ff419f;">contact us</span></a>.</h3> </div>
+                                                                    <h3 style="text-align: center;"><?= $contact['HomePage'][77]?><a href="<?=$host?>/contact"><span style="color: #ff419f;"><?= $contact['HomePage'][78]?></span></a>.</h3> </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1808,7 +1821,7 @@
                                     <div class="fl-module fl-module-rich-text fl-node-5b9b137d0342b" data-node="5b9b137d0342b">
                                         <div class="fl-module-content fl-node-content">
                                             <div class="fl-rich-text">
-                                                <h5>Pages</h5> </div>
+                                                <h5><?= $contact['HomePage'][79]?></h5> </div>
                                         </div>
                                     </div>
                                     <div class="fl-module fl-module-menu fl-node-5b8cae423e28e" data-node="5b8cae423e28e">
@@ -1817,9 +1830,9 @@
                                                 <div class="fl-clear"></div>
                                                 <nav aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
                                                     <ul id="menu-services" class="menu fl-menu-vertical fl-toggle-none">
-                                                        <li id="menu-item-29845" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/refund-policy">Refund policy</a></li>
-                                                        <li id="menu-item-29846" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/delivery-policy">delivery policy</a></li>
-                                                        <li id="menu-item-29847" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/about-us">about us</a></li>
+                                                        <li id="menu-item-29845" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/refund-policy"><?= $contact['HomePage'][80]?></a></li>
+                                                        <li id="menu-item-29846" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/delivery-policy"><?= $contact['HomePage'][81]?></a></li>
+                                                        <li id="menu-item-29847" class="menu-item menu-item-type-custom menu-item-object-custom"><a href="<?=$host?>/about-us"><?= $contact['HomePage'][82]?></a></li>
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -1832,7 +1845,7 @@
                                     <div class="fl-module fl-module-rich-text fl-node-5b9b138bc4f87" data-node="5b9b138bc4f87">
                                         <div class="fl-module-content fl-node-content">
                                             <div class="fl-rich-text">
-                                                <h5>Support</h5> </div>
+                                                <h5><?= $contact['HomePage'][83]?></h5> </div>
                                         </div>
                                     </div>
                                     <div class="fl-module fl-module-menu fl-node-5b8cae5360b01" data-node="5b8cae5360b01">
@@ -1841,7 +1854,7 @@
                                                 <div class="fl-clear"></div>
                                                 <nav aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
                                                     <ul id="menu-support" class="menu fl-menu-vertical fl-toggle-none">
-                                                        <li id="menu-item-8031" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="<?=$host?>/contact">Contact Us</a></li>
+                                                        <li id="menu-item-8031" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="<?=$host?>/contact"><?= $contact['HomePage'][84]?></a></li>
                                                         
                                                     </ul>
                                                 </nav>
@@ -1855,10 +1868,10 @@
                                     <div class="fl-module fl-module-rich-text fl-node-5b9b1483d4777" data-node="5b9b1483d4777">
                                         <div class="fl-module-content fl-node-content">
                                             <div class="fl-rich-text">
-                                                <h5>ADDRESS</h5>
-                                                <p>1700 Lincoln St.
-                                                    <br /> 17th Floor
-                                                    <br /> Denver, CO 80203</p>
+                                                <h5><?= $contact['HomePage'][85]?></h5>
+                                                <p><?= $contact['HomePage'][86]?>
+                                                    <br /> <?= $contact['HomePage'][87]?>
+                                                    <br /> <?= $contact['HomePage'][88]?></p>
                                             </div>
                                         </div>
                                     </div>
@@ -1880,7 +1893,7 @@
                                                 <div class="fl-module fl-module-photo fl-node-5ba026f621792" data-node="5ba026f621792">
                                                     <div class="fl-module-content fl-node-content">
                                                         <div class="fl-photo fl-photo-align-center" itemscope itemtype="https://schema.org/ImageObject">
-                                                            <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-7052 size-full" src="<?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white.png" alt="verblio-logo_horizontal_one-color_white" itemprop="image" height="232" width="885" title="verblio-logo_horizontal_one-color_white" srcset="<?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white.png 885w, <?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white-500x131.png 500w, <?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white-768x201.png 768w, <?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white-600x157.png 600w, <?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white-300x79.png 300w" sizes="(max-width: 885px) 100vw, 885px" /> </div>
+                                                            <div class="fl-photo-content fl-photo-img-png"> <img decoding="async" loading="lazy" class="fl-photo-img wp-image-7052 size-full" src="<?=$host?><?= $media['HomePage'][7]?>" alt="verblio-logo_horizontal_one-color_white" itemprop="image" height="232" width="885" title="verblio-logo_horizontal_one-color_white" srcset="<?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white.png 885w, <?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white-500x131.png 500w, <?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white-768x201.png 768w, <?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white-600x157.png 600w, <?=$host?>/wp-content/uploads/2018/09/verblio-logo_horizontal_one-color_white-300x79.png 300w" sizes="(max-width: 885px) 100vw, 885px" /> </div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1894,8 +1907,8 @@
                                                             <div class="fl-clear"></div>
                                                             <nav aria-label="Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
                                                                 <ul id="menu-legal-policies" class="menu fl-menu-horizontal fl-toggle-none">
-                                                                    <li id="menu-item-8034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy"><a href="<?=$host?>/privacy-policy">Privacy Policy</a></li>
-                                                                    <li id="menu-item-8035" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="<?=$host?>/terms-of-service">Terms of Service</a></li>
+                                                                    <li id="menu-item-8034" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-privacy-policy"><a href="<?=$host?>/privacy-policy"><?= $contact['HomePage'][89]?></a></li>
+                                                                    <li id="menu-item-8035" class="menu-item menu-item-type-post_type menu-item-object-page"><a href="<?=$host?>/terms-of-service"><?= $contact['HomePage'][90]?></a></li>
                                                                 </ul>
                                                             </nav>
                                                         </div>
@@ -1908,7 +1921,7 @@
                                                 <div class="fl-module fl-module-rich-text fl-node-5b8ca67c4126f" data-node="5b8ca67c4126f">
                                                     <div class="fl-module-content fl-node-content">
                                                         <div class="fl-rich-text">
-                                                            <p style="text-align: right;"><span style="font-size: 14px;">© 2023 <?=$namehost?>. All Rights Reserved.</span></p>
+                                                            <p style="text-align: right;"><span style="font-size: 14px;"><?= $contact['HomePage'][91]?> <?=$namehost?><?= $contact['HomePage'][92]?></span></p>
                                                         </div>
                                                     </div>
                                                 </div>
