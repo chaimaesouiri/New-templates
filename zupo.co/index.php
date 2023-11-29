@@ -331,7 +331,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="tcb-col" style="" data-css="tve-u-1833b17ec25">
                                     <a class="tcb-logo thrv_wrapper" href="<?=$host?>/clutch/" data-css="tve-u-16de1bc3fe3" data-img-style="width: 100%;" class="">
                                         <picture>
-                                            <img src="<?=$host?>/wp-content/uploads/2022/04/White.png" height="413" width="1500" alt="" style="width: 100%;" loading="lazy">
+                                            <img src="<?=$host?><?= $media['HomePage'][0]?>" height="413" width="1500" alt="" style="width: 100%;" loading="lazy">
                                         </picture>
                                     </a>
                                 </div>
@@ -371,16 +371,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                 </a>
                                                 <ul id="m-16de1b3c4f2" class="tve_w_menu tve_horizontal" data-iid="30" style="z-index: 12;">
                                                     <li class="menu-item menu-item-1 lvl-0 tve_editable" data-id="1" data-item-display-desktop="text">
-                                                        <a class="menu-item menu-item-1-a menu-item-1 " href="<?=$host?>"> <span class="tve-disabled-text-inner">Home</span></a>
+                                                        <a class="menu-item menu-item-1-a menu-item-1 " href="<?=$host?>"> <span class="tve-disabled-text-inner"><?= $content['HomePage'][0]?></span></a>
                                                     </li>
                                                     <li class="menu-item menu-item-2 lvl-0 tcb--row tve_editable" data-id="2" data-item-display-desktop="text">
-                                                        <a class="menu-item menu-item-2-a menu-item-2 tcb--row" href="<?=$host?>/#features"> <span class="tve-disabled-text-inner">Features</span></a>
+                                                        <a class="menu-item menu-item-2-a menu-item-2 tcb--row" href="<?=$host?>/#features"> <span class="tve-disabled-text-inner"><?= $content['HomePage'][1]?></span></a>
                                                     </li>
                                                     <li class="menu-item menu-item-3 lvl-0 tcb--row tve_editable" data-id="3" data-item-display-desktop="text">
-                                                        <a class="menu-item menu-item-3-a menu-item-3 tcb--row" href="<?=$host?>/#pricing"> <span class="tve-disabled-text-inner">Pricing</span></a>
+                                                        <a class="menu-item menu-item-3-a menu-item-3 tcb--row" href="<?=$host?>/#pricing"> <span class="tve-disabled-text-inner"><?= $content['HomePage'][2]?></span></a>
                                                     </li>
                                                     <li class="menu-item menu-item-26 lvl-0 tcb--row tve_editable tcb-excluded-from-group-item" data-id="26" data-item-display-desktop="text">
-                                                        <a class="menu-item menu-item-26-a menu-item-26 tcb--row" href="<?=$host?>/contact"> <span class="tve-disabled-text-inner">Contact Us</span></a>
+                                                        <a class="menu-item menu-item-26-a menu-item-26 tcb--row" href="<?=$host?>/contact"> <span class="tve-disabled-text-inner"><?= $content['HomePage'][3]?></span></a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -394,17 +394,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="tve-page-section-out" data-ct-name="Offset Corner 01" data-ct="fancydivider-37830" data-element-name="Fancy divider" data-css="tve-u-16d1a9c16d0" data-tcb_hover_state_parent="1" style=""></div>
                         <div class="tve-page-section-in tve_empty_dropzone" data-css="tve-u-16d1a9c16cd" data-tcb_hover_state_parent="1" style="">
                             <div class="thrv_wrapper thrv_text_element" data-css="tve-u-16c2959dd6d" data-tag="h1" style="">
-                                <h1 class="" data-css="tve-u-182edcd27c0" style="text-align: center;"><strong>SEO Agency That&nbsp;</strong><strong>Ranks&nbsp;</strong></h1>
-                                <h1 class="" data-css="tve-u-182edcd27c3" style="text-align: center;"><strong></strong><strong>Clients Around the World </strong></h1></div>
+                                <h1 class="" data-css="tve-u-182edcd27c0" style="text-align: center;"><strong><?= $content['HomePage'][4]?></strong><strong><?= $content['HomePage'][5]?></strong></h1>
+                                <h1 class="" data-css="tve-u-182edcd27c3" style="text-align: center;"><strong></strong><strong>          <?= $content['HomePage'][6]?> </strong></h1></div>
                             <div class="thrv_wrapper thrv_text_element" data-css="tve-u-17fb97a5c04" style="">
-                                <h3 class="" style="text-align: center;" data-css="tve-u-182fd5e6ba3"><strong>SEO is ALL we do, so you know we're good at it!</strong></h3></div>
+                                <h3 class="" style="text-align: center;" data-css="tve-u-182fd5e6ba3"><strong>                            <?= $content['HomePage'][7]?></strong></h3></div>
                             <div class="thrv_wrapper thrv-button tcb-with-icon tcb-flip tve_ea_thrive_animation tve_anim_grow" data-tcb_hover_state_parent="" style="" data-css="tve-u-16c3c8797f6" data-button-size="s"> <a href="<?=$host?>/contact" class="tcb-button-link tve_evt_manager_listen tve_et_mouseover tve_et_tve-viewport" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;mouseover&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;grow&quot;,&quot;loop&quot;:1},&quot;a&quot;:&quot;thrive_animation&quot;},{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;grow&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" style=""><span class="tcb-button-icon">
 <div class="thrv_wrapper thrv_icon tve_no_drag tve_no_icons tcb-icon-inherit-style tcb-icon-display tcb-local-vars-root" data-css="tve-u-16c3cd0ca15" style=""><svg class="tcb-icon" viewBox="0 0 512 512" data-id="icon-arrow-circle-right-light" data-name="">
         <path d="M8 256c0 137 111 248 248 248s248-111 248-248S393 8 256 8 8 119 8 256zM256 40c118.7 0 216 96.1 216 216 0 118.7-96.1 216-216 216-118.7 0-216-96.1-216-216 0-118.7 96.1-216 216-216zm12.5 92.5l115.1 115c4.7 4.7 4.7 12.3 0 17l-115.1 115c-4.7 4.7-12.3 4.7-17 0l-6.9-6.9c-4.7-4.7-4.7-12.5.2-17.1l85.6-82.5H140c-6.6 0-12-5.4-12-12v-10c0-6.6 5.4-12 12-12h190.3l-85.6-82.5c-4.8-4.7-4.9-12.4-.2-17.1l6.9-6.9c4.8-4.7 12.4-4.7 17.1 0z"></path>
     </svg></div>
 </span>
 
-    <span class="tcb-button-texts"><span class="tcb-button-text thrv-inline-text" data-css="tve-u-16e99a1cdb0"><strong>Rank Your Site</strong></span></span>
+    <span class="tcb-button-texts"><span class="tcb-button-text thrv-inline-text" data-css="tve-u-16e99a1cdb0"><strong>                  <?= $content['HomePage'][8]?></strong></span></span>
 </a> </div>
                         </div>
                     </div>
@@ -423,7 +423,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="tve-page-section-in" data-css="tve-u-182fe1771e0" style="">
                             <div class="thrv_wrapper thrv_text_element" style="" data-css="tve-u-182fdfc2f33">
-                                <h2 data-css="tve-u-182fdfc2f34" style="text-align: center;" class=""><strong>A Few of the Companies We've Helped Grow...</strong></h2></div>
+                                <h2 data-css="tve-u-182fdfc2f34" style="text-align: center;" class=""><strong>                            <?= $content['HomePage'][9]?></strong></h2></div>
                             <div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box tve-elem-default-pad" data-css="tve-u-182fdfcd9a4" style="">
                                 <div class="tve-content-box-background" data-css="tve-u-182fdfcd9a5"></div>
                                 <div class="tve-cb">
@@ -431,22 +431,26 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         <div class="tcb-flex-row v-2 tcb--cols--4 tcb-resized" data-css="tve-u-182fdfcd9a6">
                                             <div class="tcb-flex-col" data-css="tve-u-182fdfcd9a7" style="">
                                                 <div class="tcb-col" style="">
-                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_left" data-css="tve-u-182fdfcd9a8" style=""><span class="tve_image_frame"><a href="http://vincit.com" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-121 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="121" width="300" data-init-width="1539" height="69" data-init-height="356" title="Vincit_logo_red_Large" src="<?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large.png" data-width="300" data-height="69" data-css="tve-u-182fdfcd9a9" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_left&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large.png 1539w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-300x69.png 300w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-768x178.png 768w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-1024x237.png 1024w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-540x125.png 540w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-1080x250.png 1080w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
+                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_left" data-css="tve-u-182fdfcd9a8" style=""><span class="tve_image_frame"><a href="http://vincit.com" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-121 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="121" width="300" data-init-width="1539" height="69" data-init-height="356" title="Vincit_logo_red_Large" src="<?=$host?>
+                                                    <?= $media['HomePage'][1]?>"  data-width="300" data-height="69" data-css="tve-u-182fdfcd9a9" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_left&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large.png 1539w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-300x69.png 300w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-768x178.png 768w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-1024x237.png 1024w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-540x125.png 540w, <?=$host?>/wp-content/uploads/2019/10/Vincit_logo_red_Large-1080x250.png 1080w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
                                                 </div>
                                             </div>
                                             <div class="tcb-flex-col" data-css="tve-u-182fdfcd9aa" style="">
                                                 <div class="tcb-col" style="">
-                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_left" data-css="tve-u-182fdfcd9ab" style=""><span class="tve_image_frame"><a href="https://www.gigasavvy.com/" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2484 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2484" width="125" data-init-width="450" height="125" data-init-height="450" title="gigasavvy logo" src="<?=$host?>/wp-content/uploads/2022/08/gigasavvy-logo.jpeg" data-width="125" data-height="125" data-css="tve-u-182fdfcd9ac" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_left&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/08/gigasavvy-logo.jpeg 450w, <?=$host?>/wp-content/uploads/2022/08/gigasavvy-logo-300x300.jpeg 300w, <?=$host?>/wp-content/uploads/2022/08/gigasavvy-logo-150x150.jpeg 150w" sizes="(max-width: 125px) 100vw, 125px" /></a></span></div>
+                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_left" data-css="tve-u-182fdfcd9ab" style=""><span class="tve_image_frame"><a href="https://www.gigasavvy.com/" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2484 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2484" width="125" data-init-width="450" height="125" data-init-height="450" title="gigasavvy logo" src="<?=$host?>
+                                                    <?= $media['HomePage'][2]?>" data-width="125" data-height="125" data-css="tve-u-182fdfcd9ac" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_left&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/08/gigasavvy-logo.jpeg 450w, <?=$host?>/wp-content/uploads/2022/08/gigasavvy-logo-300x300.jpeg 300w, <?=$host?>/wp-content/uploads/2022/08/gigasavvy-logo-150x150.jpeg 150w" sizes="(max-width: 125px) 100vw, 125px" /></a></span></div>
                                                 </div>
                                             </div>
                                             <div class="tcb-flex-col" data-css="tve-u-182fdfcd9ad" style="">
                                                 <div class="tcb-col" style="" data-css="tve-u-182fdfcd9ae">
-                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_right" data-css="tve-u-182fdfcd9af" style=""><span class="tve_image_frame"><a href="http://thesparkhouse.com" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2487 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2487" width="300" data-init-width="800" height="75" data-init-height="200" title="sparkhouse-black" src="<?=$host?>/wp-content/uploads/2022/08/sparkhouse-black.png" data-width="300" data-height="75" data-css="tve-u-182fdfcd9b0" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_right&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/08/sparkhouse-black.png 800w, <?=$host?>/wp-content/uploads/2022/08/sparkhouse-black-300x75.png 300w, <?=$host?>/wp-content/uploads/2022/08/sparkhouse-black-768x192.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
+                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_right" data-css="tve-u-182fdfcd9af" style=""><span class="tve_image_frame"><a href="http://thesparkhouse.com" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2487 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2487" width="300" data-init-width="800" height="75" data-init-height="200" title="sparkhouse-black" src="<?=$host?>
+                                                    <?= $media['HomePage'][3]?>" data-width="300" data-height="75" data-css="tve-u-182fdfcd9b0" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_right&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/08/sparkhouse-black.png 800w, <?=$host?>/wp-content/uploads/2022/08/sparkhouse-black-300x75.png 300w, <?=$host?>/wp-content/uploads/2022/08/sparkhouse-black-768x192.png 768w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
                                                 </div>
                                             </div>
                                             <div class="tcb-flex-col" data-css="tve-u-182fdfcd9b1" style="">
                                                 <div class="tcb-col" style="" data-css="tve-u-182fdfcd9b2">
-                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_right" data-css="tve-u-182fdfcd9b3" style=""><span class="tve_image_frame" style=""><a href="http://saratech.com" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2485 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2485" width="300" data-init-width="600" height="28" data-init-height="55" title="saratech_logo_2x" src="<?=$host?>/wp-content/uploads/2022/08/saratech_logo_2x.png" data-width="300" data-height="28" style="" mt-d="0" data-css="tve-u-182fdfcd9b4" ml-d="0" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_right&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/08/saratech_logo_2x.png 600w, <?=$host?>/wp-content/uploads/2022/08/saratech_logo_2x-300x28.png 300w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
+                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_right" data-css="tve-u-182fdfcd9b3" style=""><span class="tve_image_frame" style=""><a href="http://saratech.com" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2485 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2485" width="300" data-init-width="600" height="28" data-init-height="55" title="saratech_logo_2x" src="<?=$host?>
+                                                    <?= $media['HomePage'][4]?>" data-width="300" data-height="28" style="" mt-d="0" data-css="tve-u-182fdfcd9b4" ml-d="0" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_right&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/08/saratech_logo_2x.png 600w, <?=$host?>/wp-content/uploads/2022/08/saratech_logo_2x-300x28.png 300w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -455,17 +459,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                         <div class="tcb-flex-row v-2 tcb--cols--3 tcb-resized" style="" data-css="tve-u-182fdfcd9b5">
                                             <div class="tcb-flex-col" data-css="tve-u-182fdfcd9b8" style="">
                                                 <div class="tcb-col">
-                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_bottom" data-css="tve-u-182fdfcd9b9" style=""><span class="tve_image_frame"><a href="https://getebm.com/" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2486 tcb-moved-image tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2486" width="300" data-init-width="195" height="98" data-init-height="64" title="ebm logo" src="<?=$host?>/wp-content/uploads/2022/08/ebm-logo.png" data-width="300" data-height="98" data-css="tve-u-182fdfcd9ba" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_bottom&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy"></a></span></div>
+                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_bottom" data-css="tve-u-182fdfcd9b9" style=""><span class="tve_image_frame"><a href="https://getebm.com/" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2486 tcb-moved-image tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2486" width="300" data-init-width="195" height="98" data-init-height="64" title="ebm logo" src="<?=$host?><?= $media['HomePage'][5]?>" data-width="300" data-height="98" data-css="tve-u-182fdfcd9ba" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_bottom&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy"></a></span></div>
                                                 </div>
                                             </div>
                                             <div class="tcb-flex-col" data-css="tve-u-182fdfcd9bb" style="">
                                                 <div class="tcb-col" data-css="tve-u-182fdfcd9bc" style="">
-                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_bottom" data-css="tve-u-182fdfcd9bd" style=""><span class="tve_image_frame"><a href="https://www.savostore.com/" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2213 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2213" width="300" data-init-width="500" height="114" data-init-height="190" title="Savo Store Logo" src="<?=$host?>/wp-content/uploads/2022/04/60efd1ce3ab7112f21596e6c_Brandlogo-p-500.png" data-width="300" data-height="114" data-css="tve-u-182fdfcd9be" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_bottom&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/04/60efd1ce3ab7112f21596e6c_Brandlogo-p-500.png 500w, <?=$host?>/wp-content/uploads/2022/04/60efd1ce3ab7112f21596e6c_Brandlogo-p-500-300x114.png 300w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
+                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_bottom" data-css="tve-u-182fdfcd9bd" style=""><span class="tve_image_frame"><a href="https://www.savostore.com/" target="_blank" rel=""><img decoding="async" class="tve_image wp-image-2213 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2213" width="300" data-init-width="500" height="114" data-init-height="190" title="Savo Store Logo" src="<?=$host?>
+                                                    <?= $media['HomePage'][6]?>" data-width="300" data-height="114" data-css="tve-u-182fdfcd9be" style="" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_bottom&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/04/60efd1ce3ab7112f21596e6c_Brandlogo-p-500.png 500w, <?=$host?>/wp-content/uploads/2022/04/60efd1ce3ab7112f21596e6c_Brandlogo-p-500-300x114.png 300w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
                                                 </div>
                                             </div>
                                             <div class="tcb-flex-col" data-css="tve-u-182fdfcd9bf" style="">
                                                 <div class="tcb-col" data-css="tve-u-182fdfcd9c0" style="">
-                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_bottom" data-css="tve-u-182fdfcd9c1" style=""><span class="tve_image_frame" style=""><a href="https://10-8systems.com/" target="_blank" rel=""><img decoding="async" class="tve_image tcb-moved-image wp-image-2489 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2489" width="300" data-init-width="2264" height="80" data-init-height="600" title="10-8 systems on black" src="<?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black.png" data-width="300" data-height="80" data-css="tve-u-182fdfcd9c2" style="" mt-d="0" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_bottom&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black.png 2264w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-300x80.png 300w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-1024x271.png 1024w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-768x204.png 768w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-1536x407.png 1536w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-2048x543.png 2048w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
+                                                    <div class="thrv_wrapper tve_image_caption tve_ea_thrive_animation tve_anim_slide_bottom" data-css="tve-u-182fdfcd9c1" style=""><span class="tve_image_frame" style=""><a href="https://10-8systems.com/" target="_blank" rel=""><img decoding="async" class="tve_image tcb-moved-image wp-image-2489 tve_evt_manager_listen tve_et_tve-viewport" alt="" data-id="2489" width="300" data-init-width="2264" height="80" data-init-height="600" title="10-8 systems on black" src="<?=$host?><?= $media['HomePage'][7]?>" data-width="300" data-height="80" data-css="tve-u-182fdfcd9c2" style="" mt-d="0" data-link-wrap="1" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_bottom&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__" loading="lazy" srcset="<?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black.png 2264w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-300x80.png 300w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-1024x271.png 1024w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-768x204.png 768w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-1536x407.png 1536w, <?=$host?>/wp-content/uploads/2022/08/10-8-systems-on-black-2048x543.png 2048w" sizes="(max-width: 300px) 100vw, 300px" /></a></span></div>
                                                 </div>
                                             </div>
                                         </div>
@@ -487,11 +492,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="tve-page-section-in   tve_empty_dropzone" data-css="tve-u-182ec7049bc" style="">
                             <div class="thrv_wrapper thrv_text_element" data-tag="h2" data-css="tve-u-182ec7049bd" style="">
-                                <h2 class="" style="text-align: center;" data-css="tve-u-182ec714c6b"><!--StartFragment--><!--StartFragment--><!--StartFragment--><!--StartFragment--><strong>SEO Services We Rock At</strong><!--EndFragment--><!--EndFragment--><!--EndFragment--><!--EndFragment--></h2></div>
+                                <h2 class="" style="text-align: center;" data-css="tve-u-182ec714c6b"><!--StartFragment--><!--StartFragment--><!--StartFragment--><!--StartFragment--><strong><?= $content['HomePage'][10]?></strong><!--EndFragment--><!--EndFragment--><!--EndFragment--><!--EndFragment--></h2></div>
                             <div class="thrv_wrapper thrv_text_element" data-css="tve-u-182ec7049be" style="">
                                 <p style="text-align: center;">
                                     <!--StartFragment-->
-                                    <!--StartFragment-->We only offer SEO services that we kill it at. Therefore, the following are services that we kill it at.
+                                    <!--StartFragment--><?= $content['HomePage'][11]?>
                                     <!--EndFragment-->
                                     <!--EndFragment-->
                                 </p>
@@ -525,7 +530,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-col">
                                                                     <div class="tcb-clear" data-css="tve-u-182ec8f55d8">
                                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3fwfyjh" data-css="tve-u-182ec7049c9" data-tag="h3">
-                                                                            <h3 class="" data-css="tve-u-182ec89cfc5" style=""><strong>Search Engine Optimization<!--EndFragment--> </strong></h3></div>
+                                                                            <h3 class="" data-css="tve-u-182ec89cfc5" style=""><strong>   <?= $content['HomePage'][12]?><!--EndFragment--> </strong></h3></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -534,7 +539,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <div class="tcb-clear" data-css="tve-u-182ec7bd2d5">
                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3fwg1vr" data-css="tve-u-182ec7049ca" style="">
                                                             <p data-css="tve-u-182ec7049cb" style="text-align: left;">
-                                                                <!--StartFragment-->Rank on the top of Google results through our market driven approach to finding the best opportunities for your business.
+                                                                <!--StartFragment--><?= $content['HomePage'][13]?>
                                                                 <!--EndFragment-->
                                                             </p>
                                                         </div>
@@ -566,15 +571,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-col">
                                                                     <div class="tcb-clear" data-css="tve-u-182ec8f55da">
                                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3fwfyjh" data-css="tve-u-182ec7049c9" data-tag="h3">
-                                                                            <h3 class="" data-css="tve-u-182ec89cfc6" style=""><strong>Content </strong></h3>
-                                                                            <h3 class="" data-css="tve-u-182ec89cfc6" style=""><strong>Development</strong></h3></div>
+                                                                            <h3 class="" data-css="tve-u-182ec89cfc6" style=""><strong>   <?= $content['HomePage'][14]?> </strong></h3>
+                                                                            <h3 class="" data-css="tve-u-182ec89cfc6" style=""><strong>  <?= $content['HomePage'][15]?></strong></h3></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3fwg1vr" data-css="tve-u-182ec7049d1" style="">
-                                                        <p data-css="tve-u-182ec7049d2" style="text-align: left;">Instead of brainstorming on whiteboards and post its, we use hard-nosed data to drive the content we develop for your site.&nbsp;</p>
+                                                        <p data-css="tve-u-182ec7049d2" style="text-align: left;">                        <?= $content['HomePage'][16]?></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -607,15 +612,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-col">
                                                                     <div class="tcb-clear" data-css="tve-u-182ec8f55dc">
                                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3fwfyjh" data-css="tve-u-182ec7049c9" data-tag="h3">
-                                                                            <h3 class="" data-css="tve-u-182ec89cfc9" style=""><strong>Website </strong></h3>
-                                                                            <h3 class="" data-css="tve-u-182ec89cfc9" style=""><strong>Analytics<!--EndFragment--></strong></h3></div>
+                                                                            <h3 class="" data-css="tve-u-182ec89cfc9" style=""><strong>   <?= $content['HomePage'][17]?> </strong></h3>
+                                                                            <h3 class="" data-css="tve-u-182ec89cfc9" style=""><strong><?= $content['HomePage'][18]?><!--EndFragment--></strong></h3></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3fwg1vr" data-css="tve-u-182ec7049de" style="">
-                                                        <p data-css="tve-u-182ec7049df" style="text-align: left;">Gain an understanding of where the new incoming traffic is coming from so your team can convert visitors into new business</p>
+                                                        <p data-css="tve-u-182ec7049df" style="text-align: left;">                       <?= $content['HomePage'][19]?></p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -644,8 +649,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-col" style="">
                                                                     <div class="tcb-clear" data-css="tve-u-182ec8f55db">
                                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3fwfyjh" data-css="tve-u-182ec7049c9" data-tag="h3">
-                                                                            <h3 class="" data-css="tve-u-182ec89cfc8" style=""><strong>Digital PR &amp; </strong></h3>
-                                                                            <h3 class="" data-css="tve-u-182ec89cfc8" style=""><strong>Thought Leadership<!--EndFragment--> </strong></h3></div>
+                                                                            <h3 class="" data-css="tve-u-182ec89cfc8" style=""><strong>  <?= $content['HomePage'][20]?> &amp; </strong></h3>
+                                                                            <h3 class="" data-css="tve-u-182ec89cfc8" style=""><strong><?= $content['HomePage'][21]?><!--EndFragment--> </strong></h3></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -653,7 +658,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     </div>
                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3fwg1vr" data-css="tve-u-182ec7049d1" style="">
                                                         <p data-css="tve-u-182ec7049d2" style="text-align: left;">
-                                                            <!--StartFragment-->Build your company's clout and thought leadership through byline contributor articles on leading industry publications
+                                                            <!--StartFragment--><?= $content['HomePage'][22]?>
                                                             <!--EndFragment-->
                                                         </p>
                                                     </div>
@@ -671,7 +676,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="tve-page-section-out" style="" data-css="tve-u-182ec936ad1" data-ct-name="Rounded" data-ct="fancydivider-38079" data-element-name="Fancy divider"></div>
                         <div class="tve-page-section-in   tve_empty_dropzone" data-css="tve-u-182ec936ad2" style="">
                             <div class="thrv_wrapper thrv_text_element" style="" data-css="tve-u-182ed8f6b82">
-                                <h2 class="" style="text-align: center;" data-css="tve-u-182ed8ed948">Our Client Case Studies</h2></div>
+                                <h2 class="" style="text-align: center;" data-css="tve-u-182ed8ed948">                                    <?= $content['HomePage'][23]?></h2></div>
                             <div class="thrv_wrapper thrv-columns dynamic-group-k3rf1ftf" data-css="tve-u-182ec936ad3" data-tve-scroll="{&quot;disabled&quot;:[],&quot;top&quot;:0,&quot;mode&quot;:&quot;parallax&quot;,&quot;end&quot;:&quot;parallax&quot;,&quot;parallax&quot;:{}}">
                                 <div class="tcb-flex-row tcb-resized v-2 tcb--cols--3" style="" data-css="tve-u-182ec936ad4">
                                     <div class="tcb-flex-col" data-css="tve-u-182ed917683" style="">
@@ -681,12 +686,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <div class="tve-content-box-background" data-css="tve-u-1833b253e3c" style=""></div>
                                                     <div class="tve-cb" style="" data-css="tve-u-182ed84875d">
                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3rf0yqd" style="" data-css="tve-u-182ec936ae1">
-                                                            <p data-css="tve-u-182ec936ae2" style="text-align: center;">10-8 SYSTEMS</p>
+                                                            <p data-css="tve-u-182ec936ae2" style="text-align: center;">                  <?= $content['HomePage'][24]?></p>
                                                         </div>
                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3rf0wzv" data-css="tve-u-182ec936adf" style="">
-                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong>256% Lift in Organic Traffic</strong></h1>
-                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;">for a Public Safety &amp; <br>Law Enforcement SaaS Startup</h1></div>
-                                                        <div class="thrv_wrapper tve_image_caption" data-css="tve-u-1833b2b1a85" style="--tve-border-radius:0px; border-top-left-radius: 0px; border-top-right-radius: 0px;"><span class="tve_image_frame" style=""><img decoding="async" class="tve_image wp-image-2390 tcb-moved-image" alt="" data-id="2390" width="331" data-init-width="1000" height="248" data-init-height="750" title="10-8 Systems" src="<?=$host?>/wp-content/uploads/2022/07/ee61a78e2de9e4d1d33e2bb9631a8e51-768x576.jpeg" data-width="331" data-height="248" style="" data-css="tve-u-1833b2b2917" mt-d="0" ml-d="0" center-v-d="false" loading="lazy" sizes="(max-width: 331px) 100vw, 331px" /></span></div>
+                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong><?= $content['HomePage'][25]?></strong></h1>
+                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;">       <?= $content['HomePage'][26]?> <br><?= $content['HomePage'][27]?></h1></div>
+                                                        <div class="thrv_wrapper tve_image_caption" data-css="tve-u-1833b2b1a85" style="--tve-border-radius:0px; border-top-left-radius: 0px; border-top-right-radius: 0px;"><span class="tve_image_frame" style=""><img decoding="async" class="tve_image wp-image-2390 tcb-moved-image" alt="" data-id="2390" width="331" data-init-width="1000" height="248" data-init-height="750" title="10-8 Systems" src="<?=$host?>
+                                                        <?= $media['HomePage'][8]?>" data-width="331" data-height="248" style="" data-css="tve-u-1833b2b2917" mt-d="0" ml-d="0" center-v-d="false" loading="lazy" sizes="(max-width: 331px) 100vw, 331px" /></span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -699,13 +705,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <div class="tve-content-box-background" data-css="tve-u-1833b253e40" style=""></div>
                                                     <div class="tve-cb" style="" data-css="tve-u-182ed848762">
                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3rf0yqd" style="" data-css="tve-u-182ec936ae1">
-                                                            <p data-css="tve-u-182ec936ae2" style="text-align: center;">AMPLIHIGHER</p>
+                                                            <p data-css="tve-u-182ec936ae2" style="text-align: center;">                  <?= $content['HomePage'][28]?></p>
                                                         </div>
                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3rf0wzv" data-css="tve-u-182ed7cc78c" style="">
-                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong>1st Page Rankings</strong> and<strong></strong></h1>
-                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong>300% Sales Increase</strong> for a</h1>
-                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;">Copywriting Agency</h1></div>
-                                                        <div class="thrv_wrapper tve_image_caption" data-css="tve-u-1833b2aba3b" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2411" alt="" data-id="2411" width="301" data-init-width="2560" height="201" data-init-height="1707" title="pexels-vlada-karpovich-4050290" src="<?=$host?>/wp-content/uploads/2022/07/pexels-vlada-karpovich-4050290-768x512.jpeg" data-width="301" data-height="201" data-css="tve-u-1833b2ad3f9" style="" loading="lazy" sizes="(max-width: 301px) 100vw, 301px" /></span></div>
+                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong><?= $content['HomePage'][29]?></strong>                             <?= $content['HomePage'][30]?><strong></strong></h1>
+                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong><?= $content['HomePage'][31]?></strong>                             <?= $content['HomePage'][32]?></h1>
+                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><?= $content['HomePage'][33]?></h1></div>
+                                                        <div class="thrv_wrapper tve_image_caption" data-css="tve-u-1833b2aba3b" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2411" alt="" data-id="2411" width="301" data-init-width="2560" height="201" data-init-height="1707" title="pexels-vlada-karpovich-4050290" src="<?=$host?><?= $media['HomePage'][9]?>" data-width="301" data-height="201" data-css="tve-u-1833b2ad3f9" style="" loading="lazy" sizes="(max-width: 301px) 100vw, 301px" /></span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -718,13 +724,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                     <div class="tve-content-box-background" data-css="tve-u-182ecd55a95" style=""></div>
                                                     <div class="tve-cb" style="" data-css="tve-u-182ed758e47">
                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3rf0yqd" style="" data-css="tve-u-182ec936ae1">
-                                                            <p data-css="tve-u-182ec936ae2" style="text-align: center;">SPARKHOUSE</p>
+                                                            <p data-css="tve-u-182ec936ae2" style="text-align: center;">                 <?= $content['HomePage'][34]?></p>
                                                         </div>
                                                         <div class="thrv_wrapper thrv_text_element dynamic-group-k3rf0wzv" data-css="tve-u-182ed7cc78c" style="">
-                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong>Doubled Revenue</strong> and&nbsp;</h1>
-                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong>Tripled Web Leads</strong> for a</h1>
-                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;">Video Production agency</h1></div>
-                                                        <div class="thrv_wrapper tve_image_caption" data-css="tve-u-1833b2a1831" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2173" alt="" data-id="2173" width="301" data-init-width="1000" height="200" data-init-height="666" title="Sparkhouse Team" src="<?=$host?>/wp-content/uploads/2022/04/o-2-768x511.jpg" data-width="301" data-height="200" data-css="tve-u-1833b2a5965" style="" loading="lazy" sizes="(max-width: 301px) 100vw, 301px" /></span></div>
+                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong><?= $content['HomePage'][35]?></strong>                             <?= $content['HomePage'][36]?></h1>
+                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><strong><?= $content['HomePage'][37]?></strong>                            <?= $content['HomePage'][38]?></h1>
+                                                            <h1 class="" data-css="tve-u-182ecd649be" style="text-align: center;"><?= $content['HomePage'][39]?></h1></div>
+                                                        <div class="thrv_wrapper tve_image_caption" data-css="tve-u-1833b2a1831" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2173" alt="" data-id="2173" width="301" data-init-width="1000" height="200" data-init-height="666" title="Sparkhouse Team" src="<?=$host?>
+                                                        <?= $media['HomePage'][10]?>" data-width="301" data-height="200" data-css="tve-u-1833b2a5965" style="" loading="lazy" sizes="(max-width: 301px) 100vw, 301px" /></span></div>
                                                     </div>
                                                 </div>
                                             </a>
@@ -733,7 +740,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 </div>
                             </div>
                             <div class="thrv_wrapper thrv-button thrv-button-v2 tcb-local-vars-root tve_ea_thrive_animation tve_anim_grow" data-css="tve-u-182ed8ad00c" style="" data-button-size-d="l">
-                                <a href="<?=$host?>/" class="tcb-button-link tcb-plain-text tve_evt_manager_listen tve_et_mouseover" style="" rel="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;mouseover&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;grow&quot;,&quot;loop&quot;:1},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__"> <span class="tcb-button-texts"><span class="tcb-button-text thrv-inline-text" data-css="tve-u-182ed8b72e0"><strong>View More Case Studies</strong></span></span>
+                                <a href="<?=$host?>/" class="tcb-button-link tcb-plain-text tve_evt_manager_listen tve_et_mouseover" style="" rel="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;mouseover&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;grow&quot;,&quot;loop&quot;:1},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__"> <span class="tcb-button-texts"><span class="tcb-button-text thrv-inline-text" data-css="tve-u-182ed8b72e0"><strong><?= $content['HomePage'][40]?></strong></span></span>
                                 </a>
                             </div>
                         </div>
@@ -754,13 +761,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="tcb-flex-row tcb-medium-no-wrap tcb-mobile-no-wrap tcb-resized tcb--cols--2" style="" data-css="tve-u-182eda30086">
                                     <div class="tcb-flex-col" style="" data-css="tve-u-182edbb6a92">
                                         <div class="tcb-col variable-height" data-css="tve-u-182eda30087" style="">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-1831b39e515" style=""><span class="tve_image_frame" style=""><img decoding="async" class="tve_image wp-image-2498 tcb-moved-image" alt="" data-id="2498" width="1707" data-init-width="1707" height="2560" data-init-height="2560" title="pexels-anna-shvets-6250940" src="<?=$host?>/wp-content/uploads/2022/08/pexels-anna-shvets-6250940-scaled.jpeg" style="" ml-m="0" mt-m="-128" data-css="tve-u-1831b53337e" center-v-m="false" loading="lazy" sizes="(max-width: 1707px) 100vw, 1707px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-1831b39e515" style=""><span class="tve_image_frame" style=""><img decoding="async" class="tve_image wp-image-2498 tcb-moved-image" alt="" data-id="2498" width="1707" data-init-width="1707" height="2560" data-init-height="2560" title="pexels-anna-shvets-6250940" src="<?=$host?>
+                                            <?= $media['HomePage'][11]?>" style="" ml-m="0" mt-m="-128" data-css="tve-u-1831b53337e" center-v-m="false" loading="lazy" sizes="(max-width: 1707px) 100vw, 1707px" /></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col" style="" data-css="tve-u-1831b38d33b">
                                         <div class="tcb-col" style="padding-bottom: 0px !important;" data-css="tve-u-182eda30088">
                                             <div class="thrv_wrapper thrv_text_element" data-tag="h2" data-css="tve-u-182eda30089" style="margin-bottom: 25px !important;">
-                                                <h2 class="" data-css="tve-u-182eda3008a" style="text-align: center;"><!--StartFragment--><!--StartFragment--><!--StartFragment--><!--StartFragment--><strong>SEO Awards</strong><!--EndFragment--><!--EndFragment--><!--EndFragment--><!--EndFragment--></h2></div>
+                                                <h2 class="" data-css="tve-u-182eda3008a" style="text-align: center;"><!--StartFragment--><!--StartFragment--><!--StartFragment--><!--StartFragment--><strong><?= $content['HomePage'][41]?></strong><!--EndFragment--><!--EndFragment--><!--EndFragment--><!--EndFragment--></h2></div>
                                             <div class="thrv_wrapper thrv-columns dynamic-group-k3g051b8" data-css="tve-u-182eda3008b" style="--tcb-col-el-width: 993.344;">
                                                 <div class="tcb-flex-row tcb--cols--3" data-css="tve-u-182eda3008c" style="">
                                                     <div class="tcb-flex-col" style="" data-css="tve-u-182edacb768">
@@ -772,19 +780,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                         <div class="tcb-flex-row tcb-medium-wrap v-2 tcb-mobile-no-wrap m-edit tcb--cols--1" data-css="tve-u-182eda7b81f">
                                                                             <div class="tcb-flex-col" data-css="tve-u-1827c6814e7" style="">
                                                                                 <div class="tcb-col dynamic-group-k3h1pa2q" data-css="tve-u-1829a58e19d">
-                                                                                    <div class="thrv_wrapper tve_image_caption dynamic-group-k3h1p7v6 tcb-excluded-from-group-item" data-css="tve-u-182eda7b827" style="padding-bottom: 0px !important;"><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-2467" alt="" width="240" height="76" title="US-Search-Awards-2022-Finalist-Badge" data-id="2467" src="<?=$host?>/wp-content/uploads/2022/08/US-Search-Awards-2022-Finalist-Badge-300x95.png" style="" data-width="240" data-height="76" data-init-width="1123" data-init-height="354" ml-d="0" data-css="tve-u-182eda7b820" mt-d="-0.4141000000000048" center-h-d="false" ml-m="0" mt-m="-0.7266000000000048" loading="lazy" sizes="(max-width: 240px) 100vw, 240px" /></span></div>
+                                                                                    <div class="thrv_wrapper tve_image_caption dynamic-group-k3h1p7v6 tcb-excluded-from-group-item" data-css="tve-u-182eda7b827" style="padding-bottom: 0px !important;"><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-2467" alt="" width="240" height="76" title="US-Search-Awards-2022-Finalist-Badge" data-id="2467" src="<?=$host?>
+                                                                                    <?= $media['HomePage'][12]?>" style="" data-width="240" data-height="76" data-init-width="1123" data-init-height="354" ml-d="0" data-css="tve-u-182eda7b820" mt-d="-0.4141000000000048" center-h-d="false" ml-m="0" mt-m="-0.7266000000000048" loading="lazy" sizes="(max-width: 240px) 100vw, 240px" /></span></div>
                                                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3h1opt6" data-css="tve-u-182eda7b821" data-tag="h5" style="">
-                                                                                        <h5 class="" data-css="tve-u-182eda7b822" style="text-align: center;"><strong>FINALIST</strong></h5></div>
+                                                                                        <h5 class="" data-css="tve-u-182eda7b822" style="text-align: center;"><strong>
+                                                                                            <?= $content['HomePage'][42]?></strong></h5></div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3h1p1aw" data-css="tve-u-182eda7b825" style="">
                                                                         <p data-css="tve-u-182eda7b826" style="text-align: center; color: var(--tcb-skin-color-24)  !important; --tcb-applied-color:var$(--tcb-skin-color-24)  !important;">
-                                                                            <!--StartFragment--><strong>BEST LOW BUDGET CAMPAIGN</strong></p>
+                                                                            <!--StartFragment--><strong>
+                                                                                <?= $content['HomePage'][43]?></strong></p>
                                                                     </div>
                                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3h1osmg" data-css="tve-u-182eda7b823" style="">
-                                                                        <p data-css="tve-u-182eda7b824" style="text-align: center;"><em>Search Engine Optimization</em></p>
+                                                                        <p data-css="tve-u-182eda7b824" style="text-align: center;"><em>
+                                                                            <?= $content['HomePage'][44]?></em></p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -799,19 +811,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                         <div class="tcb-flex-row tcb-medium-wrap v-2 tcb-mobile-no-wrap m-edit tcb--cols--1" data-css="tve-u-182eda7b81f">
                                                                             <div class="tcb-flex-col" data-css="tve-u-1827c6814e7" style="">
                                                                                 <div class="tcb-col dynamic-group-k3h1pa2q" data-css="tve-u-1829a58e19d">
-                                                                                    <div class="thrv_wrapper tve_image_caption dynamic-group-k3h1p7v6 tcb-excluded-from-group-item" data-css="tve-u-182edaf7216" style="padding-bottom: 0px !important;"><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-734 tcb-moved-image" alt="" width="170" height="80" title="American_Advertising_Federation.svg (1)" data-id="734" src="<?=$host?>/wp-content/uploads/2020/04/American_Advertising_Federation.svg-1-212x100.png" style="" data-width="170" data-height="80" data-init-width="1200" data-init-height="566" ml-d="0" data-css="tve-u-182edaf5573" mt-d="-0.4141000000000048" center-h-d="false" loading="lazy" sizes="(max-width: 170px) 100vw, 170px" /></span></div>
+                                                                                    <div class="thrv_wrapper tve_image_caption dynamic-group-k3h1p7v6 tcb-excluded-from-group-item" data-css="tve-u-182edaf7216" style="padding-bottom: 0px !important;"><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-734 tcb-moved-image" alt="" width="170" height="80" title="American_Advertising_Federation.svg (1)" data-id="734" src="<?=$host?>
+                                                                                    <?= $media['HomePage'][13]?>" style="" data-width="170" data-height="80" data-init-width="1200" data-init-height="566" ml-d="0" data-css="tve-u-182edaf5573" mt-d="-0.4141000000000048" center-h-d="false" loading="lazy" sizes="(max-width: 170px) 100vw, 170px" /></span></div>
                                                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3h1opt6" data-css="tve-u-182edb0a4a4" data-tag="h5" style="">
-                                                                                        <h5 class="" data-css="tve-u-182edaf134e" style="text-align: center;"><strong>SILVER ADDY AWARD</strong></h5></div>
+                                                                                        <h5 class="" data-css="tve-u-182edaf134e" style="text-align: center;"><strong>
+                                                                                            <?= $content['HomePage'][45]?></strong></h5></div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3h1p1aw" data-css="tve-u-182eda7b825" style="">
                                                                         <p data-css="tve-u-182edb00c8a" style="text-align: center; color: var(--tcb-skin-color-24)  !important; --tcb-applied-color:var$(--tcb-skin-color-24)  !important;">
-                                                                            <!--StartFragment--><strong>HUBSPOT THOUGHT LEADERSHIP BLOG POST</strong></p>
+                                                                            <!--StartFragment--><strong><?= $content['HomePage'][46]?></strong></p>
                                                                     </div>
                                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3h1osmg" data-css="tve-u-182eda7b823" style="">
-                                                                        <p data-css="tve-u-182eda7b824" style="text-align: center;"><em>Online/Interactive Media</em></p>
+                                                                        <p data-css="tve-u-182eda7b824" style="text-align: center;"><em>
+                                                                            <?= $content['HomePage'][47]?></em></p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -826,19 +841,22 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                         <div class="tcb-flex-row tcb-medium-wrap v-2 tcb-mobile-no-wrap m-edit tcb--cols--1" data-css="tve-u-182eda7b81f">
                                                                             <div class="tcb-flex-col" data-css="tve-u-1827c6814e7" style="">
                                                                                 <div class="tcb-col dynamic-group-k3h1pa2q" data-css="tve-u-1829a58e19d">
-                                                                                    <div class="thrv_wrapper tve_image_caption dynamic-group-k3h1p7v6 tcb-excluded-from-group-item" data-css="tve-u-182edaf7216" style="padding-bottom: 0px !important;"><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-734 tcb-moved-image" alt="" width="170" height="80" title="American_Advertising_Federation.svg (1)" data-id="734" src="<?=$host?>/wp-content/uploads/2020/04/American_Advertising_Federation.svg-1-212x100.png" style="" data-width="170" data-height="80" data-init-width="1200" data-init-height="566" ml-d="0" data-css="tve-u-182edaf5573" mt-d="-0.4141000000000048" center-h-d="false" loading="lazy" sizes="(max-width: 170px) 100vw, 170px" /></span></div>
+                                                                                    <div class="thrv_wrapper tve_image_caption dynamic-group-k3h1p7v6 tcb-excluded-from-group-item" data-css="tve-u-182edaf7216" style="padding-bottom: 0px !important;"><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-734 tcb-moved-image" alt="" width="170" height="80" title="American_Advertising_Federation.svg (1)" data-id="734" src="<?=$host?>
+                                                                                    <?= $media['HomePage'][14]?>" style="" data-width="170" data-height="80" data-init-width="1200" data-init-height="566" ml-d="0" data-css="tve-u-182edaf5573" mt-d="-0.4141000000000048" center-h-d="false" loading="lazy" sizes="(max-width: 170px) 100vw, 170px" /></span></div>
                                                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3h1opt6" data-css="tve-u-182edb0a4a4" data-tag="h5" style="">
-                                                                                        <h5 class="" data-css="tve-u-182edaf134e" style="text-align: center;"><strong>BRONZE ADDY AWARD</strong></h5></div>
+                                                                                        <h5 class="" data-css="tve-u-182edaf134e" style="text-align: center;"><strong>
+                                                                                            <?= $content['HomePage'][48]?></strong></h5></div>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3h1p1aw" data-css="tve-u-182eda7b825" style="">
                                                                         <p data-css="tve-u-182edb00c8a" style="text-align: center; color: var(--tcb-skin-color-24)  !important; --tcb-applied-color:var$(--tcb-skin-color-24)  !important;">
-                                                                            <!--StartFragment--><strong>SOCIAL MEDIA EXAMINER THOUGHT LEADERSHIP BLOG POST</strong></p>
+                                                                            <!--StartFragment--><strong><?= $content['HomePage'][49]?></strong></p>
                                                                     </div>
                                                                     <div class="thrv_wrapper thrv_text_element dynamic-group-k3h1osmg" data-css="tve-u-182eda7b823" style="">
-                                                                        <p data-css="tve-u-182eda7b824" style="text-align: center;"><em>Online/Interactive Media</em></p>
+                                                                        <p data-css="tve-u-182eda7b824" style="text-align: center;"><em>
+                                                                            <?= $content['HomePage'][50]?></em></p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -869,13 +887,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                     <div class="tcb-flex-col" data-css="tve-u-17fcd129197" style="">
                                         <div class="tcb-col" data-css="tve-u-17fcd129198" style="">
                                             <div class="thrv_wrapper thrv_text_element" data-tag="h2" data-css="tve-u-17fcd129199">
-                                                <h2 class="" data-css="tve-u-182f14f3d1d" style=""><!--StartFragment--><!--StartFragment--><?=$namehost?><strong>&nbsp;<span style="" data-css="tve-u-182f14eda18">SEO&nbsp;</span></strong></h2>
-                                                <h2 class="" data-css="tve-u-182edb8e4be" style=""><strong><span style="" data-css="tve-u-182f8232721">Signature Solution</span></strong><!--EndFragment--><!--EndFragment--></h2></div>
+                                                <h2 class="" data-css="tve-u-182f14f3d1d" style=""><!--StartFragment--><!--StartFragment--><?=$namehost?><strong>&nbsp;<span style="" data-css="tve-u-182f14eda18"><?= $content['HomePage'][51]?></span></strong></h2>
+                                                <h2 class="" data-css="tve-u-182edb8e4be" style=""><strong><span style="" data-css="tve-u-182f8232721"><?= $content['HomePage'][52]?></span></strong><!--EndFragment--><!--EndFragment--></h2></div>
                                             <div class="thrv_wrapper thrv_text_element" data-css="tve-u-17fcd12919a">
                                                 <p data-css="tve-u-182edbaa6ea" style="">
-                                                    <!--StartFragment-->Every client we work with goes through all seven steps of our signature process, ensuring that they receive a proper SEO plan that aligns with their business's goals.&nbsp;
+                                                    <!--StartFragment--><?= $content['HomePage'][53]?>
                                                     <br>
-                                                    <br>The <?=$namehost?> SEO Signature Solution is an in-depth seven-step process that we use with all the clients and businesses we interact with.</p>
+                                                    <br><?= $content['HomePage'][54]?> <?=$namehost?> <?= $content['HomePage'][55]?></p>
                                                 <p data-css="tve-u-182edba7fae" style="">
                                                     <br>
                                                 </p>
@@ -886,13 +904,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </svg></div>
 </span>
 
-    <span class="tcb-button-texts" style=""><span class="tcb-button-text thrv-inline-text" data-css="tve-u-182edb607cd" style=""><strong>Read About Our Signature Solution</strong></span></span>
+    <span class="tcb-button-texts" style=""><span class="tcb-button-text thrv-inline-text" data-css="tve-u-182edb607cd" style=""><strong><?= $content['HomePage'][56]?></strong></span></span>
 </a> </div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col" data-css="tve-u-17fcd12919b" style="">
                                         <div class="tcb-col" data-css="tve-u-17fcd12919c" style="">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17022a7c706" data-tve-scroll="{&quot;disabled&quot;:[],&quot;top&quot;:0,&quot;mode&quot;:&quot;parallax&quot;,&quot;end&quot;:&quot;parallax&quot;,&quot;parallax&quot;:{&quot;vertical&quot;:{&quot;speed&quot;:&quot;2&quot;,&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;15&quot;,&quot;perspective&quot;:&quot;1000&quot;,&quot;degrees&quot;:&quot;45&quot;,&quot;direction&quot;:&quot;in&quot;,&quot;settings&quot;:{&quot;key&quot;:&quot;TY&quot;,&quot;um&quot;:&quot;px&quot;}}}}"><span class="tve_image_frame" style="width: 100%;"><a href="<?=$host?>/"><img decoding="async" class="tve_image wp-image-417" alt="<?=$namehost?> SEO Signature Solution" width="400" height="774" title="<?=$namehost?> SEO Signature Solution" data-id="417" src="<?=$host?>/wp-content/uploads/2020/02/zupokhoo-e1581129589471.jpg" style="" data-width="400" data-height="774" data-init-width="500" data-init-height="967" data-css="tve-u-182edb8233f" loading="lazy" sizes="(max-width: 400px) 100vw, 400px" /></a></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17022a7c706" data-tve-scroll="{&quot;disabled&quot;:[],&quot;top&quot;:0,&quot;mode&quot;:&quot;parallax&quot;,&quot;end&quot;:&quot;parallax&quot;,&quot;parallax&quot;:{&quot;vertical&quot;:{&quot;speed&quot;:&quot;2&quot;,&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;15&quot;,&quot;perspective&quot;:&quot;1000&quot;,&quot;degrees&quot;:&quot;45&quot;,&quot;direction&quot;:&quot;in&quot;,&quot;settings&quot;:{&quot;key&quot;:&quot;TY&quot;,&quot;um&quot;:&quot;px&quot;}}}}"><span class="tve_image_frame" style="width: 100%;"><a href="<?=$host?>/"><img decoding="async" class="tve_image wp-image-417" alt="<?=$namehost?> SEO Signature Solution" width="400" height="774" title="<?=$namehost?> SEO Signature Solution" data-id="417" src="<?=$host?>
+                                            <?= $media['HomePage'][15]?>" style="" data-width="400" data-height="774" data-init-width="500" data-init-height="967" data-css="tve-u-182edb8233f" loading="lazy" sizes="(max-width: 400px) 100vw, 400px" /></a></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -906,16 +925,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="tcb-flex-row tcb-resized tcb-medium-wrap tcb--cols--2" data-css="tve-u-16c389e66b2">
                                     <div class="tcb-flex-col" data-css="tve-u-16c38a86fe1" style="">
                                         <div class="tcb-col" data-css="tve-u-16c38f8f3d7">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-16de257b46c" data-tve-scroll="{&quot;disabled&quot;:[],&quot;top&quot;:0,&quot;mode&quot;:&quot;parallax&quot;,&quot;end&quot;:&quot;parallax&quot;,&quot;parallax&quot;:{&quot;vertical&quot;:{&quot;speed&quot;:&quot;2&quot;,&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;20&quot;,&quot;perspective&quot;:&quot;1000&quot;,&quot;degrees&quot;:&quot;45&quot;,&quot;direction&quot;:&quot;in&quot;,&quot;settings&quot;:{&quot;key&quot;:&quot;TY&quot;,&quot;um&quot;:&quot;px&quot;}}}}"><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-82" alt="" width="328" height="413" title="Mark - White" data-id="82" src="<?=$host?>/wp-content/uploads/2019/10/Mark-White.png" style="" data-width="328" data-height="413" data-init-width="328" data-init-height="413" loading="lazy" sizes="(max-width: 328px) 100vw, 328px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-16de257b46c" data-tve-scroll="{&quot;disabled&quot;:[],&quot;top&quot;:0,&quot;mode&quot;:&quot;parallax&quot;,&quot;end&quot;:&quot;parallax&quot;,&quot;parallax&quot;:{&quot;vertical&quot;:{&quot;speed&quot;:&quot;2&quot;,&quot;start&quot;:&quot;0&quot;,&quot;end&quot;:&quot;20&quot;,&quot;perspective&quot;:&quot;1000&quot;,&quot;degrees&quot;:&quot;45&quot;,&quot;direction&quot;:&quot;in&quot;,&quot;settings&quot;:{&quot;key&quot;:&quot;TY&quot;,&quot;um&quot;:&quot;px&quot;}}}}"><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-82" alt="" width="328" height="413" title="Mark - White" data-id="82" src="<?=$host?><?= $media['HomePage'][16]?>" style="" data-width="328" data-height="413" data-init-width="328" data-init-height="413" loading="lazy" sizes="(max-width: 328px) 100vw, 328px" /></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col" data-css="tve-u-16c38a86ffd" style="">
                                         <div class="tcb-col" data-css="tve-u-16c38aa9b5b" style="">
                                             <div class="thrv_wrapper thrv_text_element" data-tag="h2" data-css="tve-u-16c38ad9497">
-                                                <h2 class="" data-css="tve-u-1814c0af071" style=""><span data-css="tve-u-16e3e62ffba" style="color: var(--tcb-tpl-color-3);">About</span>
-                                                <strong><span data-css="tve-u-16c38ad569c" style="color: var(--tcb-color-8);"><?=$namehost?></span></strong></h2></div>
+                                                <h2 class="" data-css="tve-u-1814c0af071" style=""><span data-css="tve-u-16e3e62ffba" style="color: var(--tcb-tpl-color-3);"><?= $content['HomePage'][57]?></span>
+                                                <strong><span data-css="tve-u-16c38ad569c" style="color: var(--tcb-color-8);">
+                                                <?=$namehost?></span></strong></h2></div>
                                             <div class="thrv_wrapper thrv_text_element" data-css="tve-u-16c390787d1" style="">
-                                                <p style="" data-css="tve-u-1814c0b09e1"><?=$namehost?> is an Orange County SEO consulting agency helping construct powerful long term SEO strategies for our clients. We develop close relationships with our clients to leverage their industry experience with our own intimate knowledge of the search landscape to create truly competitive SEO strategies.&nbsp;</p>
+                                                <p style="" data-css="tve-u-1814c0b09e1"><?=$namehost?> <?= $content['HomePage'][58]?></p>
                                             </div>
                                         </div>
                                     </div>
@@ -945,18 +965,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="tcb-flex-row tcb-resized tcb--cols--3 v-2 m-edit tcb-mobile-wrap tcb-medium-no-wrap tcb-desktop-no-wrap" style="padding-bottom: 0px !important;" data-css="tve-u-183178d87a3">
                                     <div class="tcb-flex-col c-50" style="" data-css="tve-u-183178d87a4">
                                         <div class="tcb-col" style="" data-css="tve-u-183178d87a5">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-183178d87a6" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2371" alt="" data-id="2371" width="296" data-init-width="296" height="84" data-init-height="84" title="Screen Shot 2022-07-05 at 7.45.25 PM" src="<?=$host?>/wp-content/uploads/2022/07/Screen-Shot-2022-07-05-at-7.45.25-PM.png" data-width="296" data-height="84" data-css="tve-u-1831b48a182" style="" loading="lazy"></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-183178d87a6" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2371" alt="" data-id="2371" width="296" data-init-width="296" height="84" data-init-height="84" title="Screen Shot 2022-07-05 at 7.45.25 PM" src="<?=$host?><?= $media['HomePage'][17]?>" data-width="296" data-height="84" data-css="tve-u-1831b48a182" style="" loading="lazy"></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col c-25" style="" data-css="tve-u-183178d87a7">
                                         <div class="tcb-col k441xsng" data-css="tve-u-183178d87a8" style="">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-183178d87a9" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2372" alt="" data-id="2372" width="310" data-init-width="224" height="105" data-init-height="76" title="Screen Shot 2022-07-05 at 7.47.02 PM" src="<?=$host?>/wp-content/uploads/2022/07/Screen-Shot-2022-07-05-at-7.47.02-PM.png" data-width="310" data-height="105" data-css="tve-u-1831b48b46b" style="" loading="lazy"></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-183178d87a9" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2372" alt="" data-id="2372" width="310" data-init-width="224" height="105" data-init-height="76" title="Screen Shot 2022-07-05 at 7.47.02 PM" src="<?=$host?><?= $media['HomePage'][18]?>" data-width="310" data-height="105" data-css="tve-u-1831b48b46b" style="" loading="lazy"></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col c-25" style="" data-css="tve-u-183178d87ab">
                                         <div class="tcb-col k441xsng" data-css="tve-u-183178d87ac" style="">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-183178d87ad" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2526" alt="" data-id="2526" width="200" data-init-width="1280" height="68" data-init-height="433" title="Google_2015_logo.svg" src="<?=$host?>/wp-content/uploads/2022/09/Google_2015_logo.svg_-300x101.png" data-width="200" data-height="68" data-css="tve-u-1831b48d134" style="" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" /></span></div>
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-183178d87af" style=""><span class="tve_image_frame" style=""><img decoding="async" class="tve_image wp-image-2525" alt="" data-id="2525" width="210" data-init-width="388" height="62" data-init-height="114" title="Screen Shot 2022-09-07 at 6.26.12 PM" src="<?=$host?>/wp-content/uploads/2022/09/Screen-Shot-2022-09-07-at-6.26.12-PM-300x88.png" data-width="210" data-height="62" style="" ml-d="0" mt-d="0" data-css="tve-u-183178d87b0" loading="lazy" sizes="(max-width: 210px) 100vw, 210px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-183178d87ad" style=""><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2526" alt="" data-id="2526" width="200" data-init-width="1280" height="68" data-init-height="433" title="Google_2015_logo.svg" src="<?=$host?><?= $media['HomePage'][19]?>" data-width="200" data-height="68" data-css="tve-u-1831b48d134" style="" loading="lazy" sizes="(max-width: 200px) 100vw, 200px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-183178d87af" style=""><span class="tve_image_frame" style=""><img decoding="async" class="tve_image wp-image-2525" alt="" data-id="2525" width="210" data-init-width="388" height="62" data-init-height="114" title="Screen Shot 2022-09-07 at 6.26.12 PM" src="<?=$host?><?= $media['HomePage'][20]?>" data-width="210" data-height="62" style="" ml-d="0" mt-d="0" data-css="tve-u-183178d87b0" loading="lazy" sizes="(max-width: 210px) 100vw, 210px" /></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -967,27 +987,27 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="tve-page-section-out"></div>
                         <div class="tve-page-section-in" data-css="tve-u-17fcd2da9e0">
                             <div class="thrv_wrapper thrv_text_element" data-tag="h2" data-css="tve-u-17fcd2dcc63">
-                                <h2 class="" style="text-align: center;" data-css="tve-u-182edce23ba"><!--StartFragment--><!--StartFragment--><!--EndFragment--><!--EndFragment--><strong>Our SEO Knowledge Has Been Featured In</strong></h2></div>
+                                <h2 class="" style="text-align: center;" data-css="tve-u-182edce23ba"><!--StartFragment--><!--StartFragment--><!--EndFragment--><!--EndFragment--><strong><?= $content['HomePage'][59]?></strong></h2></div>
                             <div class="thrv_wrapper thrv-columns" style="--tcb-col-el-width: 1400;">
                                 <div class="tcb-flex-row v-2 tcb--cols--4">
                                     <div class="tcb-flex-col" data-css="tve-u-182f1577c47" style="">
                                         <div class="tcb-col tve_evt_manager_listen tve_et_tve-viewport tve_ea_thrive_animation tve_anim_slide_left" style="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_left&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2056" alt="" data-id="2056" width="150" data-init-width="150" height="39" data-init-height="39" title="Forbes_logo.svg" src="<?=$host?>/wp-content/uploads/2022/03/Forbes_logo.svg_.png" data-width="150" data-height="39" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2056" alt="" data-id="2056" width="150" data-init-width="150" height="39" data-init-height="39" title="Forbes_logo.svg" src="<?=$host?><?= $media['HomePage'][21]?>" data-width="150" data-height="39" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col" data-css="tve-u-182edce4b5d" style="">
                                         <div class="tcb-col tve_evt_manager_listen tve_et_tve-viewport tve_ea_thrive_animation tve_anim_slide_left" style="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_left&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2053" alt="" data-id="2053" width="150" data-init-width="480" height="33" data-init-height="105" title="Search Engine Journal" src="<?=$host?>/wp-content/uploads/2022/03/download-1-150x33.png" data-width="150" data-height="33" loading="lazy" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2053" alt="" data-id="2053" width="150" data-init-width="480" height="33" data-init-height="105" title="Search Engine Journal" src="<?=$host?><?= $media['HomePage'][22]?>" data-width="150" data-height="33" loading="lazy" /></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col" data-css="tve-u-17fcd21e95f" style="">
                                         <div class="tcb-col tve_evt_manager_listen tve_et_tve-viewport tve_ea_thrive_animation tve_anim_slide_right" style="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_right&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2052" alt="" data-id="2052" width="150" data-init-width="535" height="26" data-init-height="94" title="Success" src="<?=$host?>/wp-content/uploads/2022/03/download-150x26.png" data-width="150" data-height="26" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2052" alt="" data-id="2052" width="150" data-init-width="535" height="26" data-init-height="94" title="Success" src="<?=$host?><?= $media['HomePage'][23]?>" data-width="150" data-height="26" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col" data-css="tve-u-17fcd221245" style="">
                                         <div class="tcb-col tve_evt_manager_listen tve_et_tve-viewport tve_ea_thrive_animation tve_anim_slide_right" style="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_right&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2054" alt="" data-id="2054" width="150" data-init-width="553" height="25" data-init-height="91" title="Bluehost" src="<?=$host?>/wp-content/uploads/2022/03/download-2-150x25.png" data-width="150" data-height="25" loading="lazy" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2054" alt="" data-id="2054" width="150" data-init-width="553" height="25" data-init-height="91" title="Bluehost" src="<?=$host?><?= $media['HomePage'][24]?>" data-width="150" data-height="25" loading="lazy" /></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -996,22 +1016,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                 <div class="tcb-flex-row v-2 tcb--cols--4">
                                     <div class="tcb-flex-col" data-css="tve-u-17fcd21142e" style="">
                                         <div class="tcb-col tve_evt_manager_listen tve_et_tve-viewport tve_ea_thrive_animation tve_anim_slide_left" style="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_left&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2061" alt="" data-id="2061" width="150" data-init-width="768" height="41" data-init-height="210" title="AAF-american-advertising-federation-768x210" src="<?=$host?>/wp-content/uploads/2022/03/AAF-american-advertising-federation-768x210-1-150x41.webp" data-width="150" data-height="41" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2061" alt="" data-id="2061" width="150" data-init-width="768" height="41" data-init-height="210" title="AAF-american-advertising-federation-768x210" src="<?=$host?>
+                                            <?= $media['HomePage'][25]?>" data-width="150" data-height="41" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col" data-css="tve-u-17fcd21b59b" style="">
                                         <div class="tcb-col tve_evt_manager_listen tve_et_tve-viewport tve_ea_thrive_animation tve_anim_slide_left" style="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_left&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2059" alt="" data-id="2059" width="150" data-init-width="1504" height="38" data-init-height="376" title="6f703da80e7751d830254b2c2c6efe7c" src="<?=$host?>/wp-content/uploads/2022/03/6f703da80e7751d830254b2c2c6efe7c-150x38.png" data-width="150" data-height="38" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2059" alt="" data-id="2059" width="150" data-init-width="1504" height="38" data-init-height="376" title="6f703da80e7751d830254b2c2c6efe7c" src="<?=$host?><?= $media['HomePage'][26]?>" data-width="150" data-height="38" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col" data-css="tve-u-17fcd2ae024" style="">
                                         <div class="tcb-col tve_evt_manager_listen tve_et_tve-viewport tve_ea_thrive_animation tve_anim_slide_right" style="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_right&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2057" alt="" data-id="2057" width="150" data-init-width="200" height="40" data-init-height="53" title="Single-Grain-logo-for-company-shirts" src="<?=$host?>/wp-content/uploads/2022/03/Single-Grain-logo-for-company-shirts-150x40.png" data-width="150" data-height="40" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2057" alt="" data-id="2057" width="150" data-init-width="200" height="40" data-init-height="53" title="Single-Grain-logo-for-company-shirts" src="<?=$host?><?= $media['HomePage'][27]?>" data-width="150" data-height="40" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
                                         </div>
                                     </div>
                                     <div class="tcb-flex-col" data-css="tve-u-17fcd2c551a" style="">
                                         <div class="tcb-col tve_evt_manager_listen tve_et_tve-viewport tve_ea_thrive_animation tve_anim_slide_right" style="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;tve-viewport&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;slide_right&quot;,&quot;loop&quot;:0},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__">
-                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2063" alt="" data-id="2063" width="150" data-init-width="400" height="47" data-init-height="126" title="expertise-com-best-siding-contractors-2020" src="<?=$host?>/wp-content/uploads/2022/03/expertise-com-best-siding-contractors-2020-150x47.png" data-width="150" data-height="47" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
+                                            <div class="thrv_wrapper tve_image_caption" data-css="tve-u-17fcd217395"><span class="tve_image_frame"><img decoding="async" class="tve_image wp-image-2063" alt="" data-id="2063" width="150" data-init-width="400" height="47" data-init-height="126" title="expertise-com-best-siding-contractors-2020" src="<?=$host?>
+                                            <?= $media['HomePage'][28]?>" data-width="150" data-height="47" loading="lazy" sizes="(max-width: 150px) 100vw, 150px" /></span></div>
                                         </div>
                                     </div>
                                 </div>
@@ -1022,8 +1044,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         <div class="tve-page-section-out" data-css="tve-u-16c38dac1d6"></div>
                         <div class="tve-page-section-in tve_empty_dropzone" data-css="tve-u-16c38b1aba5">
                             <div class="thrv_wrapper thrv_text_element" data-tag="h2" data-css="tve-u-16c38b77b4b" style="">
-                                <h2 class="" style="text-align: center;" data-css="tve-u-182edd3fd52">Don't believe us?</h2>
-                                <h2 class="" style="text-align: center;" data-css="tve-u-182edce77ee"><strong>Maybe these guys will convince you!</strong></h2></div>
+                                <h2 class="" style="text-align: center;" data-css="tve-u-182edd3fd52"><?= $content['HomePage'][60]?></h2>
+                                <h2 class="" style="text-align: center;" data-css="tve-u-182edce77ee"><strong>
+                                    <?= $content['HomePage'][61]?></strong></h2></div>
                             <div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box" style="" data-css="tve-u-1602a20b48f" data-ct-name="Chic Photo Light" data-ct="testimonial-7321" data-element-name="Testimonial">
                                 <div class="tve-content-box-background" data-css="tve-u-16c38c8d39b"></div>
                                 <div class="tve-cb tve_empty_dropzone" data-css="tve-u-16c38c8d39c">
@@ -1038,15 +1061,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-flex-row tcb-resized tcb--cols--2 tcb-medium-wrap" data-css="tve-u-16c38f97091">
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd9786" style="">
                                                                         <div class="tcb-col dynamic-group-jyo70epn" data-css="tve-u-16de27c06bc">
-                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38fa4d4b" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-255" alt="" width="110" height="52" title="SIDNEY KARANJA" data-id="255" src="//<?=$ihost?>/wp-content/uploads/2019/11/sid-prev-1-1-e1573084002630.jpg" style="" data-css="tve-u-1718aadccd7" ml-d="0" data-width="110" data-height="52" mt-d="0" loading="lazy"></span></div>
+                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38fa4d4b" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-255" alt="" width="110" height="52" title="SIDNEY KARANJA" data-id="255" src="//<?=$ihost?><?= $media['HomePage'][29]?>" style="" data-css="tve-u-1718aadccd7" ml-d="0" data-width="110" data-height="52" mt-d="0" loading="lazy"></span></div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd97a3" style="">
                                                                         <div class="tcb-col dynamic-group-jyo8j9bf" data-css="tve-u-1718aa437b8">
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6y81e" data-css="tve-u-16c38ba2444" data-tag="h3">
-                                                                                <h5 class="" data-css="tve-u-16c38be533a" style=""><strong>Sidney Karanja</strong></h5></div>
+                                                                                <h5 class="" data-css="tve-u-16c38be533a" style=""><strong><?= $content['HomePage'][62]?></strong></h5></div>
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6ylyz" data-css="tve-u-16c38d13430">
-                                                                                <p data-css="tve-u-16c38d05032" style="">CEO, Savostore</p>
+                                                                                <p data-css="tve-u-16c38d05032" style="">
+                                                                                <?= $content['HomePage'][63]?></p>
                                                                             </div>
                                                                             <div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box tve-elem-default-pad dynamic-group-jyo8ib56" data-css="tve-u-16c3d420641">
                                                                                 <div class="tve-content-box-background" data-css="tve-u-182f14e88a9" style=""></div>
@@ -1057,7 +1081,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 </div>
                                                             </div>
                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6yxrm" data-css="tve-u-16c38ba2444">
-                                                                <p data-css="tve-u-16c3cea533f"><?=$namehost?>'s understanding of SEO is amazing. They understand what they are doing and help develop strategies revolving around our unique business.</p>
+                                                                <p data-css="tve-u-16c3cea533f"><?=$namehost?>
+                                                                <?= $content['HomePage'][64]?></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1068,15 +1093,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-flex-row tcb-resized tcb--cols--2 tcb-medium-wrap" data-css="tve-u-16c38f97091">
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd9786" style="">
                                                                         <div class="tcb-col dynamic-group-jyo70epn" data-css="tve-u-16de27c06bc">
-                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38fa4d4b" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-1011" alt="" width="110" height="52" title="1_7rSjPPOkHhrGbYMs8OXLvg" data-id="1011" src="<?=$host?>/wp-content/uploads/2020/09/1_7rSjPPOkHhrGbYMs8OXLvg.png" style="" data-css="tve-u-1718aadccd7" ml-d="0" data-width="110" data-height="52" mt-d="0" data-init-width="1200" data-init-height="1200" loading="lazy"></span></div>
+                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38fa4d4b" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-1011" alt="" width="110" height="52" title="1_7rSjPPOkHhrGbYMs8OXLvg" data-id="1011" src="<?=$host?><?= $media['HomePage'][30]?>" style="" data-css="tve-u-1718aadccd7" ml-d="0" data-width="110" data-height="52" mt-d="0" data-init-width="1200" data-init-height="1200" loading="lazy"></span></div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd97a3" style="">
                                                                         <div class="tcb-col dynamic-group-jyo8j9bf" data-css="tve-u-1718aa437b8">
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6y81e" data-css="tve-u-16c38ba2444" data-tag="h3">
-                                                                                <h5 class="" data-css="tve-u-16c38be533a" style=""><strong>Mikko Salokangas</strong></h5></div>
+                                                                                <h5 class="" data-css="tve-u-16c38be533a" style=""><strong><?= $content['HomePage'][65]?></strong></h5></div>
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6ylyz" data-css="tve-u-16c38d13430">
-                                                                                <p data-css="tve-u-16c38d05032" style="">Head of Development, Vincit</p>
+                                                                                <p data-css="tve-u-16c38d05032" style="">
+                                                                                <?= $content['HomePage'][66]?></p>
                                                                             </div>
                                                                             <div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box tve-elem-default-pad dynamic-group-jyo8ib56" data-css="tve-u-16c3d420641">
                                                                                 <div class="tve-content-box-background" data-css="tve-u-1718aab0eef" style=""></div>
@@ -1087,7 +1113,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 </div>
                                                             </div>
                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6yxrm" data-css="tve-u-16c38ba2444">
-                                                                <p data-css="tve-u-16c3cea533f">They really understand the culture and business of our company and are always looking for new ways to improve and get even better results. Overall, we've received a really high quality and professional service from <?=$namehost?>.</p>
+                                                                <p data-css="tve-u-16c3cea533f"><?= $content['HomePage'][67]?> 
+                                                                <?=$namehost?><?= $content['HomePage'][68]?></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1102,15 +1129,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-flex-row tcb-resized tcb--cols--2 tcb-medium-wrap" data-css="tve-u-16c38f987c1">
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd9786" style="">
                                                                         <div class="tcb-col dynamic-group-jyo70epn" data-css="tve-u-16de27c06bc">
-                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38fa56c3" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-369" alt="" width="110" height="52" title="0" data-id="369" src="<?=$host?>/wp-content/uploads/2019/12/0.jpeg" style="" data-css="tve-u-1718aadccd9" ml-d="0" data-width="110" data-height="52" mt-d="0" loading="lazy"></span></div>
+                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38fa56c3" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-369" alt="" width="110" height="52" title="0" data-id="369" src="<?=$host?><?= $media['HomePage'][31]?>" style="" data-css="tve-u-1718aadccd9" ml-d="0" data-width="110" data-height="52" mt-d="0" loading="lazy"></span></div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd97a3" style="">
                                                                         <div class="tcb-col dynamic-group-jyo8j9bf" data-css="tve-u-1718aa437b8">
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6y81e" data-css="tve-u-16c38ba2444" data-tag="h5">
-                                                                                <h5 class="" data-css="tve-u-16f48cf4772" style=""><strong>SPENCER SHAHIDZADEH</strong></h5></div>
+                                                                                <h5 class="" data-css="tve-u-16f48cf4772" style=""><strong><?= $content['HomePage'][69]?></strong></h5></div>
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6ylyz" data-css="tve-u-16c390883e7">
-                                                                                <p data-css="tve-u-16c38d05032" style="">President, <span style="color: var(--tcb-tpl-color-1);" data-css="tve-u-17c90102492">Catalytic Consulting</span></p>
+                                                                                <p data-css="tve-u-16c38d05032" style="">
+                                                                                <?= $content['HomePage'][70]?> <span style="color: var(--tcb-tpl-color-1);" data-css="tve-u-17c90102492">
+                                                                                <?= $content['HomePage'][71]?></span></p>
                                                                             </div>
                                                                             <div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box tve-elem-default-pad dynamic-group-jyo8ib56" data-css="tve-u-16c3d420643">
                                                                                 <div class="tve-content-box-background" data-css="tve-u-182f14e88ad" style=""></div>
@@ -1121,7 +1150,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 </div>
                                                             </div>
                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6yxrm" data-css="tve-u-16c38ba2444">
-                                                                <p data-css="tve-u-16c3cea72a8">I find their ability to start a foundation, maintain that foundation, then scale that foundation extremely impressive. Their holistic approach to the SEO space is what sets <?=$namehost?> apart.</p>
+                                                                <p data-css="tve-u-16c3cea72a8"><?= $content['HomePage'][72]?> 
+                                                                <?=$namehost?> <?= $content['HomePage'][73]?></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1132,15 +1162,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-flex-row tcb-resized tcb--cols--2 tcb-medium-wrap" data-css="tve-u-16c38f987c1">
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd9786" style="">
                                                                         <div class="tcb-col dynamic-group-jyo70epn" data-css="tve-u-16de27c06bc">
-                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38fa56c3" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-1012" alt="" width="110" height="52" title="0" data-id="1012" src="<?=$host?>/wp-content/uploads/2020/09/0.jpeg" style="" data-css="tve-u-1718aadccd9" ml-d="0" data-width="110" data-height="52" mt-d="0" data-init-width="240" data-init-height="240" loading="lazy"></span></div>
+                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38fa56c3" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-1012" alt="" width="110" height="52" title="0" data-id="1012" src="<?=$host?><?= $media['HomePage'][32]?>" style="" data-css="tve-u-1718aadccd9" ml-d="0" data-width="110" data-height="52" mt-d="0" data-init-width="240" data-init-height="240" loading="lazy"></span></div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd97a3" style="">
                                                                         <div class="tcb-col dynamic-group-jyo8j9bf" data-css="tve-u-1718aa437b8">
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6y81e" data-css="tve-u-16c38ba2444" data-tag="h5">
-                                                                                <h5 class="" data-css="tve-u-16f48cf4772" style=""><strong>Kevin Ruef</strong></h5></div>
+                                                                                <h5 class="" data-css="tve-u-16f48cf4772" style=""><strong><?= $content['HomePage'][74]?></strong></h5></div>
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6ylyz" data-css="tve-u-16c390883e7">
-                                                                                <p data-css="tve-u-16c38d05032" style="">Director of Business Ops, 10-8 Systems</p>
+                                                                                <p data-css="tve-u-16c38d05032" style="">
+                                                                                <?= $content['HomePage'][75]?></p>
                                                                             </div>
                                                                             <div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box tve-elem-default-pad dynamic-group-jyo8ib56" data-css="tve-u-16c3d420643">
                                                                                 <div class="tve-content-box-background" data-css="tve-u-1718aab0ef2" style=""></div>
@@ -1151,7 +1182,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 </div>
                                                             </div>
                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6yxrm" data-css="tve-u-16c38ba2444">
-                                                                <p data-css="tve-u-16c3cea72a8">Very agile company. Not only do they move quickly, but they're very adaptable for any changes. We've really appreciated the constant updates and presentations to track our progress.</p>
+                                                                <p data-css="tve-u-16c3cea72a8"><?= $content['HomePage'][76]?></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1166,15 +1197,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-flex-row tcb-resized tcb--cols--2 tcb-medium-wrap" data-css="tve-u-16c38bdcfa8">
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd9786" style="">
                                                                         <div class="tcb-col dynamic-group-jyo70epn" data-css="tve-u-16de27c06bc">
-                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38bd4691" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-371" alt="" width="110" height="52" title="0 (1)" data-id="371" src="<?=$host?>/wp-content/uploads/2019/12/0-1.jpeg" style="" data-css="tve-u-1718aadccdc" ml-d="0" data-width="110" data-height="52" mt-d="0" loading="lazy"></span></div>
+                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38bd4691" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-371" alt="" width="110" height="52" title="0 (1)" data-id="371" src="<?=$host?><?= $media['HomePage'][33]?>" style="" data-css="tve-u-1718aadccdc" ml-d="0" data-width="110" data-height="52" mt-d="0" loading="lazy"></span></div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd97a3" style="">
                                                                         <div class="tcb-col dynamic-group-jyo8j9bf" data-css="tve-u-1718aa437b8">
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6y81e" data-css="tve-u-16c38ba2444" data-tag="h5">
-                                                                                <h5 class="" data-css="tve-u-16c38be533a" style=""><strong>Nick&nbsp;</strong><strong>LEIGHTON</strong></h5></div>
+                                                                                <h5 class="" data-css="tve-u-16c38be533a" style=""><strong><?= $content['HomePage'][77]?></strong><strong><?= $content['HomePage'][78]?></strong></h5></div>
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6ylyz" data-css="tve-u-16c3908906a">
-                                                                                <p data-css="tve-u-16c38d05032" style="">Owner, TAB Socal</p>
+                                                                                <p data-css="tve-u-16c38d05032" style=""><?= $content['HomePage'][79]?></p>
                                                                             </div>
                                                                             <div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box tve-elem-default-pad dynamic-group-jyo8ib56" data-css="tve-u-16c3d420646">
                                                                                 <div class="tve-content-box-background" data-css="tve-u-182f14e88af" style=""></div>
@@ -1185,7 +1216,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 </div>
                                                             </div>
                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6yxrm" data-css="tve-u-16c38ba2444">
-                                                                <p data-css="tve-u-16c38bafd78">Since the partnership began, the rankings are significantly higher on Google. <?=$namehost?>'s modern tactics and smooth workflow has fostered a positive partnership.&nbsp;</p>
+                                                                <p data-css="tve-u-16c38bafd78"><?= $content['HomePage'][80]?> 
+                                                                <?=$namehost?></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1196,15 +1228,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 <div class="tcb-flex-row tcb-resized tcb--cols--2 tcb-medium-wrap" data-css="tve-u-16c38bdcfa8">
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd9786" style="">
                                                                         <div class="tcb-col dynamic-group-jyo70epn" data-css="tve-u-16de27c06bc">
-                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38bd4691" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-1013" alt="" width="110" height="52" title="610-6104451_image-placeholder-png-user-profile-placeholder-image-png" data-id="1013" src="<?=$host?>/wp-content/uploads/2020/09/610-6104451_image-placeholder-png-user-profile-placeholder-image-png.jpg" style="" data-css="tve-u-1718aadccdc" ml-d="0" data-width="110" data-height="52" mt-d="0" data-init-width="840" data-init-height="881" loading="lazy"></span></div>
+                                                                            <div class="thrv_wrapper tve_image_caption dynamic-group-jyo6zt6z" data-css="tve-u-16c38bd4691" style=""><span class="tve_image_frame" style="width: 100%;"><img decoding="async" class="tve_image wp-image-1013" alt="" width="110" height="52" title="610-6104451_image-placeholder-png-user-profile-placeholder-image-png" data-id="1013" src="<?=$host?>
+                                                                            <?= $media['HomePage'][34]?>" style="" data-css="tve-u-1718aadccdc" ml-d="0" data-width="110" data-height="52" mt-d="0" data-init-width="840" data-init-height="881" loading="lazy"></span></div>
                                                                         </div>
                                                                     </div>
                                                                     <div class="tcb-flex-col" data-css="tve-u-16c38bd97a3" style="">
                                                                         <div class="tcb-col dynamic-group-jyo8j9bf" data-css="tve-u-1718aa437b8">
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6y81e" data-css="tve-u-16c38ba2444" data-tag="h5">
-                                                                                <h5 data-css="tve-u-16c38be533a" style="" class=""><strong>Michael&nbsp;</strong></h5></div>
+                                                                                <h5 data-css="tve-u-16c38be533a" style="" class=""><strong><?= $content['HomePage'][81]?></strong></h5></div>
                                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6ylyz" data-css="tve-u-16c3908906a">
-                                                                                <p data-css="tve-u-16c38d05032" style="">Marketing, International Embedded Computing Company&nbsp;</p>
+                                                                                <p data-css="tve-u-16c38d05032" style="">
+                                                                                <?= $content['HomePage'][82]?></p>
                                                                             </div>
                                                                             <div class="thrv_wrapper thrv_contentbox_shortcode thrv-content-box tve-elem-default-pad dynamic-group-jyo8ib56" data-css="tve-u-16c3d420646">
                                                                                 <div class="tve-content-box-background" data-css="tve-u-1718aab0ef4" style=""></div>
@@ -1215,7 +1249,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                 </div>
                                                             </div>
                                                             <div class="thrv_wrapper thrv_text_element dynamic-group-jyo6yxrm" data-css="tve-u-16c38ba2444">
-                                                                <p data-css="tve-u-16c38bafd78"><?=$namehost?> has been helping us get our rankings up for our popular&nbsp;<span style="color: var(--tcb-tpl-color-4);" data-css="tve-u-1746102d53f"><span data-css="tve-u-17460fc9e9b"><a data-css="tve-u-17460fcc54d" href="" target="_blank" class="" style="outline: none;">IMX8M Plus</a></span></span>&nbsp;and&nbsp;<a data-css="tve-u-17460fcecbf" href="" target="_blank" class="" style="outline: none;">the nxp imx.8 family</a>. These are our big ticket items and have really helped us get the product out there.&nbsp;</p>
+                                                                <p data-css="tve-u-16c38bafd78"><?=$namehost?>
+                                                                
+                                                                <?= $content['HomePage'][83]?> <span style="color: var(--tcb-tpl-color-4);" data-css="tve-u-1746102d53f"><span data-css="tve-u-17460fc9e9b"><a data-css="tve-u-17460fcc54d" href="" target="_blank" class="" style="outline: none;"><?= $content['HomePage'][84]?></a></span></span>
+                                                                <?= $content['HomePage'][85]?><a data-css="tve-u-17460fcecbf" href="" target="_blank" class="" style="outline: none;">
+                                                                <?= $content['HomePage'][86]?></a><?= $content['HomePage'][87]?></p>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1238,8 +1276,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         </div>
                         <div class="tve-page-section-in tve_empty_dropzone" data-css="tve-u-16c38dc75fc" data-tcb_hover_state_parent="1" style="">
                             <div class="thrv_wrapper thrv_text_element" data-tag="h2" data-css="tve-u-16c38e9269c">
-                                <h2 class="" style="text-align: left;" data-css="tve-u-182ed97589d">Are you ready to finally figure out</h2>
-                                <h2 class="" style="text-align: left;" data-css="tve-u-182ed9758a1"><strong>Search Engine Optimization?</strong></h2></div>
+                                <h2 class="" style="text-align: left;" data-css="tve-u-182ed97589d"><?= $content['HomePage'][88]?></h2>
+                                <h2 class="" style="text-align: left;" data-css="tve-u-182ed9758a1"><strong><?= $content['HomePage'][89]?></strong></h2></div>
                             <div class="tcb-clear" data-css="tve-u-182fe2e68b2">
                                 <div class="thrv_wrapper thrv-button tcb-with-icon tcb-flip tve_ea_thrive_animation tve_anim_grow" data-css="tve-u-16c3c87bb91" style="" data-tcb_hover_state_parent=""> <a href="<?=$host?>/contact" class="tcb-button-link tve_evt_manager_listen tve_et_mouseover" style="" data-tcb-events="__TCB_EVENT_[{&quot;t&quot;:&quot;mouseover&quot;,&quot;config&quot;:{&quot;anim&quot;:&quot;grow&quot;,&quot;loop&quot;:1},&quot;a&quot;:&quot;thrive_animation&quot;}]_TNEVE_BCT__"><span class="tcb-button-icon" style="">
 <div class="thrv_wrapper thrv_icon tve_no_drag tve_no_icons tcb-icon-inherit-style tcb-icon-display" data-css="tve-u-182ed9c660c" style=""><svg class="tcb-icon" viewBox="0 0 448 512" data-id="icon-arrow-right-light" data-name="">
@@ -1247,7 +1285,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </svg></div>
 </span>
 
-    <span class="tcb-button-texts" style=""><span class="tcb-button-text thrv-inline-text" data-css="tve-u-182ed9c4438" style="" data-tcb_hover_state_parent=""><strong>Work With <?=$namehost?></strong></span></span>
+    <span class="tcb-button-texts" style=""><span class="tcb-button-text thrv-inline-text" data-css="tve-u-182ed9c4438" style="" data-tcb_hover_state_parent=""><strong><?= $content['HomePage'][90]?> <?=$namehost?></strong></span></span>
 </a> </div>
                             </div>
                         </div>
@@ -1271,10 +1309,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                             </svg>
                                                         </div>
                                                         <div class="thrv_wrapper thrv_text_element" data-tag="h6">
-                                                            <h6 data-css="tve-u-1807bbf0b73" class="" style=""><strong>Address</strong></h6></div>
+                                                            <h6 data-css="tve-u-1807bbf0b73" class="" style=""><strong><?= $content['HomePage'][91]?></strong></h6></div>
                                                         <div class="thrv_wrapper thrv_text_element">
-                                                            <p data-css="tve-u-16e81e9ed32" style="">2852 W. Bridgeport Ave&nbsp;
-                                                                <br>Anaheim, CA 92804</p>
+                                                            <p data-css="tve-u-16e81e9ed32" style=""><?= $content['HomePage'][92]?>
+                                                                <br><?= $content['HomePage'][93]?></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1286,9 +1324,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                             </svg>
                                                         </div>
                                                         <div class="thrv_wrapper thrv_text_element" data-tag="h6">
-                                                            <h6 data-css="tve-u-1807bbf17dd" class="" style=""><strong>Phone Number</strong></h6></div>
+                                                            <h6 data-css="tve-u-1807bbf17dd" class="" style=""><strong>
+                                                                <?= $content['HomePage'][94]?></strong></h6></div>
                                                         <div class="thrv_wrapper thrv_text_element">
-                                                            <p data-css="tve-u-16e81ea6f21">714 872-8890</p>
+                                                            <p data-css="tve-u-16e81ea6f21"><?= $content['HomePage'][95]?></p>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1311,20 +1350,21 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                                                                     </div>
                                                                 </div>
                                                                 <div class="thrv_wrapper thrv_text_element" data-tag="h6">
-                                                                    <h6 data-css="tve-u-16e81ea3aa5" style="text-align: center;" class=""><strong>Email Address</strong></h6></div>
+                                                                    <h6 data-css="tve-u-16e81ea3aa5" style="text-align: center;" class=""><strong><?= $content['HomePage'][96]?></strong></h6></div>
                                                                 <div class="thrv_wrapper thrv_text_element" data-css="tve-u-16e81e1ac75">
-                                                                    <p data-css="tve-u-16e81eab32c" style="text-align: center;">info@<?=$ihost?></p>
+                                                                    <p data-css="tve-u-16e81eab32c" style="text-align: center;">
+                                                                    <?= $content['HomePage'][97]?><?=$ihost?></p>
                                                                 </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div><br>
-                                            <a href="/terms-of-service">Terms Of Service</a> - 
-                                            <a href="/privacy-policy">Privacy Policy</a> - 
-                                            <a href="/refund-policy">Refund policy</a> - 
-                                            <a href="/delivery-policy">delivery policy</a> - 
-                                            <a href="/about-us">about us</a>
+                                            <a href="/terms-of-service"><?= $content['HomePage'][98]?></a> - 
+                                            <a href="/privacy-policy"><?= $content['HomePage'][99]?></a> - 
+                                            <a href="/refund-policy"><?= $content['HomePage'][100]?></a> - 
+                                            <a href="/delivery-policy"><?= $content['HomePage'][101]?></a> - 
+                                            <a href="/about-us"><?= $content['HomePage'][102]?></a>
                                         </div>
                                     </div>
                                 </div>

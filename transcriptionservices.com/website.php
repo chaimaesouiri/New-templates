@@ -1,4 +1,5 @@
 <?php
+include_once "content.php";
 
 $ihost = $_SERVER["HTTP_HOST"];
 
